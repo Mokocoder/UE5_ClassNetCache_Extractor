@@ -40,11 +40,16 @@ python class_net_cache_parser.py "LyraGame.exe" lyra_cpp_seed.json
 [*] Loading LyraGame.exe...
 [*] ImageBase = 0x140000000
 [*] ConstructUClass @ 0x142183CF0  (5523 classes, score=3)
+[*] FClassParams bitfield @ 0x38  (deps=0x18 funcs=0x20 props=0x28)
+[*] FFunctionParams.FunctionFlags @ 0x28  (score=62/66)
+[*] FPropertyParamsBase: validated OK
+[*] FStructParams: validated OK
+[*] Detected offsets: ...
 [*] Mapping class names...
 [*] 5523/5523 names resolved
 [*] Parsing class metadata...
 [*] Computing Max values and field indices...
-[*] Written 5523 Max values + 472 fields (334p + 138f) → lyra_cpp_seed.json (48.6s)
+[*] Written 5523 Max values + 553 fields (334p + 219f) → lyra_cpp_seed.json (52.7s)
 ```
 
 Output format:
@@ -55,11 +60,11 @@ Output format:
     "total_classes": 5523,
     "named": 5523,
     "resolved_max": 5523,
-    "resolved_fields": 198,
-    "total_fields": 472,
+    "resolved_fields": 219,
+    "total_fields": 553,
     "total_props": 334,
-    "total_funcs": 138,
-    "elapsed_sec": 48.6
+    "total_funcs": 219,
+    "elapsed_sec": 52.7
   },
   "seed_values": {
     "AIController": 15,
@@ -110,13 +115,13 @@ dotnet run --project ClassNetCacheExtractor -c Release -- \
 ```
 
 ```
-[*] Loaded 5523 C++ seed values, 198 field entries
-[*] Mounted 6 containers, 9828 files (209ms)
+[*] Loaded 5523 C++ seed values, 92 field entries
+[*] Mounted 6 containers, 9828 files (175ms)
 [*] Scanning 3834 packages...
-[*] Scan complete: 292 BPs in 3834 packages (1968ms)
+[*] Scan complete: 292 BPs in 3834 packages (704ms)
 [*] Resolved: 289, Unresolved: 0
-[*] Field indices: 472 C++ + 30 BP = 502 total
-[*] Written 5812 Max values (5523 C++ + 289 BP), 502 fields → class_net_cache.json
+[*] Field indices: 553 C++ + 30 BP = 583 total
+[*] Written 5812 Max values (5523 C++ + 289 BP), 583 fields → class_net_cache.json
 ```
 
 Output format:
@@ -128,7 +133,7 @@ Output format:
     "bp_classes": 289,
     "resolved": 5812,
     "unresolved": 0,
-    "total_fields": 502,
+    "total_fields": 583,
     "packages": 3834,
     "skipped": 3542,
     "errors": 0
@@ -159,19 +164,20 @@ Output format:
 ## Notes
 
 - **Unversioned packages**: Most shipping builds use unversioned property serialization. In this case, a `.usmap` mappings file is required for Step 2. Use [UnrealMappingsDumper](https://github.com/TheNaeem/UnrealMappingsDumper) to generate one from a running process.
-- **UE version support**: Tested on UE 5.7. Other versions may work but are not verified.
+- **UE version support**: Struct offsets are auto-detected from the binary. Tested on UE 5.7.
 
 ## Example Output
 
 The [`example/`](example/) directory contains extraction results from [Lyra Starter Game](https://dev.epicgames.com/documentation/en-us/unreal-engine/lyra-sample-game-in-unreal-engine) (UE 5.7):
 
-- `lyra_cpp_seed.json` &mdash; 5,523 C++ native classes (Max values + 472 field indices)
-- `lyra_class_net_cache.json` &mdash; 5,812 merged classes (C++ + Blueprint, 502 field indices)
+- `lyra_cpp_seed.json` &mdash; 5,523 C++ native classes (Max values + 553 field indices)
+- `lyra_class_net_cache.json` &mdash; 5,812 merged classes (C++ + Blueprint, 583 field indices)
 
 ## Project Structure
 
 ```
 ├── pe_analyzer.py                          # Shared PE binary analysis module
+├── layout_detector.py                      # Auto-detect struct offsets from Construct* code patterns
 ├── class_net_cache_parser.py               # Step 1: PE binary → C++ seed data
 ├── ClassNetCacheExtractor/
 │   ├── ClassNetCacheExtractor.csproj

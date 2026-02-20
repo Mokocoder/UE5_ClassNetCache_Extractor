@@ -3,11 +3,11 @@
     "total_classes": 5523,
     "named": 5523,
     "resolved_max": 5523,
-    "resolved_fields": 198,
-    "total_fields": 472,
+    "resolved_fields": 92,
+    "total_fields": 553,
     "total_props": 334,
-    "total_funcs": 138,
-    "elapsed_sec": 48.6
+    "total_funcs": 219,
+    "elapsed_sec": 52.7
   },
   "seed_values": {
     "AGVConditionProxy": 1,
@@ -69,8 +69,8 @@
     "AbilityAsync_WaitGameplayTagRemoved": 1,
     "AbilitySystemBlueprintLibrary": 1,
     "AbilitySystemCheatManagerExtension": 1,
-    "AbilitySystemComponent": 21,
-    "AbilitySystemDebugHUD": 11,
+    "AbilitySystemComponent": 53,
+    "AbilitySystemDebugHUD": 14,
     "AbilitySystemDebugHUDExtension": 1,
     "AbilitySystemDebugHUDExtension_Attributes": 1,
     "AbilitySystemDebugHUDExtension_BlockedAbilityTags": 1,
@@ -79,7 +79,7 @@
     "AbilitySystemInterface": 1,
     "AbilitySystemReplicationProxyInterface": 1,
     "AbilitySystemTestAttributeSet": 13,
-    "AbilitySystemTestPawn": 16,
+    "AbilitySystemTestPawn": 15,
     "AbilityTask": 1,
     "AbilityTask_ApplyRootMotionConstantForce": 11,
     "AbilityTask_ApplyRootMotionJumpForce": 13,
@@ -152,7 +152,7 @@
     "ActorPartitionSubsystem": 1,
     "ActorSequence": 1,
     "ActorSequenceComponent": 3,
-    "ActorSequencePlayer": 8,
+    "ActorSequencePlayer": 11,
     "ActorSoundParameterInterface": 1,
     "ActorTextureStreamingBuildDataComponent": 3,
     "AddArrowPrimitiveTool": 1,
@@ -171,7 +171,7 @@
     "AdditiveControlRig": 1,
     "AimAssistInputModifier": 1,
     "AimAssistTaget": 1,
-    "AimAssistTargetComponent": 19,
+    "AimAssistTargetComponent": 18,
     "AimAssistTargetManagerComponent": 3,
     "AimOffsetBlendSpace": 1,
     "AimOffsetBlendSpace1D": 1,
@@ -217,7 +217,7 @@
     "AnimCurveMetaData": 1,
     "AnimDataModel": 1,
     "AnimDistanceMatchingLibrary": 1,
-    "AnimExecutionContextLibrary": 2,
+    "AnimExecutionContextLibrary": 1,
     "AnimInstance": 1,
     "AnimLayerInterface": 1,
     "AnimMetaData": 1,
@@ -232,7 +232,7 @@
     "AnimNotifyState_DisableRootMotion": 1,
     "AnimNotifyState_EarlyOutContextualAnimWindow": 1,
     "AnimNotifyState_IKWindow": 1,
-    "AnimNotifyState_MotionWarping": 2,
+    "AnimNotifyState_MotionWarping": 1,
     "AnimNotifyState_TimedNiagaraEffect": 1,
     "AnimNotifyState_TimedNiagaraEffectAdvanced": 1,
     "AnimNotifyState_TimedParticleEffect": 1,
@@ -258,7 +258,7 @@
     "AnimSharingInstance": 1,
     "AnimSharingStateInstance": 1,
     "AnimSharingTransitionInstance": 1,
-    "AnimSingleNodeInstance": 2,
+    "AnimSingleNodeInstance": 1,
     "AnimStateMachineTypes": 1,
     "AnimStreamable": 1,
     "AnimatedSparseVolumeTexture": 1,
@@ -283,11 +283,11 @@
     "AppleImageUtilsBaseAsyncTaskBlueprintProxy": 1,
     "ApplicationLifecycleComponent": 3,
     "ApplyFrontendPerfSettingsAction": 1,
-    "ArchVisCharMovementComponent": 3,
-    "ArchVisCharacter": 27,
+    "ArchVisCharMovementComponent": 5,
+    "ArchVisCharacter": 43,
     "ArrayCameraNode": 1,
     "ArrayProperty": 1,
-    "ArrowComponent": 19,
+    "ArrowComponent": 18,
     "AssetBackedTarget": 1,
     "AssetExportTask": 1,
     "AssetImportData": 1,
@@ -332,10 +332,10 @@
     "AsyncMessageWorldSubsystem": 1,
     "AsyncNiagaraCaptureSimCache": 1,
     "AsyncPhysicsData": 1,
-    "AsyncPhysicsInputComponent": 3,
+    "AsyncPhysicsInputComponent": 4,
     "AsyncTaskDownloadImage": 1,
     "AtmosphericFog": 11,
-    "AtmosphericFogComponent": 19,
+    "AtmosphericFogComponent": 18,
     "AttachToActorCameraNode": 1,
     "AttachToActorGroupCameraNode": 1,
     "AttachToPlayerPawnCameraNode": 1,
@@ -355,10 +355,10 @@
     "AudioCaptureBlueprintLibrary": 1,
     "AudioCaptureComponent": 18,
     "AudioCaptureFunctionLibrary": 1,
-    "AudioComponent": 19,
-    "AudioComponentGroup": 19,
+    "AudioComponent": 18,
+    "AudioComponentGroup": 18,
     "AudioComponentGroupExtension": 1,
-    "AudioCurveSourceComponent": 19,
+    "AudioCurveSourceComponent": 18,
     "AudioDeviceNotificationSubsystem": 1,
     "AudioEndpointSettingsBase": 1,
     "AudioEngineSubsystem": 1,
@@ -383,7 +383,7 @@
     "AudioMaterialEnvelope": 1,
     "AudioMaterialKnob": 1,
     "AudioMaterialKnobWidgetStyle": 1,
-    "AudioMaterialMeter": 2,
+    "AudioMaterialMeter": 1,
     "AudioMaterialMeterWidgetStyle": 1,
     "AudioMaterialSlider": 1,
     "AudioMaterialSliderWidgetStyle": 1,
@@ -395,7 +395,7 @@
     "AudioModulationStyle": 1,
     "AudioOscilloscope": 1,
     "AudioPanelWidgetInterface": 1,
-    "AudioParameterComponent": 4,
+    "AudioParameterComponent": 3,
     "AudioParameterControllerInterface": 1,
     "AudioParameterConversionStatics": 1,
     "AudioPropertiesSheetAssetBase": 1,
@@ -409,7 +409,7 @@
     "AudioSynesthesiaNRT": 1,
     "AudioSynesthesiaNRTSettings": 1,
     "AudioSynesthesiaSettings": 1,
-    "AudioVectorscope": 2,
+    "AudioVectorscope": 1,
     "AudioVolume": 12,
     "AudioVolumeRadialSlider": 1,
     "AudioVolumeSlider": 1,
@@ -423,12 +423,12 @@
     "AutoRTFMTestChildActorComponent": 19,
     "AutoRTFMTestLevel": 1,
     "AutoRTFMTestObject": 1,
-    "AutoRTFMTestPrimitiveComponent": 19,
+    "AutoRTFMTestPrimitiveComponent": 18,
     "AutoRotateInput2DCameraNode": 1,
     "AutomatedMaterialPerfTest": 1,
     "AutomatedMaterialPerfTestProjectSettings": 1,
     "AutomatedPerfTestControllerBase": 1,
-    "AutomatedPerfTestGameModeBase": 12,
+    "AutomatedPerfTestGameModeBase": 11,
     "AutomatedPerfTestInterface": 1,
     "AutomatedPerfTestProjectSettings": 1,
     "AutomatedPerfTestStaticCamera": 11,
@@ -528,7 +528,7 @@
     "BTTask_WaitBlackboardTime": 1,
     "BackgroundBlur": 1,
     "BackgroundBlurSlot": 1,
-    "BakedShallowWaterSimulationComponent": 19,
+    "BakedShallowWaterSimulationComponent": 18,
     "BandwidthTestActor": 12,
     "BaseBrushTool": 1,
     "BaseCameraObject": 1,
@@ -536,7 +536,7 @@
     "BaseCreateFromSelectedHandleSourceProperties": 1,
     "BaseCreateFromSelectedTool": 1,
     "BaseCreateFromSelectedToolBuilder": 1,
-    "BaseDynamicMeshComponent": 20,
+    "BaseDynamicMeshComponent": 18,
     "BaseFramingCameraNode": 1,
     "BaseGeneratedNavLinksProxy": 1,
     "BaseKelvinletBrushOpProps": 1,
@@ -549,10 +549,10 @@
     "BasicOverlays": 1,
     "BasicReplicationGraph": 1,
     "BehaviorTree": 1,
-    "BehaviorTreeComponent": 4,
+    "BehaviorTreeComponent": 3,
     "BehaviorTreeManager": 1,
     "BehaviorTreeTypes": 1,
-    "BillboardComponent": 19,
+    "BillboardComponent": 18,
     "BlackboardAssetProvider": 1,
     "BlackboardComponent": 3,
     "BlackboardData": 1,
@@ -572,12 +572,12 @@
     "BlackboardKeyType_Struct": 1,
     "BlackboardKeyType_Vector": 1,
     "BlendCameraNode": 1,
-    "BlendListBaseLibrary": 2,
+    "BlendListBaseLibrary": 1,
     "BlendProfile": 1,
     "BlendProfileProviderInterface": 1,
     "BlendSpace": 1,
     "BlendSpace1D": 1,
-    "BlendSpaceLibrary": 2,
+    "BlendSpaceLibrary": 1,
     "BlendSpacePlayerLibrary": 1,
     "BlendStackCameraNode": 1,
     "BlendStackRootCameraNode": 1,
@@ -592,7 +592,7 @@
     "BlueprintCameraEvaluationDataFunctionLibrary": 1,
     "BlueprintCameraNode": 1,
     "BlueprintCameraNodeEvaluator": 1,
-    "BlueprintCameraPoseFunctionLibrary": 2,
+    "BlueprintCameraPoseFunctionLibrary": 1,
     "BlueprintCameraVariableTableFunctionLibrary": 1,
     "BlueprintCore": 1,
     "BlueprintExtension": 1,
@@ -603,9 +603,9 @@
     "BlueprintMapLibrary": 1,
     "BlueprintPathsLibrary": 1,
     "BlueprintPlatformLibrary": 1,
-    "BlueprintSetLibrary": 2,
+    "BlueprintSetLibrary": 1,
     "BlueprintSpringMathLibrary": 1,
-    "BlueprintTypeConversions": 2,
+    "BlueprintTypeConversions": 1,
     "BodyParametersCameraNode": 1,
     "BodySetup": 1,
     "BodySetupCore": 1,
@@ -623,17 +623,17 @@
     "BorderSlot": 1,
     "BoundarySelectionMechanic": 1,
     "BoundsCopyComponent": 3,
-    "BoxComponent": 19,
+    "BoxComponent": 18,
     "BoxFalloff": 3,
     "BoxReflectionCapture": 11,
     "BoxReflectionCaptureComponent": 18,
-    "BrainComponent": 4,
+    "BrainComponent": 3,
     "Brush": 11,
     "BrushAdjusterInputBehavior": 1,
     "BrushBaseProperties": 1,
     "BrushBinding": 1,
     "BrushBuilder": 1,
-    "BrushComponent": 19,
+    "BrushComponent": 18,
     "BrushRemeshProperties": 1,
     "BrushShape": 11,
     "BrushStampIndicator": 1,
@@ -657,7 +657,7 @@
     "CSGMeshesToolBuilder": 1,
     "CSGMeshesToolProperties": 1,
     "CableActor": 11,
-    "CableComponent": 20,
+    "CableComponent": 18,
     "CachedAnimDataLibrary": 1,
     "CalcCameraActorCameraNode": 1,
     "CameraActor": 11,
@@ -683,7 +683,7 @@
     "CameraObjectInterfaceBlendableParameter": 1,
     "CameraObjectInterfaceDataParameter": 1,
     "CameraObjectInterfaceParameterBase": 1,
-    "CameraProxyMeshComponent": 21,
+    "CameraProxyMeshComponent": 19,
     "CameraRigAsset": 1,
     "CameraRigCameraNode": 1,
     "CameraRigInput1DSlot": 1,
@@ -711,9 +711,9 @@
     "CancellableAsyncAction": 1,
     "Canvas": 1,
     "CanvasPanel": 1,
-    "CanvasPanelSlot": 2,
-    "CanvasRenderTarget2D": 2,
-    "CapsuleComponent": 19,
+    "CanvasPanelSlot": 1,
+    "CanvasRenderTarget2D": 1,
+    "CapsuleComponent": 18,
     "CatchupFixedRateCustomTimeStep": 1,
     "ChanceToApplyGameplayEffectComponent": 1,
     "Channel": 1,
@@ -737,14 +737,14 @@
     "ChaosNotifyHandlerInterface": 1,
     "ChaosPhysicalMaterial": 1,
     "ChaosSolver": 1,
-    "ChaosSolverActor": 12,
+    "ChaosSolverActor": 11,
     "ChaosSolverEngineBlueprintLibrary": 1,
     "ChaosSolverSettings": 1,
-    "ChaosVDRuntimeBlueprintLibrary": 2,
-    "Character": 27,
-    "CharacterMovementComponent": 3,
+    "ChaosVDRuntimeBlueprintLibrary": 1,
+    "Character": 43,
+    "CharacterMovementComponent": 5,
     "Chatroom": 1,
-    "CheatManager": 1,
+    "CheatManager": 2,
     "CheatManagerExtension": 1,
     "CheckBox": 1,
     "CheckBoxStyleAsset": 1,
@@ -786,7 +786,7 @@
     "ClothingSimulationInteractorNv": 1,
     "CloudStorageBase": 1,
     "ClusterUnionActor": 11,
-    "ClusterUnionComponent": 20,
+    "ClusterUnionComponent": 19,
     "ClusterUnionReplicatedProxyComponent": 7,
     "CollectSurfacePathMechanic": 1,
     "CollisionPrimitivesMechanic": 1,
@@ -813,21 +813,21 @@
     "CommonActionHandlerInterface": 1,
     "CommonActionWidget": 1,
     "CommonActivatableWidget": 1,
-    "CommonActivatableWidgetContainerBase": 2,
-    "CommonActivatableWidgetQueue": 2,
-    "CommonActivatableWidgetStack": 2,
+    "CommonActivatableWidgetContainerBase": 1,
+    "CommonActivatableWidgetQueue": 1,
+    "CommonActivatableWidgetStack": 1,
     "CommonActivatableWidgetSwitcher": 1,
     "CommonAnimatedSwitcher": 1,
     "CommonBorder": 1,
     "CommonBorderStyle": 1,
     "CommonBoundActionBar": 1,
-    "CommonBoundActionButton": 2,
+    "CommonBoundActionButton": 1,
     "CommonBoundActionButtonInterface": 1,
     "CommonButtonBase": 1,
     "CommonButtonGroupBase": 1,
     "CommonButtonInternalBase": 1,
     "CommonButtonStyle": 1,
-    "CommonCustomNavigation": 2,
+    "CommonCustomNavigation": 1,
     "CommonDateTimeTextBlock": 1,
     "CommonGameDialog": 1,
     "CommonGameDialogDescriptor": 1,
@@ -843,7 +843,7 @@
     "CommonInputMetadata": 1,
     "CommonInputPlatformSettings": 1,
     "CommonInputSettings": 1,
-    "CommonInputSubsystem": 2,
+    "CommonInputSubsystem": 1,
     "CommonLazyImage": 1,
     "CommonLazyWidget": 1,
     "CommonListView": 1,
@@ -854,10 +854,10 @@
     "CommonMappingContextMetadataInterface": 1,
     "CommonMessagingSubsystem": 1,
     "CommonNumericTextBlock": 1,
-    "CommonPlayerController": 16,
+    "CommonPlayerController": 94,
     "CommonPlayerInputKey": 1,
     "CommonPoolableWidgetInterface": 1,
-    "CommonRichTextBlock": 2,
+    "CommonRichTextBlock": 1,
     "CommonRotator": 1,
     "CommonSessionSubsystem": 1,
     "CommonSession_HostSessionRequest": 1,
@@ -926,9 +926,9 @@
     "ConstantQNRTSettings": 1,
     "ConstantQSettings": 1,
     "ConstraintInstanceBlueprintLibrary": 1,
-    "ConstraintSubsystem": 3,
+    "ConstraintSubsystem": 1,
     "ConstraintsActor": 11,
-    "ConstraintsManager": 2,
+    "ConstraintsManager": 1,
     "ConstraintsScriptingLibrary": 1,
     "ConstructionPlaneMechanic": 1,
     "ContentBundleDescriptor": 1,
@@ -941,7 +941,7 @@
     "ContextObjectStore": 1,
     "ContextualAnimActorInterface": 1,
     "ContextualAnimRolesAsset": 1,
-    "ContextualAnimSceneActorComponent": 8,
+    "ContextualAnimSceneActorComponent": 9,
     "ContextualAnimSceneAsset": 1,
     "ContextualAnimSelectionCriterion": 1,
     "ContextualAnimSelectionCriterion_Blueprint": 1,
@@ -951,11 +951,11 @@
     "ContextualAnimUtilities": 1,
     "ControlChannel": 1,
     "ControlPointMeshActor": 11,
-    "ControlPointMeshComponent": 21,
+    "ControlPointMeshComponent": 19,
     "ControlRig": 1,
     "ControlRigAnimInstance": 1,
     "ControlRigBlueprintGeneratedClass": 1,
-    "ControlRigComponent": 19,
+    "ControlRigComponent": 18,
     "ControlRigControlActor": 11,
     "ControlRigEditorSettings": 1,
     "ControlRigLayerInstance": 1,
@@ -966,15 +966,15 @@
     "ControlRigPoseProjectSettings": 1,
     "ControlRigReplay": 1,
     "ControlRigSettings": 1,
-    "ControlRigShapeActor": 12,
+    "ControlRigShapeActor": 11,
     "ControlRigShapeLibrary": 1,
     "ControlRigShapeLibraryLink": 1,
     "ControlRigTestData": 1,
-    "ControlRigTransformWorkflowOptions": 2,
+    "ControlRigTransformWorkflowOptions": 1,
     "ControlRigValidationPass": 1,
     "ControlRigValidator": 1,
     "ControlRigWorkflowOptions": 1,
-    "Controller": 14,
+    "Controller": 15,
     "ControllerComponent": 3,
     "ControllerGameplayCameraEvaluationComponent": 3,
     "ConversationChoiceNode": 1,
@@ -986,7 +986,7 @@
     "ConversationLinkNode": 1,
     "ConversationNode": 1,
     "ConversationNodeWithLinks": 1,
-    "ConversationParticipantComponent": 4,
+    "ConversationParticipantComponent": 12,
     "ConversationRegistry": 1,
     "ConversationRequirementNode": 1,
     "ConversationSettings": 1,
@@ -997,11 +997,11 @@
     "ConvertToPolygonsTool": 1,
     "ConvertToPolygonsToolBuilder": 1,
     "ConvertToPolygonsToolProperties": 1,
-    "CreateMeshObjectTypeProperties": 2,
+    "CreateMeshObjectTypeProperties": 1,
     "CreateSessionCallbackProxy": 1,
     "CriticalDamperValueInterpolator": 1,
     "CrowdAgentInterface": 1,
-    "CrowdFollowingComponent": 4,
+    "CrowdFollowingComponent": 3,
     "CrowdManager": 1,
     "CrowdManagerBase": 1,
     "CsvActorCountMetric": 1,
@@ -1012,14 +1012,14 @@
     "CurveControlPointsMechanic": 1,
     "CurveFloat": 1,
     "CurveLinearColor": 1,
-    "CurveLinearColorAtlas": 2,
+    "CurveLinearColorAtlas": 1,
     "CurveRemapOp": 1,
     "CurveSourceInterface": 1,
     "CurveTable": 1,
     "CurveVector": 1,
     "CustomCameraNodeParameterProvider": 1,
     "CustomCanApplyGameplayEffectComponent": 1,
-    "CustomMeshComponent": 20,
+    "CustomMeshComponent": 18,
     "CutMeshWithMeshTool": 1,
     "CutMeshWithMeshToolBuilder": 1,
     "CutMeshWithMeshToolProperties": 1,
@@ -1081,11 +1081,11 @@
     "DataflowBaseContent": 1,
     "DataflowBlueprintLibrary": 1,
     "DataflowCollisionObjectInterface": 1,
-    "DataflowComponent": 19,
+    "DataflowComponent": 18,
     "DataflowConstraintObjectInterface": 1,
     "DataflowContentOwner": 1,
     "DataflowContextObject": 1,
-    "DataflowDebugDrawComponent": 19,
+    "DataflowDebugDrawComponent": 18,
     "DataflowEdNode": 1,
     "DataflowGeometryCachable": 1,
     "DataflowGraphInterface": 1,
@@ -1141,10 +1141,10 @@
     "DatasmithTranslatedSceneImportData": 1,
     "DatasmithVREDAssetImportData": 1,
     "DatasmithVREDSceneImportData": 1,
-    "DebugCameraController": 16,
+    "DebugCameraController": 94,
     "DebugCameraControllerSettings": 1,
-    "DebugCameraHUD": 11,
-    "DebugDrawComponent": 19,
+    "DebugCameraHUD": 14,
+    "DebugDrawComponent": 18,
     "DebugDrawService": 1,
     "DebugGarbageCollectionGraph": 1,
     "DecalActor": 11,
@@ -1152,7 +1152,7 @@
     "DefaultCameraShakeBase": 1,
     "DefaultGameFeaturesProjectPolicies": 1,
     "DefaultLevelSequenceInstanceData": 1,
-    "DefaultPawn": 16,
+    "DefaultPawn": 15,
     "DefaultPhysicsQueryHandler": 1,
     "DefaultPhysicsVolume": 11,
     "DefaultRootCameraNode": 1,
@@ -1181,8 +1181,8 @@
     "DialogueVoice": 1,
     "DialogueWave": 1,
     "DiffusionSmoothProperties": 1,
-    "DirectionalLight": 13,
-    "DirectionalLightComponent": 19,
+    "DirectionalLight": 12,
+    "DirectionalLightComponent": 18,
     "DisconnectGeometrySelectionCommand": 1,
     "DispatchDataProvider": 1,
     "DisplaceMeshCommonProperties": 1,
@@ -1220,13 +1220,13 @@
     "DragDropOperation": 1,
     "DrawAndRevolveTool": 1,
     "DrawAndRevolveToolBuilder": 1,
-    "DrawFrustumComponent": 19,
+    "DrawFrustumComponent": 18,
     "DrawPolygonTool": 1,
     "DrawPolygonToolBuilder": 1,
     "DrawPolygonToolSnapProperties": 1,
     "DrawPolygonToolStandardProperties": 1,
     "DrawPrimitiveDebuggerUserSettings": 1,
-    "DrawSphereComponent": 19,
+    "DrawSphereComponent": 18,
     "DrivenControlRotationCameraNode": 1,
     "DualShockExternalEndpointSettings": 1,
     "DualShockSoundfieldEndpointSettings": 1,
@@ -1241,7 +1241,7 @@
     "DynamicMeshBrushSculptProperties": 1,
     "DynamicMeshBrushTool": 1,
     "DynamicMeshCommitter": 1,
-    "DynamicMeshComponent": 20,
+    "DynamicMeshComponent": 18,
     "DynamicMeshGenerator": 1,
     "DynamicMeshPool": 1,
     "DynamicMeshProcessorBlueprint": 1,
@@ -1253,8 +1253,8 @@
     "DynamicSubobjectInstancingTestClass": 1,
     "DynamicSubsystem": 1,
     "EQSQueryResultSourceInterface": 1,
-    "EQSRenderingComponent": 19,
-    "EQSTestingPawn": 27,
+    "EQSRenderingComponent": 18,
+    "EQSTestingPawn": 43,
     "EdGraph": 1,
     "EdGraphNode": 1,
     "EdGraphNode_Documentation": 1,
@@ -1269,7 +1269,7 @@
     "EditMeshPolygonsToolActions_Triangles": 1,
     "EditMeshPolygonsToolBuilder": 1,
     "EditMeshPolygonsToolEdgeActions": 1,
-    "EditMeshPolygonsToolEdgeActions_Triangles": 2,
+    "EditMeshPolygonsToolEdgeActions_Triangles": 1,
     "EditMeshPolygonsToolUVActions": 1,
     "EditableGameplayTagQuery": 1,
     "EditableGameplayTagQueryExpression": 1,
@@ -1310,7 +1310,7 @@
     "EngineTypes": 1,
     "EnhancedInputActionDelegateBinding": 1,
     "EnhancedInputActionValueBinding": 1,
-    "EnhancedInputComponent": 5,
+    "EnhancedInputComponent": 3,
     "EnhancedInputDeveloperSettings": 1,
     "EnhancedInputLibrary": 1,
     "EnhancedInputLocalPlayerSubsystem": 1,
@@ -1388,7 +1388,7 @@
     "EyeTrackerFunctionLibrary": 1,
     "FKControlRig": 1,
     "FXSystemAsset": 1,
-    "FXSystemComponent": 19,
+    "FXSystemComponent": 18,
     "FarmHarvestTimerExpired": 1,
     "FarmHarvestTimerSetIcon": 1,
     "FarmHarvestTimerSystem_Crops": 1,
@@ -1406,7 +1406,7 @@
     "FieldOfViewNetObjectPrioritizerConfig": 1,
     "FieldSystem": 1,
     "FieldSystemActor": 11,
-    "FieldSystemComponent": 19,
+    "FieldSystemComponent": 18,
     "FieldSystemMetaData": 3,
     "FieldSystemMetaDataFilter": 3,
     "FieldSystemMetaDataIteration": 3,
@@ -1429,8 +1429,8 @@
     "FloatChannelEvaluatorSystem": 1,
     "FloatPerlinNoiseChannelEvaluatorSystem": 1,
     "FloatProperty": 1,
-    "FloatingPawnMovement": 3,
-    "FoliageInstancedStaticMeshComponent": 22,
+    "FloatingPawnMovement": 5,
+    "FoliageInstancedStaticMeshComponent": 19,
     "FoliageStatistics": 1,
     "FoliageType": 1,
     "FoliageType_Actor": 1,
@@ -1448,7 +1448,7 @@
     "FrameHitchSceneDecoration": 1,
     "FreePositionSubGizmo": 1,
     "FreeRotationSubGizmo": 1,
-    "FuncTestRenderingComponent": 19,
+    "FuncTestRenderingComponent": 18,
     "Function": 1,
     "FunctionalAITest": 11,
     "FunctionalAITestBase": 11,
@@ -1519,12 +1519,12 @@
     "GameSettingCollectionPage": 1,
     "GameSettingDetailExtension": 1,
     "GameSettingDetailView": 1,
-    "GameSettingListEntryBase": 2,
-    "GameSettingListEntrySetting_Action": 2,
-    "GameSettingListEntrySetting_Discrete": 2,
-    "GameSettingListEntrySetting_Navigation": 2,
-    "GameSettingListEntrySetting_Scalar": 2,
-    "GameSettingListEntry_Setting": 2,
+    "GameSettingListEntryBase": 1,
+    "GameSettingListEntrySetting_Action": 1,
+    "GameSettingListEntrySetting_Discrete": 1,
+    "GameSettingListEntrySetting_Navigation": 1,
+    "GameSettingListEntrySetting_Scalar": 1,
+    "GameSettingListEntry_Setting": 1,
     "GameSettingListView": 1,
     "GameSettingPanel": 1,
     "GameSettingPressAnyKey": 1,
@@ -1578,15 +1578,15 @@
     "GameplayBehaviorsBlueprintFunctionLibrary": 1,
     "GameplayCameraActor": 11,
     "GameplayCameraActorBase": 11,
-    "GameplayCameraComponent": 19,
-    "GameplayCameraComponentBase": 19,
+    "GameplayCameraComponent": 18,
+    "GameplayCameraComponentBase": 18,
     "GameplayCameraParameterSetterComponent": 3,
     "GameplayCameraRigActor": 11,
-    "GameplayCameraRigComponent": 19,
+    "GameplayCameraRigComponent": 18,
     "GameplayCameraSystemActor": 11,
-    "GameplayCameraSystemComponent": 19,
+    "GameplayCameraSystemComponent": 18,
     "GameplayCameraSystemHost": 1,
-    "GameplayCamerasPlayerCameraManager": 12,
+    "GameplayCamerasPlayerCameraManager": 11,
     "GameplayCamerasSettings": 1,
     "GameplayControlRotationComponent": 3,
     "GameplayCueFunctionLibrary": 1,
@@ -1602,11 +1602,11 @@
     "GameplayCueSet": 1,
     "GameplayCueTranslator": 1,
     "GameplayCueTranslator_Test": 1,
-    "GameplayDebuggerCategoryReplicator": 16,
+    "GameplayDebuggerCategoryReplicator": 24,
     "GameplayDebuggerConfig": 1,
     "GameplayDebuggerLocalController": 1,
     "GameplayDebuggerPlayerManager": 11,
-    "GameplayDebuggerRenderingComponent": 19,
+    "GameplayDebuggerRenderingComponent": 18,
     "GameplayDebuggerUserSettings": 1,
     "GameplayEffect": 1,
     "GameplayEffectCalculation": 1,
@@ -1621,7 +1621,7 @@
     "GameplayMessageSubsystem": 1,
     "GameplayModMagnitudeCalculation": 1,
     "GameplayStateTreeBlueprintFunctionLibrary": 1,
-    "GameplayStatics": 2,
+    "GameplayStatics": 1,
     "GameplayTagAssetInterface": 1,
     "GameplayTagReponseTable": 1,
     "GameplayTagTransitionCondition": 1,
@@ -1636,7 +1636,7 @@
     "GameplayTask_SpawnActor": 1,
     "GameplayTask_TimeLimitedExecution": 1,
     "GameplayTask_WaitDelay": 1,
-    "GameplayTasksComponent": 5,
+    "GameplayTasksComponent": 4,
     "GarbageCollectionSettings": 1,
     "GauntletTestController": 1,
     "GauntletTestControllerBootTest": 1,
@@ -1645,7 +1645,7 @@
     "GeneralProjectSettings": 1,
     "GenerateCrossSectionOpFactory": 1,
     "GeneratedBlueprintBinding": 1,
-    "GeneratedMeshAreaLight": 13,
+    "GeneratedMeshAreaLight": 12,
     "GeneratedNavLinksProxy": 1,
     "GenericSmartObject": 11,
     "GenericTeamAgentInterface": 1,
@@ -1657,21 +1657,21 @@
     "GeometryCacheCodecBase": 1,
     "GeometryCacheCodecRaw": 1,
     "GeometryCacheCodecV1": 1,
-    "GeometryCacheComponent": 20,
+    "GeometryCacheComponent": 18,
     "GeometryCacheTrack": 1,
     "GeometryCacheTrackStreamable": 1,
     "GeometryCollection": 1,
     "GeometryCollectionActor": 11,
     "GeometryCollectionBlueprintLibrary": 1,
     "GeometryCollectionCache": 1,
-    "GeometryCollectionComponent": 23,
+    "GeometryCollectionComponent": 21,
     "GeometryCollectionCustomDataInterface": 1,
     "GeometryCollectionDebugDrawActor": 11,
     "GeometryCollectionDebugDrawComponent": 3,
     "GeometryCollectionExternalRenderInterface": 1,
     "GeometryCollectionISMPoolActor": 11,
     "GeometryCollectionISMPoolComponent": 18,
-    "GeometryCollectionISMPoolDebugDrawComponent": 19,
+    "GeometryCollectionISMPoolDebugDrawComponent": 18,
     "GeometryCollectionISMPoolRenderer": 1,
     "GeometryCollectionISMPoolSubSystem": 1,
     "GeometryCollectionRenderLevelSetActor": 11,
@@ -1732,19 +1732,19 @@
     "GerstnerWaterWaveSubsystem": 1,
     "GerstnerWaterWaves": 1,
     "GizmoActor": 11,
-    "GizmoArrowComponent": 20,
+    "GizmoArrowComponent": 18,
     "GizmoAxisIntervalParameterSource": 1,
     "GizmoAxisRotationParameterSource": 1,
     "GizmoAxisScaleParameterSource": 1,
     "GizmoAxisSource": 1,
     "GizmoAxisTranslationParameterSource": 1,
-    "GizmoBaseComponent": 20,
+    "GizmoBaseComponent": 18,
     "GizmoBaseComponentInterface": 1,
     "GizmoBaseFloatParameterSource": 1,
     "GizmoBaseTransformSource": 1,
     "GizmoBaseVec2ParameterSource": 1,
-    "GizmoBoxComponent": 20,
-    "GizmoCircleComponent": 20,
+    "GizmoBoxComponent": 18,
+    "GizmoCircleComponent": 18,
     "GizmoClickMultiTarget": 1,
     "GizmoClickTarget": 1,
     "GizmoComponentAxisSource": 1,
@@ -1774,14 +1774,14 @@
     "GizmoFloatParameterSource": 1,
     "GizmoLambdaHitTarget": 1,
     "GizmoLambdaStateTarget": 1,
-    "GizmoLineHandleComponent": 20,
+    "GizmoLineHandleComponent": 18,
     "GizmoLocalFloatParameterSource": 1,
     "GizmoLocalVec2ParameterSource": 1,
     "GizmoNilStateTarget": 1,
     "GizmoObjectModifyStateTarget": 1,
     "GizmoPlaneScaleParameterSource": 1,
     "GizmoPlaneTranslationParameterSource": 1,
-    "GizmoRectangleComponent": 20,
+    "GizmoRectangleComponent": 18,
     "GizmoRenderMultiTarget": 1,
     "GizmoRenderTarget": 1,
     "GizmoScaledAndUnscaledTransformSources": 1,
@@ -1799,10 +1799,10 @@
     "GooglePADFunctionLibrary": 1,
     "GranularSynth": 18,
     "GraphNodeContextMenuContext": 1,
-    "GrassInstancedStaticMeshComponent": 22,
+    "GrassInstancedStaticMeshComponent": 19,
     "GridPanel": 1,
     "GridPathAIController": 15,
-    "GridPathFollowingComponent": 4,
+    "GridPathFollowingComponent": 3,
     "GridSlot": 1,
     "GroomActor": 11,
     "GroomAsset": 1,
@@ -1813,7 +1813,7 @@
     "GroomCache": 1,
     "GroomCacheImportData": 1,
     "GroomCacheImportOptions": 1,
-    "GroomComponent": 20,
+    "GroomComponent": 18,
     "GroomCreateBindingOptions": 1,
     "GroomCreateFollicleMaskOptions": 1,
     "GroomCreateStrandsTexturesOptions": 1,
@@ -1821,7 +1821,7 @@
     "GroomHairGroupsPreview": 1,
     "GroomImportOptions": 1,
     "GroomPluginSettings": 1,
-    "GroomSolverComponent": 20,
+    "GroomSolverComponent": 18,
     "GroundTruthData": 1,
     "GroupEdgeInsertionProperties": 1,
     "GroupEraseBrushOpProps": 1,
@@ -1830,12 +1830,12 @@
     "HLODBuilder": 1,
     "HLODBuilderSettings": 1,
     "HLODEngineSubsystem": 1,
-    "HLODInstancedSkinnedMeshComponent": 21,
-    "HLODInstancedStaticMeshComponent": 22,
+    "HLODInstancedSkinnedMeshComponent": 18,
+    "HLODInstancedStaticMeshComponent": 19,
     "HLODLayer": 1,
     "HLODProxy": 1,
     "HLODProxyDesc": 1,
-    "HUD": 11,
+    "HUD": 14,
     "HairCardGenerationSettings": 1,
     "HandKeypointConversion": 1,
     "HandlerComponentFactory": 1,
@@ -1848,11 +1848,11 @@
     "HeavyPerformanceBroadcastor": 11,
     "HeavyPerformanceListener": 11,
     "HeterogeneousVolume": 11,
-    "HeterogeneousVolumeComponent": 20,
-    "HierarchicalInstancedStaticMeshComponent": 22,
+    "HeterogeneousVolumeComponent": 18,
+    "HierarchicalInstancedStaticMeshComponent": 19,
     "HierarchicalLODSetup": 1,
     "HitMarkerConfirmationWidget": 1,
-    "HoldoutCompositeComponent": 19,
+    "HoldoutCompositeComponent": 18,
     "HoleFillOperatorFactory": 1,
     "HoleFillStatisticsProperties": 1,
     "HoleFillTool": 1,
@@ -1884,18 +1884,18 @@
     "IKRetargetStretchChainController": 1,
     "IKRetargetStrideWarpingController": 1,
     "IKRetargeter": 1,
-    "IKRigBodyMoverController": 2,
-    "IKRigComponent": 4,
+    "IKRigBodyMoverController": 1,
+    "IKRigComponent": 3,
     "IKRigDefinition": 1,
     "IKRigEffectorGoal": 1,
-    "IKRigFBIKController": 2,
-    "IKRigFBIKSolver": 2,
-    "IKRigLimbSolverController": 2,
-    "IKRigPoleSolverController": 2,
+    "IKRigFBIKController": 1,
+    "IKRigFBIKSolver": 1,
+    "IKRigLimbSolverController": 1,
+    "IKRigPoleSolverController": 1,
     "IKRigProcessor": 1,
-    "IKRigSetTransformController": 2,
+    "IKRigSetTransformController": 1,
     "IKRigSolver": 1,
-    "IKRigSolverControllerBase": 2,
+    "IKRigSolverControllerBase": 1,
     "IKRig_BodyMover": 1,
     "IKRig_BodyMoverEffector": 1,
     "IKRig_FBIKBoneSettings": 1,
@@ -1911,7 +1911,7 @@
     "ISMPartitionInstanceManagerProvider": 1,
     "ISMPoolActor": 11,
     "ISMPoolComponent": 18,
-    "ISMPoolDebugDrawComponent": 19,
+    "ISMPoolDebugDrawComponent": 18,
     "ISMPoolSubSystem": 1,
     "ITDSpatializationSourceSettings": 1,
     "Image": 1,
@@ -1954,12 +1954,12 @@
     "InputBehavior": 1,
     "InputBehaviorSet": 1,
     "InputBehaviorSource": 1,
-    "InputComponent": 4,
+    "InputComponent": 3,
     "InputCoreTypes": 1,
     "InputDebugKeyDelegateBinding": 1,
     "InputDelegateBinding": 1,
     "InputDeviceAudioBasedVibrationProperty": 1,
-    "InputDeviceLibrary": 2,
+    "InputDeviceLibrary": 1,
     "InputDeviceProperty": 1,
     "InputDeviceSubsystem": 1,
     "InputDeviceTriggerEffect": 1,
@@ -2002,8 +2002,8 @@
     "InstancedFoliageActor": 11,
     "InstancedPlacemenClientSettings": 1,
     "InstancedPlacementPartitionActor": 11,
-    "InstancedSkinnedMeshComponent": 21,
-    "InstancedStaticMeshComponent": 22,
+    "InstancedSkinnedMeshComponent": 18,
+    "InstancedStaticMeshComponent": 19,
     "Int16Property": 1,
     "Int32Binding": 1,
     "Int64Property": 1,
@@ -2020,7 +2020,7 @@
     "InteractiveCommandArguments": 1,
     "InteractiveCommandResult": 1,
     "InteractiveFoliageActor": 11,
-    "InteractiveFoliageComponent": 21,
+    "InteractiveFoliageComponent": 19,
     "InteractiveGizmo": 1,
     "InteractiveGizmoBuilder": 1,
     "InteractiveGizmoManager": 1,
@@ -2191,7 +2191,7 @@
     "InterchangeShaderGraphNode": 1,
     "InterchangeShaderNode": 1,
     "InterchangeShaderPortsAPI": 1,
-    "InterchangeSkeletalAnimationTrackNode": 2,
+    "InterchangeSkeletalAnimationTrackNode": 1,
     "InterchangeSkeletalMeshActorFactory": 1,
     "InterchangeSkeletalMeshFactory": 1,
     "InterchangeSkeletalMeshFactoryNode": 1,
@@ -2283,7 +2283,7 @@
     "KeyAsModifierInputBehavior": 1,
     "KeyInputBehavior": 1,
     "KillZVolume": 11,
-    "KismetAnimationLibrary": 2,
+    "KismetAnimationLibrary": 1,
     "KismetArrayLibrary": 1,
     "KismetGuidLibrary": 1,
     "KismetInputLibrary": 1,
@@ -2292,7 +2292,7 @@
     "KismetMathLibrary": 1,
     "KismetNodeHelperLibrary": 1,
     "KismetProceduralMeshLibrary": 1,
-    "KismetRenderingLibrary": 2,
+    "KismetRenderingLibrary": 1,
     "KismetStringLibrary": 1,
     "KismetStringTableLibrary": 1,
     "KismetSystemLibrary": 1,
@@ -2304,11 +2304,11 @@
     "LODActor": 11,
     "LODSyncComponent": 3,
     "LODSyncInterface": 1,
-    "LakeCollisionComponent": 19,
-    "Landscape": 12,
+    "LakeCollisionComponent": 18,
+    "Landscape": 11,
     "LandscapeBlueprintBrushBase": 11,
     "LandscapeBrushRenderCallAdapter_GlobalMergeLegacySupport_DEPRECATED": 1,
-    "LandscapeComponent": 19,
+    "LandscapeComponent": 18,
     "LandscapeDefaultEditLayerRenderer": 1,
     "LandscapeEditLayer": 1,
     "LandscapeEditLayerBase": 1,
@@ -2319,10 +2319,10 @@
     "LandscapeEditResourcesSubsystem": 1,
     "LandscapeGizmoActiveActor": 11,
     "LandscapeGizmoActor": 11,
-    "LandscapeGizmoRenderComponent": 19,
+    "LandscapeGizmoRenderComponent": 18,
     "LandscapeGrassType": 1,
     "LandscapeHLODBuilder": 1,
-    "LandscapeHeightfieldCollisionComponent": 19,
+    "LandscapeHeightfieldCollisionComponent": 18,
     "LandscapeHeightmapNormalsEditLayerRenderer": 1,
     "LandscapeHeightmapTextureEdgeFixup": 1,
     "LandscapeInfo": 1,
@@ -2330,11 +2330,11 @@
     "LandscapeLODStreamingProxy_DEPRECATED": 1,
     "LandscapeLayerInfoObject": 1,
     "LandscapeMaterialInstanceConstant": 1,
-    "LandscapeMeshCollisionComponent_DEPRECATED": 19,
+    "LandscapeMeshCollisionComponent_DEPRECATED": 18,
     "LandscapeMeshProxyActor": 11,
-    "LandscapeMeshProxyComponent": 21,
-    "LandscapeNaniteComponent": 21,
-    "LandscapeProxy": 12,
+    "LandscapeMeshProxyComponent": 19,
+    "LandscapeNaniteComponent": 19,
+    "LandscapeProxy": 11,
     "LandscapeScratchRenderTarget": 1,
     "LandscapeSettings": 1,
     "LandscapeSplineActor": 11,
@@ -2342,8 +2342,8 @@
     "LandscapeSplineInterface": 1,
     "LandscapeSplineMeshesActor": 11,
     "LandscapeSplineSegment": 1,
-    "LandscapeSplinesComponent": 19,
-    "LandscapeStreamingProxy": 12,
+    "LandscapeSplinesComponent": 18,
+    "LandscapeStreamingProxy": 11,
     "LandscapeSubsystem": 1,
     "LandscapeTextureHash": 1,
     "LandscapeTextureMipEdgeOverrideFactory": 1,
@@ -2357,7 +2357,7 @@
     "LatticeDeformerToolProperties": 1,
     "LatticeStateStorage": 1,
     "Layer": 1,
-    "LayeredBoneBlendLibrary": 2,
+    "LayeredBoneBlendLibrary": 1,
     "LayersBlueprintLibrary": 1,
     "LazyObjectProperty": 1,
     "LeaderboardBlueprintLibrary": 1,
@@ -2388,15 +2388,15 @@
     "LevelInstanceSubsystem": 1,
     "LevelScriptActor": 11,
     "LevelScriptBlueprint": 1,
-    "LevelSequence": 2,
-    "LevelSequenceActor": 14,
+    "LevelSequence": 1,
+    "LevelSequenceActor": 13,
     "LevelSequenceAnimSequenceLink": 1,
     "LevelSequenceBurnIn": 1,
     "LevelSequenceBurnInInitSettings": 1,
     "LevelSequenceBurnInOptions": 1,
     "LevelSequenceDirector": 1,
-    "LevelSequenceMediaController": 13,
-    "LevelSequencePlayer": 8,
+    "LevelSequenceMediaController": 12,
+    "LevelSequencePlayer": 11,
     "LevelSequenceProjectSettings": 1,
     "LevelSequenceShotMetaDataLibrary": 1,
     "LevelStreaming": 1,
@@ -2411,25 +2411,25 @@
     "LevelVariantSets": 1,
     "LevelVariantSetsActor": 11,
     "LevelVariantSetsFunctionDirector": 1,
-    "Light": 13,
-    "LightComponent": 19,
+    "Light": 12,
+    "LightComponent": 18,
     "LightComponentBase": 18,
-    "LightMapTexture2D": 2,
+    "LightMapTexture2D": 1,
     "LightMapVirtualTexture": 1,
-    "LightMapVirtualTexture2D": 2,
+    "LightMapVirtualTexture2D": 1,
     "LightWeightInstanceBlueprintFunctionLibrary": 1,
-    "LightWeightInstanceManager": 16,
-    "LightWeightInstanceStaticMeshManager": 19,
+    "LightWeightInstanceManager": 15,
+    "LightWeightInstanceStaticMeshManager": 18,
     "LightmappedSurfaceCollection": 1,
     "LightmassCharacterIndirectDetailVolume": 11,
     "LightmassImportanceVolume": 11,
     "LightmassPortal": 11,
     "LightmassPortalComponent": 18,
     "LightmassPrimitiveSettingsObject": 1,
-    "LineBatchComponent": 19,
-    "LineSetComponent": 20,
+    "LineBatchComponent": 18,
+    "LineSetComponent": 18,
     "LinearBlendCameraNode": 1,
-    "LinkedAnimGraphLibrary": 2,
+    "LinkedAnimGraphLibrary": 1,
     "LinkerPlaceholderClass": 1,
     "LinkerPlaceholderExportObject": 1,
     "LinkerPlaceholderFunction": 1,
@@ -2441,7 +2441,7 @@
     "LoadingProcessInterface": 1,
     "LoadingProcessTask": 1,
     "LoadingScreenManager": 1,
-    "LobbyBeaconClient": 13,
+    "LobbyBeaconClient": 27,
     "LobbyBeaconHost": 11,
     "LobbyBeaconPlayerState": 16,
     "LobbyBeaconState": 14,
@@ -2450,7 +2450,7 @@
     "LocalFogVolume": 11,
     "LocalFogVolumeComponent": 18,
     "LocalInputBehaviorSource": 1,
-    "LocalLightComponent": 19,
+    "LocalLightComponent": 18,
     "LocalMessage": 1,
     "LocalMouseHoverBehavior": 1,
     "LocalPlayer": 1,
@@ -2458,7 +2458,7 @@
     "LocalPlayerSubsystem": 1,
     "LocalSingleClickInputBehavior": 1,
     "LocalTwoAxisPropertyEditInputBehavior": 1,
-    "LocalizableMessageLibrary": 2,
+    "LocalizableMessageLibrary": 1,
     "LocalizationSettings": 1,
     "LocalizationTarget": 1,
     "LocalizationTargetSet": 1,
@@ -2467,7 +2467,7 @@
     "LocationRotationBlendCameraNode": 1,
     "LocationServices": 1,
     "LocationServicesImpl": 1,
-    "LocationVolume": 12,
+    "LocationVolume": 11,
     "LogoutCallbackProxy": 1,
     "LoudnessAnalyzer": 1,
     "LoudnessNRT": 1,
@@ -2479,7 +2479,7 @@
     "LyraAbilityCost_PlayerTagStack": 1,
     "LyraAbilitySet": 1,
     "LyraAbilitySourceInterface": 1,
-    "LyraAbilitySystemComponent": 21,
+    "LyraAbilitySystemComponent": 54,
     "LyraAbilitySystemGlobals": 1,
     "LyraAbilityTagRelationshipMapping": 1,
     "LyraAccoladeDefinition": 1,
@@ -2496,8 +2496,8 @@
     "LyraAudioSettings": 1,
     "LyraBotCheats": 1,
     "LyraBotCreationComponent": 3,
-    "LyraBoundActionButton": 2,
-    "LyraBrightnessEditor": 2,
+    "LyraBoundActionButton": 1,
+    "LyraBrightnessEditor": 1,
     "LyraButtonBase": 1,
     "LyraCameraAssistInterface": 1,
     "LyraCameraComponent": 18,
@@ -2505,13 +2505,13 @@
     "LyraCameraModeStack": 1,
     "LyraCameraMode_ThirdPerson": 1,
     "LyraCameraMode_TopDownArenaCamera": 1,
-    "LyraCharacter": 30,
-    "LyraCharacterMovementComponent": 3,
-    "LyraCharacterWithAbilities": 30,
-    "LyraCheatManager": 1,
+    "LyraCharacter": 46,
+    "LyraCharacterMovementComponent": 5,
+    "LyraCharacterWithAbilities": 46,
+    "LyraCheatManager": 2,
     "LyraCombatSet": 3,
     "LyraConfirmationScreen": 1,
-    "LyraContextEffectComponent": 4,
+    "LyraContextEffectComponent": 3,
     "LyraContextEffectsInterface": 1,
     "LyraContextEffectsLibrary": 1,
     "LyraContextEffectsSet": 1,
@@ -2525,7 +2525,7 @@
     "LyraDamageLogDebuggerComponent": 3,
     "LyraDamagePopStyle": 1,
     "LyraDamagePopStyleNiagara": 1,
-    "LyraDebugCameraController": 16,
+    "LyraDebugCameraController": 94,
     "LyraDeveloperSettings": 1,
     "LyraDevelopmentStatics": 1,
     "LyraEquipmentDefinition": 1,
@@ -2534,8 +2534,8 @@
     "LyraExperienceActionSet": 1,
     "LyraExperienceDefinition": 1,
     "LyraExperienceManager": 1,
-    "LyraExperienceManagerComponent": 5,
-    "LyraFrontendStateComponent": 4,
+    "LyraExperienceManagerComponent": 4,
+    "LyraFrontendStateComponent": 3,
     "LyraGameData": 1,
     "LyraGameEngine": 1,
     "LyraGameFeaturePolicy": 1,
@@ -2547,7 +2547,7 @@
     "LyraGamePhaseSubsystem": 1,
     "LyraGameSession": 11,
     "LyraGameSettingRegistry": 1,
-    "LyraGameState": 17,
+    "LyraGameState": 19,
     "LyraGameViewportClient": 1,
     "LyraGameplayAbility": 1,
     "LyraGameplayAbility_Death": 1,
@@ -2558,16 +2558,16 @@
     "LyraGameplayAbility_Reset": 1,
     "LyraGameplayCueManager": 1,
     "LyraGameplayRpcRegistrationComponent": 1,
-    "LyraGlobalAbilitySystem": 2,
-    "LyraHUD": 11,
+    "LyraGlobalAbilitySystem": 1,
+    "LyraHUD": 14,
     "LyraHUDLayout": 1,
     "LyraHealExecution": 1,
     "LyraHealthComponent": 4,
     "LyraHealthSet": 3,
-    "LyraHeroComponent": 4,
+    "LyraHeroComponent": 3,
     "LyraHotfixManager": 1,
     "LyraIndicatorManagerComponent": 3,
-    "LyraInputComponent": 5,
+    "LyraInputComponent": 3,
     "LyraInputConfig": 1,
     "LyraInputModifierAimInversion": 1,
     "LyraInputModifierDeadZone": 1,
@@ -2586,10 +2586,10 @@
     "LyraNumberPopComponent": 3,
     "LyraNumberPopComponent_MeshText": 3,
     "LyraNumberPopComponent_NiagaraText": 3,
-    "LyraPawn": 18,
+    "LyraPawn": 16,
     "LyraPawnComponent_CharacterParts": 4,
     "LyraPawnData": 1,
-    "LyraPawnExtensionComponent": 5,
+    "LyraPawnExtensionComponent": 4,
     "LyraPerfStatContainerBase": 1,
     "LyraPerfStatGraph": 1,
     "LyraPerfStatWidgetBase": 1,
@@ -2600,18 +2600,18 @@
     "LyraPlatformSpecificRenderingSettings": 1,
     "LyraPlayerBotController": 15,
     "LyraPlayerCameraManager": 11,
-    "LyraPlayerController": 16,
+    "LyraPlayerController": 96,
     "LyraPlayerInput": 1,
     "LyraPlayerMappableKeyProfile": 1,
     "LyraPlayerMappableKeySettings": 1,
     "LyraPlayerSpawningManagerComponent": 3,
     "LyraPlayerStart": 11,
-    "LyraPlayerState": 28,
-    "LyraQuickBarComponent": 5,
+    "LyraPlayerState": 29,
+    "LyraQuickBarComponent": 6,
     "LyraRangedWeaponInstance": 3,
     "LyraReplayList": 1,
     "LyraReplayListEntry": 1,
-    "LyraReplayPlayerController": 16,
+    "LyraReplayPlayerController": 96,
     "LyraReplaySubsystem": 1,
     "LyraReplicationGraph": 1,
     "LyraReplicationGraphNode_AlwaysRelevant_ForConnection": 1,
@@ -2619,7 +2619,7 @@
     "LyraReplicationGraphSettings": 1,
     "LyraReticleWidgetBase": 1,
     "LyraRuntimeOptions": 1,
-    "LyraSafeZoneEditor": 2,
+    "LyraSafeZoneEditor": 1,
     "LyraSettingAction_SafeZoneEditor": 1,
     "LyraSettingBasedScalar": 1,
     "LyraSettingKeyboardInput": 1,
@@ -2631,13 +2631,13 @@
     "LyraSettingValueDiscrete_PerfStat": 1,
     "LyraSettingValueDiscrete_Resolution": 1,
     "LyraSettingValueScalarDynamic_SafeZoneValue": 1,
-    "LyraSettingsListEntrySetting_KeyboardInput": 2,
+    "LyraSettingsListEntrySetting_KeyboardInput": 1,
     "LyraSettingsLocal": 1,
     "LyraSettingsShared": 1,
     "LyraSignificanceManager": 1,
     "LyraSimulatedInputWidget": 1,
     "LyraSystemStatics": 1,
-    "LyraTabButtonBase": 2,
+    "LyraTabButtonBase": 1,
     "LyraTabButtonInterface": 1,
     "LyraTabListWidgetBase": 1,
     "LyraTaggedActor": 11,
@@ -2663,14 +2663,14 @@
     "LyraWeaponInstance": 3,
     "LyraWeaponPickupDefinition": 1,
     "LyraWeaponSpawner": 12,
-    "LyraWeaponStateComponent": 3,
+    "LyraWeaponStateComponent": 4,
     "LyraWeaponUserInterface": 1,
     "LyraWidgetFactory": 1,
     "LyraWidgetFactory_Class": 1,
     "LyraWorldCollectable": 11,
-    "LyraWorldSettings": 18,
+    "LyraWorldSettings": 17,
     "MRMeshBodyHolder": 1,
-    "MRMeshComponent": 19,
+    "MRMeshComponent": 18,
     "MapBuildDataActor": 11,
     "MapBuildDataRegistry": 1,
     "MapProperty": 1,
@@ -2713,9 +2713,9 @@
     "MasterAudioSubmixCaptureProtocol": 1,
     "Material": 1,
     "MaterialAggregate": 1,
-    "MaterialBillboardComponent": 19,
+    "MaterialBillboardComponent": 18,
     "MaterialCacheStackProvider": 1,
-    "MaterialCacheVirtualTexture": 2,
+    "MaterialCacheVirtualTexture": 1,
     "MaterialCacheVirtualTextureTag": 1,
     "MaterialEditorOnlyData": 1,
     "MaterialEnumerationProvider": 1,
@@ -3098,7 +3098,7 @@
     "MediaComponent": 3,
     "MediaPlate": 11,
     "MediaPlateAssetUserData": 1,
-    "MediaPlateComponent": 4,
+    "MediaPlateComponent": 3,
     "MediaPlayer": 1,
     "MediaPlayerProxyInterface": 1,
     "MediaPlaylist": 1,
@@ -3106,7 +3106,7 @@
     "MediaSource": 1,
     "MediaSourceRendererInterface": 1,
     "MediaSubtitlesPlayer": 1,
-    "MediaTexture": 2,
+    "MediaTexture": 1,
     "MediaTimeStampInfo": 1,
     "MenuAnchor": 1,
     "MeshAttributePaintBrushOperationProperties": 1,
@@ -3117,7 +3117,7 @@
     "MeshAttributePaintToolVisualizationProperties": 1,
     "MeshBudgetProjectSettings": 1,
     "MeshCommandChangeTarget": 1,
-    "MeshComponent": 20,
+    "MeshComponent": 18,
     "MeshConstraintProperties": 1,
     "MeshDeformer": 1,
     "MeshDeformerCollection": 1,
@@ -3138,7 +3138,7 @@
     "MeshGroupPaintToolFreezeActions": 1,
     "MeshMergeCullingVolume": 11,
     "MeshOpPreviewWithBackgroundCompute": 1,
-    "MeshPaintVirtualTexture": 2,
+    "MeshPaintVirtualTexture": 1,
     "MeshReconstructorBase": 1,
     "MeshReplacementCommandChangeTarget": 1,
     "MeshSculptBrushOpProps": 1,
@@ -3148,7 +3148,7 @@
     "MeshSelectionSet": 1,
     "MeshSimplificationSettings": 1,
     "MeshSpaceDeformerTool": 1,
-    "MeshSpaceDeformerToolActionPropertySet": 2,
+    "MeshSpaceDeformerToolActionPropertySet": 1,
     "MeshSpaceDeformerToolBuilder": 1,
     "MeshSpaceDeformerToolProperties": 1,
     "MeshStatisticsProperties": 1,
@@ -3168,7 +3168,7 @@
     "MeshVertexPainterKismetLibrary": 1,
     "MeshVertexSculptTool": 1,
     "MeshVertexSculptToolBuilder": 1,
-    "MeshWireframeComponent": 20,
+    "MeshWireframeComponent": 18,
     "MetaDataRegistrySource": 1,
     "MetaDataRegistrySource_CurveTable": 1,
     "MetaDataRegistrySource_DataTable": 1,
@@ -3197,16 +3197,16 @@
     "MeterSettings": 1,
     "MicroTransactionBase": 1,
     "MiddleClass": 1,
-    "MirrorAnimLibrary": 2,
+    "MirrorAnimLibrary": 1,
     "MirrorDataTable": 1,
     "MobileInstalledContent": 1,
-    "MobilePatchingLibrary": 2,
+    "MobilePatchingLibrary": 1,
     "MobilePendingContent": 1,
     "MockAI": 1,
     "MockAI_BT": 1,
     "MockDataMeshTrackerComponent": 18,
     "MockGameplayTaskOwner": 1,
-    "MockGameplayTasksComponent": 5,
+    "MockGameplayTasksComponent": 4,
     "MockTask_Log": 1,
     "MockWorldMetricA": 1,
     "MockWorldMetricB": 1,
@@ -3233,7 +3233,7 @@
     "MockWorldMetricsExtensionI": 1,
     "MockWorldMetricsExtensionJ": 1,
     "Model": 1,
-    "ModelComponent": 19,
+    "ModelComponent": 18,
     "ModelingComponentsEditorSettings": 1,
     "ModelingComponentsSettings": 1,
     "ModelingObjectsCreationAPI": 1,
@@ -3247,13 +3247,13 @@
     "ModifyGeometrySelectionCommand_Invert": 1,
     "ModifyGeometrySelectionCommand_InvertConnected": 1,
     "ModularAIController": 15,
-    "ModularCharacter": 27,
+    "ModularCharacter": 43,
     "ModularGameMode": 11,
     "ModularGameModeBase": 11,
     "ModularGameState": 17,
     "ModularGameStateBase": 15,
-    "ModularPawn": 16,
-    "ModularPlayerController": 16,
+    "ModularPawn": 15,
+    "ModularPlayerController": 94,
     "ModularPlayerState": 22,
     "ModularRig": 1,
     "ModularRigController": 1,
@@ -3263,7 +3263,7 @@
     "ModularSynthPresetBank": 1,
     "MonoWaveTableSynthPreset": 1,
     "MorphTarget": 1,
-    "MotionControllerComponent": 19,
+    "MotionControllerComponent": 18,
     "MotionWarpingBaseAdapter": 1,
     "MotionWarpingCharacterAdapter": 1,
     "MotionWarpingComponent": 4,
@@ -3299,7 +3299,7 @@
     "MovieScene3DTransformTrack": 1,
     "MovieSceneActorReferenceSection": 1,
     "MovieSceneActorReferenceTrack": 1,
-    "MovieSceneAsyncAction_SequencePrediction": 2,
+    "MovieSceneAsyncAction_SequencePrediction": 1,
     "MovieSceneAudioCaptureProtocolBase": 1,
     "MovieSceneAudioSection": 1,
     "MovieSceneAudioSystem": 1,
@@ -3573,7 +3573,7 @@
     "MovieSceneSectionsToKey": 1,
     "MovieSceneSequence": 1,
     "MovieSceneSequenceExtensions": 1,
-    "MovieSceneSequencePlayer": 8,
+    "MovieSceneSequencePlayer": 11,
     "MovieSceneSequencePlayerObserver": 1,
     "MovieSceneSequenceTickManager": 1,
     "MovieSceneSequenceTickManagerClient": 1,
@@ -3645,7 +3645,7 @@
     "MulticastInlineDelegateProperty": 1,
     "MulticastInlineDelegatePropertyWrapper": 1,
     "MulticastSparseDelegateProperty": 1,
-    "MusicalTimeFunctionLibrary": 2,
+    "MusicalTimeFunctionLibrary": 1,
     "MyPluginObject": 1,
     "NDIArraySimCacheData": 1,
     "NDIDataChannelWriteSimCacheData": 1,
@@ -3678,7 +3678,7 @@
     "NamedSlot": 1,
     "NamedSlotInterface": 1,
     "NamingTokens": 1,
-    "NamingTokensEditableText": 2,
+    "NamingTokensEditableText": 1,
     "NamingTokensEngineSubsystem": 1,
     "NativeWidgetHost": 1,
     "NavAgentInterface": 1,
@@ -3693,30 +3693,30 @@
     "NavCollision": 1,
     "NavCollisionBase": 1,
     "NavCorridorTestingActor": 11,
-    "NavCorridorTestingComponent": 19,
+    "NavCorridorTestingComponent": 18,
     "NavEdgeProviderInterface": 1,
     "NavFilter_AIControllerDefault": 1,
-    "NavLinkComponent": 19,
-    "NavLinkCustomComponent": 4,
+    "NavLinkComponent": 18,
+    "NavLinkCustomComponent": 3,
     "NavLinkCustomInterface": 1,
     "NavLinkDefinition": 1,
     "NavLinkHostInterface": 1,
-    "NavLinkProxy": 12,
-    "NavLinkRenderingComponent": 19,
+    "NavLinkProxy": 11,
+    "NavLinkRenderingComponent": 18,
     "NavLinkTrivial": 1,
     "NavLocalGridManager": 1,
     "NavMeshBoundsVolume": 11,
-    "NavMeshRenderingComponent": 19,
-    "NavModifierComponent": 4,
-    "NavModifierVolume": 12,
+    "NavMeshRenderingComponent": 18,
+    "NavModifierComponent": 3,
+    "NavModifierVolume": 11,
     "NavMovementComponent": 3,
-    "NavMovementInterface": 2,
+    "NavMovementInterface": 1,
     "NavNodeInterface": 1,
     "NavPathObserverInterface": 1,
-    "NavRelevantComponent": 4,
+    "NavRelevantComponent": 3,
     "NavRelevantInterface": 1,
     "NavSystemConfigOverride": 11,
-    "NavTestRenderingComponent": 19,
+    "NavTestRenderingComponent": 18,
     "NavigationData": 11,
     "NavigationDataChunk": 1,
     "NavigationDataChunkActor": 11,
@@ -3734,7 +3734,7 @@
     "NavigationSystemBase": 1,
     "NavigationSystemConfig": 1,
     "NavigationSystemModuleConfig": 1,
-    "NavigationSystemV1": 2,
+    "NavigationSystemV1": 1,
     "NavigationTestingActor": 11,
     "NavigationUIComponent": 1,
     "NetActorFactory": 1,
@@ -3773,8 +3773,8 @@
     "NetworkMetricsLog": 1,
     "NetworkMetricsPerfCounters": 1,
     "NetworkMetricsStats": 1,
-    "NetworkPhysicsComponent": 12,
-    "NetworkPhysicsSettingsComponent": 4,
+    "NetworkPhysicsComponent": 19,
+    "NetworkPhysicsSettingsComponent": 3,
     "NetworkPhysicsSettingsDataAsset": 1,
     "NetworkPhysicsSystem": 1,
     "NetworkPredictionInterface": 1,
@@ -3790,13 +3790,13 @@
     "NiagaraBakerOutputTexture2D": 1,
     "NiagaraBakerOutputVolumeTexture": 1,
     "NiagaraBakerSettings": 1,
-    "NiagaraBaselineController": 2,
-    "NiagaraBaselineController_Basic": 2,
-    "NiagaraComponent": 19,
+    "NiagaraBaselineController": 1,
+    "NiagaraBaselineController_Basic": 1,
+    "NiagaraComponent": 18,
     "NiagaraComponentPool": 1,
     "NiagaraComponentRendererProperties": 1,
     "NiagaraConvertInPlaceUtilityBase": 1,
-    "NiagaraCullProxyComponent": 19,
+    "NiagaraCullProxyComponent": 18,
     "NiagaraDIRigidMeshCollisionFunctionLibrary": 1,
     "NiagaraDataChannel": 1,
     "NiagaraDataChannelAsset": 1,
@@ -3823,10 +3823,10 @@
     "NiagaraDataInterfaceArrayFloat2": 1,
     "NiagaraDataInterfaceArrayFloat3": 1,
     "NiagaraDataInterfaceArrayFloat4": 1,
-    "NiagaraDataInterfaceArrayFunctionLibrary": 2,
+    "NiagaraDataInterfaceArrayFunctionLibrary": 1,
     "NiagaraDataInterfaceArrayInt32": 1,
     "NiagaraDataInterfaceArrayMatrix": 1,
-    "NiagaraDataInterfaceArrayMesh": 2,
+    "NiagaraDataInterfaceArrayMesh": 1,
     "NiagaraDataInterfaceArrayNiagaraID": 1,
     "NiagaraDataInterfaceArrayPosition": 1,
     "NiagaraDataInterfaceArrayQuat": 1,
@@ -3939,7 +3939,7 @@
     "NiagaraPreviewAxis_InterpParamVector2D": 1,
     "NiagaraPreviewAxis_InterpParamVector4": 1,
     "NiagaraPreviewBase": 11,
-    "NiagaraPreviewGrid": 12,
+    "NiagaraPreviewGrid": 11,
     "NiagaraRenderableMeshArrayInterface": 1,
     "NiagaraRenderableMeshInterface": 1,
     "NiagaraRendererProperties": 1,
@@ -3995,7 +3995,7 @@
     "NiagaraValidationRuleSet": 1,
     "NiagaraVolumeRendererProperties": 1,
     "NiagaraWaterFunctionLibrary": 1,
-    "NoPawnPlayerController": 16,
+    "NoPawnPlayerController": 96,
     "NodeAndChannelMappings": 1,
     "NodeMappingContainer": 1,
     "NodeMappingProviderInterface": 1,
@@ -4035,22 +4035,22 @@
     "ObjectWithRawProperty": 1,
     "OcclusionMaterialCameraNode": 1,
     "OcclusionPluginSourceSettingsBase": 1,
-    "OceanBoxCollisionComponent": 19,
-    "OceanCollisionComponent": 19,
-    "OctreeDynamicMeshComponent": 20,
+    "OceanBoxCollisionComponent": 18,
+    "OceanCollisionComponent": 18,
+    "OctreeDynamicMeshComponent": 18,
     "OffsetCameraNode": 1,
     "OffsetMeshTool": 1,
     "OffsetMeshToolBuilder": 1,
     "OffsetMeshToolProperties": 1,
-    "OffsetWeightMapSetProperties": 2,
+    "OffsetWeightMapSetProperties": 1,
     "OnAcceptHandleSourcesProperties": 1,
     "OnAcceptHandleSourcesPropertiesBase": 1,
     "OnAcceptHandleSourcesPropertiesSingle": 1,
     "OnlineBeacon": 11,
-    "OnlineBeaconClient": 11,
+    "OnlineBeaconClient": 12,
     "OnlineBeaconHost": 11,
     "OnlineBeaconHostObject": 11,
-    "OnlineBeaconUnitTestClient": 11,
+    "OnlineBeaconUnitTestClient": 12,
     "OnlineBeaconUnitTestHost": 11,
     "OnlineBeaconUnitTestHostObject": 11,
     "OnlineBeaconUnitTestNetConnection": 1,
@@ -4228,26 +4228,26 @@
     "PanelSlot": 1,
     "PanelWidget": 1,
     "PanningFramingCameraNode": 1,
-    "PaperCharacter": 27,
+    "PaperCharacter": 43,
     "PaperFlipbook": 1,
     "PaperFlipbookActor": 11,
-    "PaperFlipbookComponent": 21,
+    "PaperFlipbookComponent": 19,
     "PaperGroupedSpriteActor": 11,
-    "PaperGroupedSpriteComponent": 20,
+    "PaperGroupedSpriteComponent": 18,
     "PaperRuntimeSettings": 1,
     "PaperSprite": 1,
     "PaperSpriteActor": 11,
     "PaperSpriteAtlas": 1,
     "PaperSpriteBlueprintLibrary": 1,
-    "PaperSpriteComponent": 20,
+    "PaperSpriteComponent": 18,
     "PaperTerrainActor": 11,
-    "PaperTerrainComponent": 19,
+    "PaperTerrainComponent": 18,
     "PaperTerrainMaterial": 1,
-    "PaperTerrainSplineComponent": 29,
+    "PaperTerrainSplineComponent": 27,
     "PaperTileLayer": 1,
     "PaperTileMap": 1,
     "PaperTileMapActor": 11,
-    "PaperTileMapComponent": 20,
+    "PaperTileMapComponent": 18,
     "PaperTileSet": 1,
     "PartialNetObjectAttachmentHandler": 1,
     "PartialNetObjectAttachmentHandlerConfig": 1,
@@ -4373,19 +4373,19 @@
     "ParticleModuleVelocity_Seeded": 1,
     "ParticleSpriteEmitter": 1,
     "ParticleSystem": 1,
-    "ParticleSystemComponent": 20,
+    "ParticleSystemComponent": 18,
     "ParticleSystemReplay": 1,
     "PartitionActor": 11,
-    "PartyBeaconClient": 11,
+    "PartyBeaconClient": 21,
     "PartyBeaconHost": 11,
     "PartyBeaconState": 1,
     "PartyMember": 1,
     "PathFollowingAgentInterface": 1,
-    "PathFollowingComponent": 4,
+    "PathFollowingComponent": 3,
     "PathFollowingManager": 1,
-    "Pawn": 16,
+    "Pawn": 15,
     "PawnComponent": 3,
-    "PawnMovementComponent": 3,
+    "PawnMovementComponent": 5,
     "PawnNoiseEmitterComponent": 3,
     "PawnSensingComponent": 3,
     "PendingNetGame": 1,
@@ -4442,7 +4442,7 @@
     "PlayMontageCallbackProxy": 1,
     "Player": 1,
     "PlayerCameraManager": 11,
-    "PlayerController": 16,
+    "PlayerController": 94,
     "PlayerInput": 1,
     "PlayerMappableInputConfig": 1,
     "PlayerMappableKeySettings": 1,
@@ -4458,9 +4458,9 @@
     "PocketLevel": 1,
     "PocketLevelInstance": 1,
     "PocketLevelSubsystem": 1,
-    "PointLight": 13,
-    "PointLightComponent": 19,
-    "PointSetComponent": 20,
+    "PointLight": 12,
+    "PointLightComponent": 18,
+    "PointSetComponent": 18,
     "PolyEditActivityContext": 1,
     "PolyEditBevelEdgeActivity": 1,
     "PolyEditBevelEdgeProperties": 1,
@@ -4492,12 +4492,12 @@
     "PoseWatchElement": 1,
     "PoseWatchFolder": 1,
     "PoseWatchPoseElement": 1,
-    "PoseableMeshComponent": 20,
+    "PoseableMeshComponent": 18,
     "PostBufferBlurUpdater": 1,
     "PostBufferUpdate": 1,
     "PostProcessCameraNode": 1,
-    "PostProcessComponent": 19,
-    "PostProcessVolume": 12,
+    "PostProcessComponent": 18,
+    "PostProcessVolume": 11,
     "PrecomputedVisibilityOverrideVolume": 11,
     "PrecomputedVisibilityVolume": 11,
     "PreviewCollectionInterface": 1,
@@ -4509,7 +4509,7 @@
     "PrimaryAssetLabel": 1,
     "PrimaryDataAsset": 1,
     "PrimaryGameLayout": 1,
-    "PrimitiveComponent": 19,
+    "PrimitiveComponent": 18,
     "PrimitiveComponentBackedTarget": 1,
     "PrimitiveComponentToolTarget": 1,
     "PrimitiveComponentToolTargetFactory": 1,
@@ -4525,7 +4525,7 @@
     "ProceduralFoliageSpawner": 1,
     "ProceduralFoliageTile": 1,
     "ProceduralFoliageVolume": 11,
-    "ProceduralMeshComponent": 20,
+    "ProceduralMeshComponent": 18,
     "ProceduralRectangleToolProperties": 1,
     "ProceduralShapeToolProperties": 1,
     "ProceduralSphereToolProperties": 1,
@@ -4555,12 +4555,12 @@
     "PropertyWrapper": 1,
     "ProxyLODMeshSimplificationSettings": 1,
     "PullKelvinletBrushOpProps": 1,
-    "QosBeaconClient": 11,
+    "QosBeaconClient": 14,
     "QosBeaconHost": 11,
     "QosEvaluator": 1,
     "QosRegionManager": 1,
     "QuartzClockHandle": 1,
-    "QuartzSubsystem": 2,
+    "QuartzSubsystem": 1,
     "QuitMatchCallbackProxy": 1,
     "RPCDoSDetectionConfig": 1,
     "RVOAvoidanceInterface": 1,
@@ -4568,20 +4568,20 @@
     "RadialForceActor": 11,
     "RadialForceComponent": 18,
     "RadialIntMask": 3,
-    "RadialSlider": 2,
+    "RadialSlider": 1,
     "RadialVector": 3,
     "RandomVector": 3,
     "RawAnimSequenceTrackExtensions": 1,
     "RawInputAxisBinding2DCameraNode": 1,
     "RecastFilter_UseDefaultArea": 1,
-    "RecastNavMesh": 12,
+    "RecastNavMesh": 11,
     "RecastNavMeshDataChunk": 1,
     "RecomputeUVsOpFactory": 1,
     "RecomputeUVsTool": 1,
     "RecomputeUVsToolBuilder": 1,
     "RecomputeUVsToolProperties": 1,
-    "RectLight": 13,
-    "RectLightComponent": 19,
+    "RectLight": 12,
+    "RectLightComponent": 18,
     "RectangleMarqueeInteraction": 1,
     "RectangleMarqueeMechanic": 1,
     "ReflectionCapture": 11,
@@ -4603,7 +4603,7 @@
     "RendererSettings": 1,
     "ReplayNetConnection": 1,
     "ReplaySubsystem": 1,
-    "ReplicatedLevelSequenceActor": 14,
+    "ReplicatedLevelSequenceActor": 13,
     "ReplicatedObjectInterface": 1,
     "ReplicationBridge": 1,
     "ReplicationConnectionDriver": 1,
@@ -4611,7 +4611,7 @@
     "ReplicationDriver": 1,
     "ReplicationFilteringConfig": 1,
     "ReplicationGraph": 1,
-    "ReplicationGraphDebugActor": 11,
+    "ReplicationGraphDebugActor": 20,
     "ReplicationGraphNode": 1,
     "ReplicationGraphNode_ActorList": 1,
     "ReplicationGraphNode_ActorListFrequencyBuckets": 1,
@@ -4630,7 +4630,7 @@
     "RepositionableTransformGizmo": 1,
     "RepositionableTransformGizmoBuilder": 1,
     "RestrictedGameplayTagsList": 1,
-    "RetainerBox": 2,
+    "RetainerBox": 1,
     "RetargetChainSettings": 1,
     "RetargetOpBase": 1,
     "RetargetOpStack": 1,
@@ -4644,7 +4644,7 @@
     "RevolveOperatorFactory": 1,
     "RevolveProperties": 1,
     "RevolveToolProperties": 1,
-    "RichTextBlock": 2,
+    "RichTextBlock": 1,
     "RichTextBlockDecorator": 1,
     "RichTextBlockImageDecorator": 1,
     "RigHierarchy": 1,
@@ -4682,7 +4682,7 @@
     "RuntimeSpatialHashExternalStreamingObject": 1,
     "RuntimeVirtualTexture": 1,
     "RuntimeVirtualTextureComponent": 18,
-    "RuntimeVirtualTextureStreamingProxy": 2,
+    "RuntimeVirtualTextureStreamingProxy": 1,
     "RuntimeVirtualTextureVolume": 11,
     "SCS_Node": 1,
     "SMInstanceElementAssetDataInterface": 1,
@@ -4735,8 +4735,8 @@
     "SelectiveTessellationProperties": 1,
     "SequenceCameraShakePattern": 1,
     "SequenceCameraShakeTestUtil": 1,
-    "SequenceEvaluatorLibrary": 2,
-    "SequencePlayerLibrary": 2,
+    "SequenceEvaluatorLibrary": 1,
+    "SequencePlayerLibrary": 1,
     "SequencerAnimationOverride": 1,
     "SequencerAnimationSupport": 1,
     "SequencerScriptingRangeExtensions": 1,
@@ -4748,10 +4748,10 @@
     "SetProperty": 1,
     "SetRotationCameraNode": 1,
     "ShaderPlatformQualitySettings": 1,
-    "ShadowMapTexture2D": 2,
+    "ShadowMapTexture2D": 1,
     "ShakeCameraNode": 1,
-    "ShapeComponent": 19,
-    "SharedImageConstRefBlueprintFns": 2,
+    "ShapeComponent": 18,
+    "SharedImageConstRefBlueprintFns": 1,
     "SharpPullKelvinletBrushOpProps": 1,
     "ShooterCoreRuntimeSettings": 1,
     "ShooterTestsDevicePropertyTester": 11,
@@ -4785,10 +4785,10 @@
     "SkelMeshDNAUtils": 1,
     "SkeletalBodySetup": 1,
     "SkeletalControlLibrary": 1,
-    "SkeletalMesh": 3,
+    "SkeletalMesh": 1,
     "SkeletalMeshActor": 15,
     "SkeletalMeshBackedTarget": 1,
-    "SkeletalMeshComponent": 21,
+    "SkeletalMeshComponent": 18,
     "SkeletalMeshDescription": 1,
     "SkeletalMeshDescriptionBulkData": 1,
     "SkeletalMeshEditorData": 1,
@@ -4797,21 +4797,21 @@
     "SkeletalMeshSimplificationSettings": 1,
     "SkeletalMeshSocket": 1,
     "Skeleton": 1,
-    "SkinnedAsset": 2,
-    "SkinnedMeshComponent": 20,
+    "SkinnedAsset": 1,
+    "SkinnedMeshComponent": 18,
     "SkyAtmosphere": 11,
     "SkyAtmosphereComponent": 18,
     "SkyLight": 12,
-    "SkyLightComponent": 19,
+    "SkyLightComponent": 18,
     "SlateAccessibleWidgetData": 1,
     "SlateBlueprintLibrary": 1,
     "SlateBrushAsset": 1,
     "SlateFXSubsystem": 1,
-    "SlateFontBlueprintLibrary": 2,
+    "SlateFontBlueprintLibrary": 1,
     "SlatePostBufferBlur": 1,
     "SlatePostBufferProcessorUpdater": 1,
     "SlateRHIPostBufferProcessor": 1,
-    "SlateRHIRendererSettings": 2,
+    "SlateRHIRendererSettings": 1,
     "SlateSettings": 1,
     "SlateTabManagerContext": 1,
     "SlateTextureAtlasInterface": 1,
@@ -4825,22 +4825,22 @@
     "SmartObjectBehaviorDefinition": 1,
     "SmartObjectBlueprintFunctionLibrary": 1,
     "SmartObjectComponent": 20,
-    "SmartObjectContainerRenderingComponent": 19,
-    "SmartObjectDebugRenderingComponent": 19,
+    "SmartObjectContainerRenderingComponent": 18,
+    "SmartObjectDebugRenderingComponent": 18,
     "SmartObjectDefinition": 1,
     "SmartObjectHashGrid": 1,
     "SmartObjectOctree": 1,
     "SmartObjectPersistentCollection": 11,
-    "SmartObjectRenderingComponent": 19,
+    "SmartObjectRenderingComponent": 18,
     "SmartObjectSettings": 1,
     "SmartObjectSimpleQueryTest": 1,
     "SmartObjectSlotValidationFilter": 1,
     "SmartObjectSpacePartition": 1,
     "SmartObjectSubsystem": 1,
     "SmartObjectSubsystemRenderingActor": 11,
-    "SmartObjectSubsystemRenderingComponent": 19,
+    "SmartObjectSubsystemRenderingComponent": 18,
     "SmartObjectTest": 1,
-    "SmartObjectTestRenderingComponent": 19,
+    "SmartObjectTestRenderingComponent": 18,
     "SmartObjectTestingActor": 11,
     "SmartObjectUserComponent": 3,
     "SmartObjectWorldConditionSchema": 1,
@@ -4852,7 +4852,7 @@
     "SmoothMeshTool": 1,
     "SmoothMeshToolBuilder": 1,
     "SmoothMeshToolProperties": 1,
-    "SmoothWeightMapSetProperties": 2,
+    "SmoothWeightMapSetProperties": 1,
     "SocialChatChannel": 1,
     "SocialChatManager": 1,
     "SocialChatRoom": 1,
@@ -4927,7 +4927,7 @@
     "SoundParameterControllerInterface": 1,
     "SoundSimple": 1,
     "SoundSourceBus": 1,
-    "SoundSubmix": 2,
+    "SoundSubmix": 1,
     "SoundSubmixBase": 1,
     "SoundSubmixWidgetInterface": 1,
     "SoundSubmixWithParentBase": 1,
@@ -4940,7 +4940,7 @@
     "SoundfieldEndpointSettingsBase": 1,
     "SoundfieldEndpointSubmix": 1,
     "SoundfieldSubmix": 1,
-    "SourceControlHelpers": 2,
+    "SourceControlHelpers": 1,
     "SourceControlPreferences": 1,
     "SourceDataOverridePluginSourceSettingsBase": 1,
     "SourceEffectBitCrusherPreset": 1,
@@ -4967,17 +4967,17 @@
     "SparseVolumeTexture": 1,
     "SparseVolumeTextureFrame": 1,
     "SparseVolumeTextureViewer": 11,
-    "SparseVolumeTextureViewerComponent": 19,
+    "SparseVolumeTextureViewerComponent": 18,
     "SpatialCurveDistanceMechanic": 1,
     "SpatialHashRuntimeGridInfo": 11,
     "SpatializationPluginSourceSettingsBase": 1,
-    "SpectatorBeaconClient": 11,
+    "SpectatorBeaconClient": 18,
     "SpectatorBeaconHost": 11,
     "SpectatorBeaconState": 1,
-    "SpectatorPawn": 16,
-    "SpectatorPawnMovement": 3,
+    "SpectatorPawn": 15,
+    "SpectatorPawnMovement": 5,
     "SpecularProfile": 1,
-    "SphereComponent": 19,
+    "SphereComponent": 18,
     "SphereNetObjectPrioritizer": 1,
     "SphereNetObjectPrioritizerConfig": 1,
     "SphereReflectionCapture": 11,
@@ -4986,26 +4986,26 @@
     "SphereWithOwnerBoostNetObjectPrioritizerConfig": 1,
     "SpinBox": 1,
     "SpinBoxWidgetStyle": 1,
-    "SplineComponent": 29,
+    "SplineComponent": 27,
     "SplineFieldOfViewCameraNode": 1,
     "SplineMeshActor": 11,
-    "SplineMeshComponent": 22,
+    "SplineMeshComponent": 19,
     "SplineMetadata": 1,
-    "SplineNavModifierComponent": 4,
+    "SplineNavModifierComponent": 3,
     "SplineOffsetCameraNode": 1,
     "SplineOrbitCameraNode": 1,
-    "SpotLight": 13,
-    "SpotLightComponent": 19,
+    "SpotLight": 12,
+    "SpotLightComponent": 18,
     "SpringArmComponent": 18,
     "StackBox": 1,
     "StackBoxSlot": 1,
     "StandardSculptBrushOpProps": 1,
     "StatePerObjectConfig": 1,
-    "StateTree": 2,
-    "StateTreeAIComponent": 4,
+    "StateTree": 1,
+    "StateTreeAIComponent": 3,
     "StateTreeAIComponentSchema": 1,
     "StateTreeCameraDirector": 1,
-    "StateTreeComponent": 4,
+    "StateTreeComponent": 3,
     "StateTreeComponentSchema": 1,
     "StateTreeConditionBlueprintBase": 1,
     "StateTreeConsiderationBlueprintBase": 1,
@@ -5018,11 +5018,11 @@
     "StateTreeSettings": 1,
     "StateTreeTaskBlueprintBase": 1,
     "StateTreeTask_PlayContextualAnim_InstanceData": 1,
-    "StaticMesh": 2,
+    "StaticMesh": 1,
     "StaticMeshActor": 11,
     "StaticMeshBackedTarget": 1,
-    "StaticMeshComponent": 21,
-    "StaticMeshDescription": 2,
+    "StaticMeshComponent": 19,
+    "StaticMeshDescription": 1,
     "StaticMeshDescriptionBulkData": 1,
     "StaticMeshSocket": 1,
     "StaticSparseVolumeTexture": 1,
@@ -5080,8 +5080,8 @@
     "SubtitleDisplaySubsystem": 1,
     "SwitchActor": 11,
     "SynesthesiaSpectrumAnalysisSettings": 1,
-    "SynesthesiaSpectrumAnalyzer": 2,
-    "Synth2DSlider": 2,
+    "SynesthesiaSpectrumAnalyzer": 1,
+    "Synth2DSlider": 1,
     "SynthComponent": 18,
     "SynthComponentMonoWaveTable": 18,
     "SynthComponentToneGenerator": 18,
@@ -5109,8 +5109,8 @@
     "TcpMessagingSettings": 1,
     "TedsTypedElementBridgeInterface": 1,
     "TemplateSequence": 1,
-    "TemplateSequenceActor": 13,
-    "TemplateSequencePlayer": 8,
+    "TemplateSequenceActor": 12,
+    "TemplateSequencePlayer": 11,
     "TemplateSequencePropertyScalingEvaluatorSystem": 1,
     "TemplateSequencePropertyScalingInstantiatorSystem": 1,
     "TemplateSequenceSection": 1,
@@ -5135,7 +5135,7 @@
     "TestBTTask_SetValuesWithLogs": 1,
     "TestBTTask_TimerBasedLatent": 1,
     "TestBTTask_ToggleFlag": 1,
-    "TestBeaconClient": 11,
+    "TestBeaconClient": 14,
     "TestBeaconHost": 11,
     "TestCameraShake": 1,
     "TestEnhancedInputSubsystem": 1,
@@ -5171,27 +5171,27 @@
     "TextProperty": 1,
     "TextPropertyTestObject": 1,
     "TextRenderActor": 11,
-    "TextRenderComponent": 20,
-    "Texture": 2,
-    "Texture2D": 2,
-    "Texture2DArray": 2,
-    "Texture2DDynamic": 2,
+    "TextRenderComponent": 18,
+    "Texture": 1,
+    "Texture2D": 1,
+    "Texture2DArray": 1,
+    "Texture2DDynamic": 1,
     "TextureAllMipDataProviderFactory": 1,
     "TextureCollection": 1,
-    "TextureCube": 2,
-    "TextureCubeArray": 2,
+    "TextureCube": 1,
+    "TextureCubeArray": 1,
     "TextureEncodingProjectSettings": 1,
     "TextureEncodingUserSettings": 1,
     "TextureImportSettings": 1,
     "TextureImportUserSettings": 1,
     "TextureLODSettings": 1,
-    "TextureLightProfile": 2,
+    "TextureLightProfile": 1,
     "TextureMipDataProviderFactory": 1,
-    "TextureRenderTarget": 2,
-    "TextureRenderTarget2D": 2,
-    "TextureRenderTarget2DArray": 2,
-    "TextureRenderTargetCube": 2,
-    "TextureRenderTargetVolume": 2,
+    "TextureRenderTarget": 1,
+    "TextureRenderTarget2D": 1,
+    "TextureRenderTarget2DArray": 1,
+    "TextureRenderTargetCube": 1,
+    "TextureRenderTargetVolume": 1,
     "Throbber": 1,
     "ThumbnailInfo": 1,
     "TickableAttributeSetInterface": 1,
@@ -5203,7 +5203,7 @@
     "TickableTransformConstraint": 1,
     "TickableTranslationConstraint": 1,
     "TickableWorldSubsystem": 1,
-    "TileMapBlueprintLibrary": 2,
+    "TileMapBlueprintLibrary": 1,
     "TileView": 1,
     "TimeManagementBlueprintLibrary": 1,
     "TimeSynchronizableMediaSource": 1,
@@ -5236,7 +5236,7 @@
     "ToolTargetManager": 1,
     "ToolsContextCursorAPI": 1,
     "TopDownArenaAttributeSet": 5,
-    "TopDownArenaMovementComponent": 3,
+    "TopDownArenaMovementComponent": 5,
     "TopDownArenaPickupUIData": 1,
     "TouchInterface": 1,
     "TraceQueryTestResults": 1,
@@ -5254,7 +5254,7 @@
     "TranslationPickerSettings": 1,
     "TranslationUnit": 1,
     "TreeView": 1,
-    "TriangleSetComponent": 20,
+    "TriangleSetComponent": 18,
     "TriggerBase": 11,
     "TriggerBox": 11,
     "TriggerCapsule": 11,
@@ -5335,7 +5335,7 @@
     "ValueOrBBKeyBlueprintUtility": 1,
     "ValueOrBBKey_GameplayTagBlueprintUtility": 1,
     "VariableFrameStrippingSettings": 1,
-    "Variant": 2,
+    "Variant": 1,
     "VariantObjectBinding": 1,
     "VariantSet": 1,
     "Vector2dCameraVariable": 1,
@@ -5346,7 +5346,7 @@
     "Vector4fCameraVariable": 1,
     "VectorField": 1,
     "VectorFieldAnimated": 1,
-    "VectorFieldComponent": 19,
+    "VectorFieldComponent": 18,
     "VectorFieldStatic": 1,
     "VectorFieldVolume": 11,
     "VerseClass": 1,
@@ -5364,7 +5364,7 @@
     "VerticalBox": 1,
     "VerticalBoxSlot": 1,
     "VideoCaptureProtocol": 1,
-    "ViewAdjustedStaticMeshGizmoComponent": 21,
+    "ViewAdjustedStaticMeshGizmoComponent": 19,
     "ViewAlignedPlaneBrushOpProps": 1,
     "ViewAlignedSculptBrushOpProps": 1,
     "ViewModeUtils": 1,
@@ -5373,8 +5373,8 @@
     "ViewportSelectableObject": 1,
     "ViewportStatsSubsystem": 1,
     "VirtualTexture": 1,
-    "VirtualTexture2D": 2,
-    "VirtualTextureAdapter": 2,
+    "VirtualTexture2D": 1,
+    "VirtualTextureAdapter": 1,
     "VirtualTextureBuilder": 1,
     "VirtualTextureCollection": 1,
     "VirtualTexturePoolConfig": 1,
@@ -5386,36 +5386,36 @@
     "VisualLoggerFilterVolume": 11,
     "VisualLoggerKismetLibrary": 1,
     "VoiceChannel": 1,
-    "VoipListenerSynthComponent": 19,
+    "VoipListenerSynthComponent": 18,
     "Volume": 11,
     "VolumeCache": 1,
-    "VolumeTexture": 2,
+    "VolumeTexture": 1,
     "VolumetricBrushStampIndicator": 1,
     "VolumetricBrushStampIndicatorBuilder": 1,
     "VolumetricCloud": 11,
     "VolumetricCloudComponent": 18,
     "VolumetricLightmapDensityVolume": 11,
     "VoxelProperties": 1,
-    "WaterBody": 12,
-    "WaterBodyComponent": 19,
-    "WaterBodyCustom": 12,
-    "WaterBodyCustomComponent": 19,
+    "WaterBody": 11,
+    "WaterBodyComponent": 18,
+    "WaterBodyCustom": 11,
+    "WaterBodyCustomComponent": 18,
     "WaterBodyExclusionVolume": 11,
     "WaterBodyHLODBuilder": 1,
-    "WaterBodyInfoMeshComponent": 21,
-    "WaterBodyIsland": 12,
-    "WaterBodyLake": 12,
-    "WaterBodyLakeComponent": 19,
-    "WaterBodyMeshComponent": 21,
-    "WaterBodyOcean": 12,
-    "WaterBodyOceanComponent": 19,
-    "WaterBodyRiver": 12,
-    "WaterBodyRiverComponent": 19,
-    "WaterBodyStaticMeshComponent": 21,
+    "WaterBodyInfoMeshComponent": 19,
+    "WaterBodyIsland": 11,
+    "WaterBodyLake": 11,
+    "WaterBodyLakeComponent": 18,
+    "WaterBodyMeshComponent": 19,
+    "WaterBodyOcean": 11,
+    "WaterBodyOceanComponent": 18,
+    "WaterBodyRiver": 11,
+    "WaterBodyRiverComponent": 18,
+    "WaterBodyStaticMeshComponent": 19,
     "WaterBrushActorInterface": 1,
-    "WaterMeshComponent": 21,
+    "WaterMeshComponent": 18,
     "WaterRuntimeSettings": 1,
-    "WaterSplineComponent": 29,
+    "WaterSplineComponent": 27,
     "WaterSplineMetadata": 1,
     "WaterSubsystem": 1,
     "WaterTerrainComponent": 3,
@@ -5431,7 +5431,7 @@
     "WaveformTransformationChain": 1,
     "WeakObjectProperty": 1,
     "WeightAndEasingEvaluatorSystem": 1,
-    "WeightMapSetProperties": 2,
+    "WeightMapSetProperties": 1,
     "WeldMeshEdgesOperatorFactory": 1,
     "WeldMeshEdgesTool": 1,
     "WeldMeshEdgesToolBuilder": 1,
@@ -5448,7 +5448,7 @@
     "WidgetBlueprintGeneratedClassExtension": 1,
     "WidgetBlueprintLibrary": 1,
     "WidgetCheckedStateRegistration": 1,
-    "WidgetComponent": 21,
+    "WidgetComponent": 18,
     "WidgetDisabledStateRegistration": 1,
     "WidgetEnumStateRegistration": 1,
     "WidgetFieldNotificationExtension": 1,
@@ -5469,7 +5469,7 @@
     "WindowTitleBarAreaSlot": 1,
     "WmfMediaSettings": 1,
     "WorkPlaneProperties": 1,
-    "World": 2,
+    "World": 1,
     "WorldComposition": 1,
     "WorldConditionSchema": 1,
     "WorldDataLayers": 16,
@@ -5489,7 +5489,7 @@
     "WorldPartitionCustomHLODPlaceholder": 11,
     "WorldPartitionDestructibleHLODComponent": 19,
     "WorldPartitionDestructibleInHLODInterface": 1,
-    "WorldPartitionDestructibleInHLODSupportLibrary": 2,
+    "WorldPartitionDestructibleInHLODSupportLibrary": 1,
     "WorldPartitionEditorHash": 1,
     "WorldPartitionEditorLoaderAdapter": 1,
     "WorldPartitionEditorPerProjectUserSettings": 1,
@@ -5527,88 +5527,211 @@
     "WorldPartitionStandaloneHLODSubsystem": 1,
     "WorldPartitionStreamingPolicy": 1,
     "WorldPartitionStreamingSourceComponent": 3,
-    "WorldPartitionSubsystem": 2,
-    "WorldSettings": 18,
+    "WorldPartitionSubsystem": 1,
+    "WorldSettings": 17,
     "WorldSubsystem": 1,
     "WrapBox": 1,
     "WrapBoxSlot": 1,
     "ZenStreamingSettings": 1
   },
   "per_class": {
-    "AIController": {
-      "fields_base": 13,
-      "fields": {
-        "13": {
-          "name": "UseBlackboard",
-          "type": "function"
-        }
-      }
-    },
     "AbilitySystemComponent": {
-      "fields_base": 4,
+      "fields_base": 3,
       "fields": {
-        "4": {
+        "3": {
           "name": "ClientDebugStrings",
           "type": "property"
         },
-        "5": {
+        "4": {
           "name": "ServerDebugStrings",
           "type": "property"
         },
-        "6": {
+        "5": {
           "name": "OwnerActor",
           "type": "property"
         },
-        "7": {
+        "6": {
           "name": "AvatarActor",
           "type": "property"
         },
-        "8": {
+        "7": {
           "name": "ActivatableAbilities",
           "type": "property"
         },
-        "9": {
+        "8": {
           "name": "RepAnimMontageInfo",
           "type": "property"
         },
-        "10": {
+        "9": {
           "name": "ActiveGameplayEffects",
           "type": "property"
         },
-        "11": {
+        "10": {
           "name": "ActiveGameplayCues",
           "type": "property"
         },
-        "12": {
+        "11": {
           "name": "MinimalReplicationGameplayCues",
           "type": "property"
         },
-        "13": {
+        "12": {
           "name": "GameplayTagCountContainer",
           "type": "property"
         },
-        "14": {
+        "13": {
           "name": "BlockedAbilityBindings",
           "type": "property"
         },
-        "15": {
+        "14": {
           "name": "MinimalReplicationTags",
           "type": "property"
         },
-        "16": {
+        "15": {
           "name": "SpawnedAttributes",
           "type": "property"
         },
-        "17": {
+        "16": {
           "name": "ReplicatedLooseTags",
           "type": "property"
         },
-        "18": {
+        "17": {
           "name": "ReplicatedPredictionKeyMap",
           "type": "property"
         },
+        "18": {
+          "name": "ClientActivateAbilityFailed",
+          "type": "function"
+        },
         "19": {
-          "name": "UpdateActiveGameplayEffectSetByCallerMagnitudes",
+          "name": "ClientActivateAbilitySucceed",
+          "type": "function"
+        },
+        "20": {
+          "name": "ClientActivateAbilitySucceedWithEventData",
+          "type": "function"
+        },
+        "21": {
+          "name": "ClientCancelAbility",
+          "type": "function"
+        },
+        "22": {
+          "name": "ClientEndAbility",
+          "type": "function"
+        },
+        "23": {
+          "name": "ClientPrintDebug_Response",
+          "type": "function"
+        },
+        "24": {
+          "name": "ClientSetReplicatedEvent",
+          "type": "function"
+        },
+        "25": {
+          "name": "ClientTryActivateAbility",
+          "type": "function"
+        },
+        "26": {
+          "name": "NetMulticast_InvokeGameplayCueAdded",
+          "type": "function"
+        },
+        "27": {
+          "name": "NetMulticast_InvokeGameplayCueAdded_WithParams",
+          "type": "function"
+        },
+        "28": {
+          "name": "NetMulticast_InvokeGameplayCueAddedAndWhileActive_FromSpec",
+          "type": "function"
+        },
+        "29": {
+          "name": "NetMulticast_InvokeGameplayCueAddedAndWhileActive_WithParams",
+          "type": "function"
+        },
+        "30": {
+          "name": "NetMulticast_InvokeGameplayCueExecuted",
+          "type": "function"
+        },
+        "31": {
+          "name": "NetMulticast_InvokeGameplayCueExecuted_FromSpec",
+          "type": "function"
+        },
+        "32": {
+          "name": "NetMulticast_InvokeGameplayCueExecuted_WithParams",
+          "type": "function"
+        },
+        "33": {
+          "name": "NetMulticast_InvokeGameplayCuesAddedAndWhileActive_WithParams",
+          "type": "function"
+        },
+        "34": {
+          "name": "NetMulticast_InvokeGameplayCuesExecuted",
+          "type": "function"
+        },
+        "35": {
+          "name": "NetMulticast_InvokeGameplayCuesExecuted_WithParams",
+          "type": "function"
+        },
+        "36": {
+          "name": "ServerAbilityRPCBatch",
+          "type": "function"
+        },
+        "37": {
+          "name": "ServerCancelAbility",
+          "type": "function"
+        },
+        "38": {
+          "name": "ServerCurrentMontageJumpToSectionName",
+          "type": "function"
+        },
+        "39": {
+          "name": "ServerCurrentMontageSetNextSectionName",
+          "type": "function"
+        },
+        "40": {
+          "name": "ServerCurrentMontageSetPlayRate",
+          "type": "function"
+        },
+        "41": {
+          "name": "ServerEndAbility",
+          "type": "function"
+        },
+        "42": {
+          "name": "ServerPrintDebug_Request",
+          "type": "function"
+        },
+        "43": {
+          "name": "ServerPrintDebug_RequestWithStrings",
+          "type": "function"
+        },
+        "44": {
+          "name": "ServerSetInputPressed",
+          "type": "function"
+        },
+        "45": {
+          "name": "ServerSetInputReleased",
+          "type": "function"
+        },
+        "46": {
+          "name": "ServerSetReplicatedEvent",
+          "type": "function"
+        },
+        "47": {
+          "name": "ServerSetReplicatedEventWithPayload",
+          "type": "function"
+        },
+        "48": {
+          "name": "ServerSetReplicatedTargetData",
+          "type": "function"
+        },
+        "49": {
+          "name": "ServerSetReplicatedTargetDataCancelled",
+          "type": "function"
+        },
+        "50": {
+          "name": "ServerTryActivateAbility",
+          "type": "function"
+        },
+        "51": {
+          "name": "ServerTryActivateAbilityWithEventData",
           "type": "function"
         }
       }
@@ -5995,56 +6118,11 @@
         }
       }
     },
-    "AnimExecutionContextLibrary": {
-      "fields_base": 0,
+    "AsyncPhysicsInputComponent": {
+      "fields_base": 2,
       "fields": {
-        "0": {
-          "name": "IsActive",
-          "type": "function"
-        }
-      }
-    },
-    "AnimNotifyState_MotionWarping": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "OnWarpUpdate",
-          "type": "function"
-        }
-      }
-    },
-    "AnimSingleNodeInstance": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "StopAnim",
-          "type": "function"
-        }
-      }
-    },
-    "AtmosphericFogComponent": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "SetSunMultiplier",
-          "type": "function"
-        }
-      }
-    },
-    "AudioComponent": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "StopDelayed",
-          "type": "function"
-        }
-      }
-    },
-    "AudioComponentGroup": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "UnsubscribeObject",
+        "2": {
+          "name": "ServerRPCBufferInput",
           "type": "function"
         }
       }
@@ -6058,48 +6136,12 @@
         }
       }
     },
-    "AudioMaterialMeter": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetMeterChannelInfo",
-          "type": "function"
-        }
-      }
-    },
-    "AudioParameterComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "GetParameters",
-          "type": "function"
-        }
-      }
-    },
-    "AudioVectorscope": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "StopProcessing",
-          "type": "function"
-        }
-      }
-    },
     "AudioVolume": {
       "fields_base": 10,
       "fields": {
         "10": {
           "name": "bEnabled",
           "type": "property"
-        }
-      }
-    },
-    "AutomatedPerfTestGameModeBase": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "TeardownTest",
-          "type": "function"
         }
       }
     },
@@ -6112,133 +6154,129 @@
         }
       }
     },
-    "BlendListBaseLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "ResetNode",
-          "type": "function"
-        }
-      }
-    },
-    "BlendSpaceLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SnapToPosition",
-          "type": "function"
-        }
-      }
-    },
-    "BlueprintCameraPoseFunctionLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetTransform",
-          "type": "function"
-        }
-      }
-    },
-    "BlueprintSetLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetSetPropertyByName",
-          "type": "function"
-        }
-      }
-    },
-    "BlueprintTypeConversions": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "ConvertSetType",
-          "type": "function"
-        }
-      }
-    },
-    "BrainComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "StopLogic",
-          "type": "function"
-        }
-      }
-    },
-    "CanvasPanelSlot": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetZOrder",
-          "type": "function"
-        }
-      }
-    },
-    "ChaosSolverActor": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "SetSolverActive",
-          "type": "function"
-        }
-      }
-    },
-    "ChaosVDRuntimeBlueprintLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetTraceRelevancyVolume",
-          "type": "function"
-        }
-      }
-    },
     "Character": {
-      "fields_base": 15,
+      "fields_base": 14,
       "fields": {
-        "15": {
+        "14": {
           "name": "ReplicatedBasedMovement",
           "type": "property"
         },
-        "16": {
+        "15": {
           "name": "ReplicatedServerLastTransformUpdateTimeStamp",
           "type": "property"
         },
-        "17": {
+        "16": {
           "name": "ReplayLastTransformUpdateTimeStamp",
           "type": "property"
         },
-        "18": {
+        "17": {
           "name": "ReplicatedGravityDirection",
           "type": "property"
         },
-        "19": {
+        "18": {
           "name": "AnimRootMotionTranslationScale",
           "type": "property"
         },
-        "20": {
+        "19": {
           "name": "bIsCrouched",
           "type": "property"
         },
-        "21": {
+        "20": {
           "name": "bProxyIsJumpForceApplied",
           "type": "property"
         },
-        "22": {
+        "21": {
           "name": "ReplicatedMovementMode",
           "type": "property"
         },
-        "23": {
+        "22": {
           "name": "JumpMaxHoldTime",
           "type": "property"
         },
-        "24": {
+        "23": {
           "name": "JumpMaxCount",
           "type": "property"
         },
-        "25": {
+        "24": {
           "name": "RepRootMotion",
           "type": "property"
+        },
+        "25": {
+          "name": "ClientAckGoodMove",
+          "type": "function"
+        },
+        "26": {
+          "name": "ClientAdjustPosition",
+          "type": "function"
+        },
+        "27": {
+          "name": "ClientAdjustRootMotionPosition",
+          "type": "function"
+        },
+        "28": {
+          "name": "ClientAdjustRootMotionSourcePosition",
+          "type": "function"
+        },
+        "29": {
+          "name": "ClientCheatFly",
+          "type": "function"
+        },
+        "30": {
+          "name": "ClientCheatGhost",
+          "type": "function"
+        },
+        "31": {
+          "name": "ClientCheatWalk",
+          "type": "function"
+        },
+        "32": {
+          "name": "ClientMoveResponsePacked",
+          "type": "function"
+        },
+        "33": {
+          "name": "ClientVeryShortAdjustPosition",
+          "type": "function"
+        },
+        "34": {
+          "name": "RootMotionDebugClientPrintOnScreen",
+          "type": "function"
+        },
+        "35": {
+          "name": "ServerMove",
+          "type": "function"
+        },
+        "36": {
+          "name": "ServerMoveDual",
+          "type": "function"
+        },
+        "37": {
+          "name": "ServerMoveDualHybridRootMotion",
+          "type": "function"
+        },
+        "38": {
+          "name": "ServerMoveDualNoBase",
+          "type": "function"
+        },
+        "39": {
+          "name": "ServerMoveNoBase",
+          "type": "function"
+        },
+        "40": {
+          "name": "ServerMoveOld",
+          "type": "function"
+        },
+        "41": {
+          "name": "ServerMovePacked",
+          "type": "function"
+        }
+      }
+    },
+    "CheatManager": {
+      "fields_base": 0,
+      "fields": {
+        "0": {
+          "name": "ServerToggleAILogging",
+          "type": "function"
         }
       }
     },
@@ -6252,9 +6290,9 @@
       }
     },
     "ClusterUnionComponent": {
-      "fields_base": 18,
+      "fields_base": 17,
       "fields": {
-        "18": {
+        "17": {
           "name": "ReplicatedRigidState",
           "type": "property"
         }
@@ -6281,64 +6319,6 @@
         }
       }
     },
-    "CommonActivatableWidgetContainerBase": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetTransitionDuration",
-          "type": "function"
-        }
-      }
-    },
-    "CommonBoundActionButton": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "OnUpdateInputAction",
-          "type": "function"
-        }
-      }
-    },
-    "CommonCustomNavigation": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "OnCustomNavigationEvent__DelegateSignature",
-          "type": "function"
-        }
-      }
-    },
-    "CommonInputSubsystem": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "ShouldShowInputKeys",
-          "type": "function"
-        }
-      }
-    },
-    "ConstraintSubsystem": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "OnConstraintAddedToSystem__DelegateSignature",
-          "type": "function"
-        },
-        "1": {
-          "name": "OnConstraintRemovedFromSystem__DelegateSignature",
-          "type": "function"
-        }
-      }
-    },
-    "ConstraintsManager": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "OnConstraintAdded__DelegateSignature",
-          "type": "function"
-        }
-      }
-    },
     "ContextualAnimSceneActorComponent": {
       "fields_base": 2,
       "fields": {
@@ -6359,25 +6339,11 @@
           "type": "property"
         },
         "6": {
-          "name": "TransitionSingleActor",
+          "name": "ServerEarlyOutContextualAnimScene",
           "type": "function"
-        }
-      }
-    },
-    "ControlRigShapeActor": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "SetSelected",
-          "type": "function"
-        }
-      }
-    },
-    "ControlRigTransformWorkflowOptions": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "ProvideWorkflows",
+        },
+        "7": {
+          "name": "ServerStartContextualAnimScene",
           "type": "function"
         }
       }
@@ -6394,7 +6360,11 @@
           "type": "property"
         },
         "12": {
-          "name": "UnPossess",
+          "name": "ClientSetLocation",
+          "type": "function"
+        },
+        "13": {
+          "name": "ClientSetRotation",
           "type": "function"
         }
       }
@@ -6405,23 +6375,37 @@
         "2": {
           "name": "ConversationsActive",
           "type": "property"
-        }
-      }
-    },
-    "CreateMeshObjectTypeProperties": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "ShouldShowPropertySet",
+        },
+        "3": {
+          "name": "ClientExecuteTaskAndSideEffects",
           "type": "function"
-        }
-      }
-    },
-    "EditMeshPolygonsToolEdgeActions_Triangles": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "WeldCentered",
+        },
+        "4": {
+          "name": "ClientExitConversation",
+          "type": "function"
+        },
+        "5": {
+          "name": "ClientStartConversation",
+          "type": "function"
+        },
+        "6": {
+          "name": "ClientUpdateConversation",
+          "type": "function"
+        },
+        "7": {
+          "name": "ClientUpdateConversations",
+          "type": "function"
+        },
+        "8": {
+          "name": "ClientUpdateConversationTaskChoiceData",
+          "type": "function"
+        },
+        "9": {
+          "name": "ClientUpdateParticipants",
+          "type": "function"
+        },
+        "10": {
+          "name": "ServerAdvanceConversation",
           "type": "function"
         }
       }
@@ -6435,30 +6419,12 @@
         }
       }
     },
-    "EnhancedInputComponent": {
-      "fields_base": 3,
-      "fields": {
-        "3": {
-          "name": "GetBoundActionValue",
-          "type": "function"
-        }
-      }
-    },
     "ExponentialHeightFog": {
       "fields_base": 10,
       "fields": {
         "10": {
           "name": "bEnabled",
           "type": "property"
-        }
-      }
-    },
-    "GameSettingListEntryBase": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "GetPrimaryGamepadFocusWidget",
-          "type": "function"
         }
       }
     },
@@ -6521,33 +6487,6 @@
         }
       }
     },
-    "GameplayCameraComponentBase": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "GetOutputCameraComponent",
-          "type": "function"
-        }
-      }
-    },
-    "GameplayCameraSystemComponent": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "StopCameraModifierRig",
-          "type": "function"
-        }
-      }
-    },
-    "GameplayCamerasPlayerCameraManager": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "StopCameraShakeAsset",
-          "type": "function"
-        }
-      }
-    },
     "GameplayDebuggerCategoryReplicator": {
       "fields_base": 10,
       "fields": {
@@ -6570,14 +6509,37 @@
         "14": {
           "name": "VisLogSync",
           "type": "property"
-        }
-      }
-    },
-    "GameplayStatics": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "UnRetainAllSoundsInSoundClass",
+        },
+        "15": {
+          "name": "ClientDataPackPacket",
+          "type": "function"
+        },
+        "16": {
+          "name": "ServerResetViewPoint",
+          "type": "function"
+        },
+        "17": {
+          "name": "ServerSendCategoryInputEvent",
+          "type": "function"
+        },
+        "18": {
+          "name": "ServerSendExtensionInputEvent",
+          "type": "function"
+        },
+        "19": {
+          "name": "ServerSetCategoryEnabled",
+          "type": "function"
+        },
+        "20": {
+          "name": "ServerSetDebugActor",
+          "type": "function"
+        },
+        "21": {
+          "name": "ServerSetEnabled",
+          "type": "function"
+        },
+        "22": {
+          "name": "ServerSetViewPoint",
           "type": "function"
         }
       }
@@ -6588,152 +6550,39 @@
         "2": {
           "name": "SimulatedTasks",
           "type": "property"
-        },
-        "3": {
-          "name": "OnRep_SimulatedTasks",
-          "type": "function"
         }
       }
     },
     "GeometryCollectionComponent": {
-      "fields_base": 19,
+      "fields_base": 17,
       "fields": {
-        "19": {
+        "17": {
           "name": "RepData",
           "type": "property"
         },
-        "20": {
+        "18": {
           "name": "RepStateData",
           "type": "property"
         },
-        "21": {
+        "19": {
           "name": "RepDynamicData",
           "type": "property"
         }
       }
     },
-    "GizmoBaseComponent": {
-      "fields_base": 18,
-      "fields": {
-        "18": {
-          "name": "UpdateWorldLocalState",
-          "type": "function"
-        }
-      }
-    },
-    "HoldoutCompositeComponent": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "SetEnabled",
-          "type": "function"
-        }
-      }
-    },
-    "IKRigComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "SetIKRigGoalTransform",
-          "type": "function"
-        }
-      }
-    },
-    "IKRigFBIKSolver": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "GetEffectors",
-          "type": "function"
-        }
-      }
-    },
-    "IKRigSolverControllerBase": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetEnabled",
-          "type": "function"
-        }
-      }
-    },
-    "InputComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "WasControllerKeyJustReleased",
-          "type": "function"
-        }
-      }
-    },
-    "InputDeviceLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "PlatformUserId_None",
-          "type": "function"
-        }
-      }
-    },
-    "InstancedSkinnedMeshComponent": {
-      "fields_base": 19,
-      "fields": {
-        "19": {
-          "name": "SetTransformProvider",
-          "type": "function"
-        }
-      }
-    },
-    "InstancedStaticMeshComponent": {
-      "fields_base": 20,
-      "fields": {
-        "20": {
-          "name": "UpdateInstanceTransform",
-          "type": "function"
-        }
-      }
-    },
-    "InterchangeSkeletalAnimationTrackNode": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetCustomSourceTimelineAnimationStopTime",
-          "type": "function"
-        }
-      }
-    },
-    "KismetAnimationLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "K2_TwoBoneIK",
-          "type": "function"
-        }
-      }
-    },
-    "KismetRenderingLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetCastInsetShadowForAllAttachments",
-          "type": "function"
-        }
-      }
-    },
-    "LandscapeProxy": {
+    "HUD": {
       "fields_base": 10,
       "fields": {
         "10": {
-          "name": "SetVirtualTextureRenderPassType",
+          "name": "AddDebugText",
           "type": "function"
-        }
-      }
-    },
-    "LayeredBoneBlendLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetBlendMask",
+        },
+        "11": {
+          "name": "RemoveAllDebugStrings",
+          "type": "function"
+        },
+        "12": {
+          "name": "RemoveDebugText",
           "type": "function"
         }
       }
@@ -6751,15 +6600,6 @@
         }
       }
     },
-    "LevelSequence": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "RemoveMetaDataByClass",
-          "type": "function"
-        }
-      }
-    },
     "LevelSequenceActor": {
       "fields_base": 10,
       "fields": {
@@ -6770,10 +6610,6 @@
         "11": {
           "name": "LevelSequenceAsset",
           "type": "property"
-        },
-        "12": {
-          "name": "ShowBurnin",
-          "type": "function"
         }
       }
     },
@@ -6783,10 +6619,6 @@
         "10": {
           "name": "ServerStartTimeSeconds",
           "type": "property"
-        },
-        "11": {
-          "name": "SynchronizeToServer",
-          "type": "function"
         }
       }
     },
@@ -6796,19 +6628,6 @@
         "10": {
           "name": "bEnabled",
           "type": "property"
-        },
-        "11": {
-          "name": "ToggleEnabled",
-          "type": "function"
-        }
-      }
-    },
-    "LightComponent": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "SetVolumetricScatteringIntensity",
-          "type": "function"
         }
       }
     },
@@ -6830,49 +6649,88 @@
         "13": {
           "name": "ValidIndices",
           "type": "property"
-        },
-        "14": {
-          "name": "OnSpawnedActorDestroyed",
-          "type": "function"
         }
       }
     },
     "LightWeightInstanceStaticMeshManager": {
-      "fields_base": 15,
+      "fields_base": 14,
       "fields": {
-        "15": {
+        "14": {
           "name": "StaticMesh",
           "type": "property"
         },
-        "16": {
+        "15": {
           "name": "RenderingIndicesToDataIndices",
           "type": "property"
         },
-        "17": {
+        "16": {
           "name": "DataIndicesToRenderingIndices",
           "type": "property"
         }
       }
     },
-    "LinkedAnimGraphLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "HasLinkedAnimInstance",
-          "type": "function"
-        }
-      }
-    },
     "LobbyBeaconClient": {
-      "fields_base": 10,
+      "fields_base": 11,
       "fields": {
-        "10": {
+        "11": {
           "name": "LobbyState",
           "type": "property"
         },
-        "11": {
+        "12": {
           "name": "PlayerState",
           "type": "property"
+        },
+        "13": {
+          "name": "ClientAckJoiningServer",
+          "type": "function"
+        },
+        "14": {
+          "name": "ClientJoinGame",
+          "type": "function"
+        },
+        "15": {
+          "name": "ClientLoginComplete",
+          "type": "function"
+        },
+        "16": {
+          "name": "ClientPlayerJoined",
+          "type": "function"
+        },
+        "17": {
+          "name": "ClientPlayerLeft",
+          "type": "function"
+        },
+        "18": {
+          "name": "ClientSetInviteFlags",
+          "type": "function"
+        },
+        "19": {
+          "name": "ClientWasKicked",
+          "type": "function"
+        },
+        "20": {
+          "name": "ServerCheat",
+          "type": "function"
+        },
+        "21": {
+          "name": "ServerDisconnectFromLobby",
+          "type": "function"
+        },
+        "22": {
+          "name": "ServerKickPlayer",
+          "type": "function"
+        },
+        "23": {
+          "name": "ServerLoginPlayer",
+          "type": "function"
+        },
+        "24": {
+          "name": "ServerNotifyJoiningServer",
+          "type": "function"
+        },
+        "25": {
+          "name": "ServerSetPartyOwner",
+          "type": "function"
         }
       }
     },
@@ -6918,46 +6776,28 @@
         }
       }
     },
-    "LocalizableMessageLibrary": {
-      "fields_base": 0,
+    "LyraAbilitySystemComponent": {
+      "fields_base": 52,
       "fields": {
-        "0": {
-          "name": "Reset_LocalizableMessage",
-          "type": "function"
-        }
-      }
-    },
-    "LocationVolume": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "Unload",
-          "type": "function"
-        }
-      }
-    },
-    "LyraBrightnessEditor": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "HandleDoneClicked",
+        "52": {
+          "name": "ClientNotifyAbilityFailed",
           "type": "function"
         }
       }
     },
     "LyraCharacter": {
-      "fields_base": 26,
+      "fields_base": 42,
       "fields": {
-        "26": {
+        "42": {
           "name": "ReplicatedAcceleration",
           "type": "property"
         },
-        "27": {
+        "43": {
           "name": "MyTeamID",
           "type": "property"
         },
-        "28": {
-          "name": "OnRep_ReplicatedAcceleration",
+        "44": {
+          "name": "FastSharedReplication",
           "type": "function"
         }
       }
@@ -6972,15 +6812,6 @@
         "1": {
           "name": "BaseHeal",
           "type": "property"
-        }
-      }
-    },
-    "LyraContextEffectComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "UpdateLibraries",
-          "type": "function"
         }
       }
     },
@@ -7012,19 +6843,6 @@
         "2": {
           "name": "CurrentExperience",
           "type": "property"
-        },
-        "3": {
-          "name": "OnRep_CurrentExperience",
-          "type": "function"
-        }
-      }
-    },
-    "LyraFrontendStateComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "OnUserInitialized",
-          "type": "function"
         }
       }
     },
@@ -7038,14 +6856,13 @@
         "15": {
           "name": "RecorderPlayerState",
           "type": "property"
-        }
-      }
-    },
-    "LyraGlobalAbilitySystem": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "RemoveEffectFromAll",
+        },
+        "16": {
+          "name": "MulticastMessageToClients",
+          "type": "function"
+        },
+        "17": {
+          "name": "MulticastReliableMessageToClients",
           "type": "function"
         }
       }
@@ -7072,15 +6889,6 @@
         }
       }
     },
-    "LyraHeroComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "FindHeroComponent",
-          "type": "function"
-        }
-      }
-    },
     "LyraInventoryItemInstance": {
       "fields_base": 0,
       "fields": {
@@ -7104,15 +6912,11 @@
       }
     },
     "LyraPawn": {
-      "fields_base": 15,
+      "fields_base": 14,
       "fields": {
-        "15": {
+        "14": {
           "name": "MyTeamID",
           "type": "property"
-        },
-        "16": {
-          "name": "OnRep_MyTeamID",
-          "type": "function"
         }
       }
     },
@@ -7131,9 +6935,18 @@
         "2": {
           "name": "PawnData",
           "type": "property"
+        }
+      }
+    },
+    "LyraPlayerController": {
+      "fields_base": 93,
+      "fields": {
+        "93": {
+          "name": "ServerCheat",
+          "type": "function"
         },
-        "3": {
-          "name": "OnRep_PawnData",
+        "94": {
+          "name": "ServerCheatAll",
           "type": "function"
         }
       }
@@ -7164,6 +6977,10 @@
         "26": {
           "name": "ReplicatedViewRotation",
           "type": "property"
+        },
+        "27": {
+          "name": "ClientBroadcastMessage",
+          "type": "function"
         }
       }
     },
@@ -7177,23 +6994,9 @@
         "3": {
           "name": "ActiveSlotIndex",
           "type": "property"
-        }
-      }
-    },
-    "LyraSafeZoneEditor": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "HandleDoneClicked",
-          "type": "function"
-        }
-      }
-    },
-    "LyraTabButtonBase": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetTabLabelInfo_Implementation",
+        },
+        "4": {
+          "name": "SetActiveSlotIndex",
           "type": "function"
         }
       }
@@ -7229,47 +7032,11 @@
         }
       }
     },
-    "MediaPlateComponent": {
+    "LyraWeaponStateComponent": {
       "fields_base": 2,
       "fields": {
         "2": {
-          "name": "SetPlayOnlyWhenVisible",
-          "type": "function"
-        }
-      }
-    },
-    "MeshComponent": {
-      "fields_base": 18,
-      "fields": {
-        "18": {
-          "name": "SetVectorParameterValueOnMaterials",
-          "type": "function"
-        }
-      }
-    },
-    "MeshSpaceDeformerToolActionPropertySet": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "ShiftToCenter",
-          "type": "function"
-        }
-      }
-    },
-    "MirrorAnimLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetMirrorTransitionBlendTime",
-          "type": "function"
-        }
-      }
-    },
-    "MobilePatchingLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "RequestContent",
+          "name": "ClientConfirmTargetData",
           "type": "function"
         }
       }
@@ -7280,15 +7047,6 @@
         "2": {
           "name": "WarpTargets",
           "type": "property"
-        }
-      }
-    },
-    "MovieSceneAsyncAction_SequencePrediction": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "PredictWorldTransformAtTime",
-          "type": "function"
         }
       }
     },
@@ -7322,68 +7080,17 @@
         "6": {
           "name": "NetSyncProps",
           "type": "property"
-        }
-      }
-    },
-    "MusicalTimeFunctionLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "IsValid",
+        },
+        "7": {
+          "name": "RPC_ExplicitServerUpdateEvent",
           "type": "function"
-        }
-      }
-    },
-    "NamingTokensEditableText": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetWidgetArgumentStyle",
+        },
+        "8": {
+          "name": "RPC_OnFinishPlaybackEvent",
           "type": "function"
-        }
-      }
-    },
-    "NavLinkProxy": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "SetSmartLinkEnabled",
-          "type": "function"
-        }
-      }
-    },
-    "NavModifierVolume": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "SetAreaClassToReplace",
-          "type": "function"
-        }
-      }
-    },
-    "NavMovementInterface": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "StopMovementKeepPathing",
-          "type": "function"
-        }
-      }
-    },
-    "NavRelevantComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "SetNavigationRelevancy",
-          "type": "function"
-        }
-      }
-    },
-    "NavigationSystemV1": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "UnregisterNavigationInvoker",
+        },
+        "9": {
+          "name": "RPC_OnStopEvent",
           "type": "function"
         }
       }
@@ -7426,77 +7133,105 @@
         "10": {
           "name": "InputsToNetwork_Owner",
           "type": "property"
-        }
-      }
-    },
-    "NetworkPhysicsSettingsComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "OnComponentPhysicsStateChanged",
+        },
+        "11": {
+          "name": "MulticastReceiveImportantInputData",
+          "type": "function"
+        },
+        "12": {
+          "name": "MulticastReceiveImportantStateData",
+          "type": "function"
+        },
+        "13": {
+          "name": "ServerReceiveDeltaSourceInputFrame",
+          "type": "function"
+        },
+        "14": {
+          "name": "ServerReceiveDeltaSourceStateFrame",
+          "type": "function"
+        },
+        "15": {
+          "name": "ServerReceiveImportantInputData",
+          "type": "function"
+        },
+        "16": {
+          "name": "ServerReceiveInputCollection",
+          "type": "function"
+        },
+        "17": {
+          "name": "ServerReceiveInputData",
           "type": "function"
         }
       }
     },
-    "NiagaraBaselineController": {
-      "fields_base": 0,
+    "NoPawnPlayerController": {
+      "fields_base": 93,
       "fields": {
-        "0": {
-          "name": "OnTickTest",
+        "93": {
+          "name": "ServerEnableReplicationToConnection",
+          "type": "function"
+        },
+        "94": {
+          "name": "ServerSetViewTargetPosition",
           "type": "function"
         }
       }
     },
-    "NiagaraDataInterfaceArrayFunctionLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetNiagaraArrayVectorValue",
-          "type": "function"
-        }
-      }
-    },
-    "NiagaraDataInterfaceArrayMesh": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetNiagaraArrayMeshSM",
-          "type": "function"
-        }
-      }
-    },
-    "NiagaraPreviewGrid": {
+    "OnlineBeaconClient": {
       "fields_base": 10,
       "fields": {
         "10": {
-          "name": "SetPaused",
+          "name": "ClientOnConnected",
           "type": "function"
         }
       }
     },
     "PaperFlipbookComponent": {
-      "fields_base": 19,
+      "fields_base": 17,
       "fields": {
-        "19": {
+        "17": {
           "name": "SourceFlipbook",
           "type": "property"
         }
       }
     },
-    "ParticleSystemComponent": {
-      "fields_base": 18,
+    "PartyBeaconClient": {
+      "fields_base": 11,
       "fields": {
-        "18": {
-          "name": "SetTrailSourceData",
+        "11": {
+          "name": "ClientCancelReservationResponse",
           "type": "function"
-        }
-      }
-    },
-    "PathFollowingComponent": {
-      "fields_base": 2,
-      "fields": {
-        "2": {
-          "name": "OnNavDataRegistered",
+        },
+        "12": {
+          "name": "ClientReservationResponse",
+          "type": "function"
+        },
+        "13": {
+          "name": "ClientSendReservationFull",
+          "type": "function"
+        },
+        "14": {
+          "name": "ClientSendReservationUpdates",
+          "type": "function"
+        },
+        "15": {
+          "name": "ServerAddOrUpdateReservationRequest",
+          "type": "function"
+        },
+        "16": {
+          "name": "ServerCancelReservationRequest",
+          "type": "function"
+        },
+        "17": {
+          "name": "ServerRemoveMemberFromReservationRequest",
+          "type": "function"
+        },
+        "18": {
+          "name": "ServerReservationRequest",
+          "type": "function"
+        },
+        "19": {
+          "name": "ServerUpdateReservationRequest",
           "type": "function"
         }
       }
@@ -7519,23 +7254,340 @@
         "13": {
           "name": "Controller",
           "type": "property"
+        }
+      }
+    },
+    "PawnMovementComponent": {
+      "fields_base": 2,
+      "fields": {
+        "2": {
+          "name": "MulticastAsyncPhysicsStateAction",
+          "type": "function"
         },
-        "14": {
-          "name": "SpawnDefaultController",
+        "3": {
+          "name": "ServerAsyncPhysicsStateAction",
           "type": "function"
         }
       }
     },
     "PlayerController": {
-      "fields_base": 13,
+      "fields_base": 14,
       "fields": {
-        "13": {
+        "14": {
           "name": "TargetViewRotation",
           "type": "property"
         },
-        "14": {
+        "15": {
           "name": "SpawnLocation",
           "type": "property"
+        },
+        "16": {
+          "name": "ClientAckTimeDilation",
+          "type": "function"
+        },
+        "17": {
+          "name": "ClientAckUpdateLevelVisibility",
+          "type": "function"
+        },
+        "18": {
+          "name": "ClientAddTextureStreamingLoc",
+          "type": "function"
+        },
+        "19": {
+          "name": "ClientCancelPendingMapChange",
+          "type": "function"
+        },
+        "20": {
+          "name": "ClientCapBandwidth",
+          "type": "function"
+        },
+        "21": {
+          "name": "ClientClearCameraLensEffects",
+          "type": "function"
+        },
+        "22": {
+          "name": "ClientCommitMapChange",
+          "type": "function"
+        },
+        "23": {
+          "name": "ClientEnableNetworkVoice",
+          "type": "function"
+        },
+        "24": {
+          "name": "ClientEndOnlineSession",
+          "type": "function"
+        },
+        "25": {
+          "name": "ClientFlushLevelStreaming",
+          "type": "function"
+        },
+        "26": {
+          "name": "ClientForceGarbageCollection",
+          "type": "function"
+        },
+        "27": {
+          "name": "ClientGameEnded",
+          "type": "function"
+        },
+        "28": {
+          "name": "ClientGotoState",
+          "type": "function"
+        },
+        "29": {
+          "name": "ClientIgnoreLookInput",
+          "type": "function"
+        },
+        "30": {
+          "name": "ClientIgnoreMoveInput",
+          "type": "function"
+        },
+        "31": {
+          "name": "ClientMessage",
+          "type": "function"
+        },
+        "32": {
+          "name": "ClientMutePlayer",
+          "type": "function"
+        },
+        "33": {
+          "name": "ClientPlayForceFeedback_Internal",
+          "type": "function"
+        },
+        "34": {
+          "name": "ClientPlaySound",
+          "type": "function"
+        },
+        "35": {
+          "name": "ClientPlaySoundAtLocation",
+          "type": "function"
+        },
+        "36": {
+          "name": "ClientPrepareMapChange",
+          "type": "function"
+        },
+        "37": {
+          "name": "ClientPrestreamTextures",
+          "type": "function"
+        },
+        "38": {
+          "name": "ClientReceiveLocalizedMessage",
+          "type": "function"
+        },
+        "39": {
+          "name": "ClientRepObjRef",
+          "type": "function"
+        },
+        "40": {
+          "name": "ClientReset",
+          "type": "function"
+        },
+        "41": {
+          "name": "ClientRestart",
+          "type": "function"
+        },
+        "42": {
+          "name": "ClientRetryClientRestart",
+          "type": "function"
+        },
+        "43": {
+          "name": "ClientReturnToMainMenuWithTextReason",
+          "type": "function"
+        },
+        "44": {
+          "name": "ClientSetBlockOnAsyncLoading",
+          "type": "function"
+        },
+        "45": {
+          "name": "ClientSetCameraFade",
+          "type": "function"
+        },
+        "46": {
+          "name": "ClientSetCameraMode",
+          "type": "function"
+        },
+        "47": {
+          "name": "ClientSetCinematicMode",
+          "type": "function"
+        },
+        "48": {
+          "name": "ClientSetForceMipLevelsToBeResident",
+          "type": "function"
+        },
+        "49": {
+          "name": "ClientSetHUD",
+          "type": "function"
+        },
+        "50": {
+          "name": "ClientSetSpectatorWaiting",
+          "type": "function"
+        },
+        "51": {
+          "name": "ClientSetupNetworkPhysicsTimestamp",
+          "type": "function"
+        },
+        "52": {
+          "name": "ClientSetViewTarget",
+          "type": "function"
+        },
+        "53": {
+          "name": "ClientSpawnCameraLensEffect",
+          "type": "function"
+        },
+        "54": {
+          "name": "ClientSpawnGenericCameraLensEffect",
+          "type": "function"
+        },
+        "55": {
+          "name": "ClientStartCameraShake",
+          "type": "function"
+        },
+        "56": {
+          "name": "ClientStartOnlineSession",
+          "type": "function"
+        },
+        "57": {
+          "name": "ClientStopCameraShake",
+          "type": "function"
+        },
+        "58": {
+          "name": "ClientStopForceFeedback",
+          "type": "function"
+        },
+        "59": {
+          "name": "ClientTeamMessage",
+          "type": "function"
+        },
+        "60": {
+          "name": "ClientTravelInternal",
+          "type": "function"
+        },
+        "61": {
+          "name": "ClientUnmutePlayer",
+          "type": "function"
+        },
+        "62": {
+          "name": "ClientUnmutePlayers",
+          "type": "function"
+        },
+        "63": {
+          "name": "ClientUpdateLevelStreamingStatus",
+          "type": "function"
+        },
+        "64": {
+          "name": "ClientUpdateMultipleLevelsStreamingStatus",
+          "type": "function"
+        },
+        "65": {
+          "name": "ClientVoiceHandshakeComplete",
+          "type": "function"
+        },
+        "66": {
+          "name": "ClientWasKicked",
+          "type": "function"
+        },
+        "67": {
+          "name": "OnServerStartedVisualLogger",
+          "type": "function"
+        },
+        "68": {
+          "name": "ServerAcknowledgePossession",
+          "type": "function"
+        },
+        "69": {
+          "name": "ServerBlockPlayer",
+          "type": "function"
+        },
+        "70": {
+          "name": "ServerCamera",
+          "type": "function"
+        },
+        "71": {
+          "name": "ServerChangeName",
+          "type": "function"
+        },
+        "72": {
+          "name": "ServerCheckClientPossession",
+          "type": "function"
+        },
+        "73": {
+          "name": "ServerCheckClientPossessionReliable",
+          "type": "function"
+        },
+        "74": {
+          "name": "ServerExecRPC",
+          "type": "function"
+        },
+        "75": {
+          "name": "ServerMutePlayer",
+          "type": "function"
+        },
+        "76": {
+          "name": "ServerNotifyLoadedWorld",
+          "type": "function"
+        },
+        "77": {
+          "name": "ServerPause",
+          "type": "function"
+        },
+        "78": {
+          "name": "ServerRestartPlayer",
+          "type": "function"
+        },
+        "79": {
+          "name": "ServerSendLatestAsyncPhysicsTimestamp",
+          "type": "function"
+        },
+        "80": {
+          "name": "ServerSetSpectatorLocation",
+          "type": "function"
+        },
+        "81": {
+          "name": "ServerSetSpectatorWaiting",
+          "type": "function"
+        },
+        "82": {
+          "name": "ServerShortTimeout",
+          "type": "function"
+        },
+        "83": {
+          "name": "ServerToggleAILogging",
+          "type": "function"
+        },
+        "84": {
+          "name": "ServerUnblockPlayer",
+          "type": "function"
+        },
+        "85": {
+          "name": "ServerUnmutePlayer",
+          "type": "function"
+        },
+        "86": {
+          "name": "ServerUpdateCamera",
+          "type": "function"
+        },
+        "87": {
+          "name": "ServerUpdateLevelVisibility",
+          "type": "function"
+        },
+        "88": {
+          "name": "ServerUpdateMultipleLevelsVisibility",
+          "type": "function"
+        },
+        "89": {
+          "name": "ServerVerifyViewTarget",
+          "type": "function"
+        },
+        "90": {
+          "name": "ServerViewNextPlayer",
+          "type": "function"
+        },
+        "91": {
+          "name": "ServerViewPrevPlayer",
+          "type": "function"
+        },
+        "92": {
+          "name": "ServerViewSelf",
+          "type": "function"
         }
       }
     },
@@ -7588,74 +7640,56 @@
         }
       }
     },
-    "PostProcessComponent": {
-      "fields_base": 17,
+    "QosBeaconClient": {
+      "fields_base": 11,
       "fields": {
-        "17": {
-          "name": "AddOrUpdateBlendable",
+        "11": {
+          "name": "ClientQosResponse",
+          "type": "function"
+        },
+        "12": {
+          "name": "ServerQosRequest",
           "type": "function"
         }
       }
     },
-    "PostProcessVolume": {
+    "ReplicationGraphDebugActor": {
       "fields_base": 10,
       "fields": {
         "10": {
-          "name": "AddOrUpdateBlendable",
+          "name": "ClientCellInfo",
           "type": "function"
-        }
-      }
-    },
-    "PrimitiveComponent": {
-      "fields_base": 17,
-      "fields": {
+        },
+        "11": {
+          "name": "ServerCellInfo",
+          "type": "function"
+        },
+        "12": {
+          "name": "ServerPrintAllActorInfo",
+          "type": "function"
+        },
+        "13": {
+          "name": "ServerPrintCullDistances",
+          "type": "function"
+        },
+        "14": {
+          "name": "ServerSetConditionalActorBreakpoint",
+          "type": "function"
+        },
+        "15": {
+          "name": "ServerSetCullDistanceForClass",
+          "type": "function"
+        },
+        "16": {
+          "name": "ServerSetPeriodFrameForClass",
+          "type": "function"
+        },
         "17": {
-          "name": "WasRecentlyRendered",
+          "name": "ServerStartDebugging",
           "type": "function"
-        }
-      }
-    },
-    "QuartzSubsystem": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetQuartzSubsystemTickableWhenPaused",
-          "type": "function"
-        }
-      }
-    },
-    "RadialSlider": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetValueTags",
-          "type": "function"
-        }
-      }
-    },
-    "RecastNavMesh": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "K2_ReplaceAreaInTileBounds",
-          "type": "function"
-        }
-      }
-    },
-    "RetainerBox": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetTextureParameter",
-          "type": "function"
-        }
-      }
-    },
-    "RichTextBlock": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetTextTransformPolicy",
+        },
+        "18": {
+          "name": "ServerStopDebugging",
           "type": "function"
         }
       }
@@ -7722,24 +7756,6 @@
         "16": {
           "name": "Mobility",
           "type": "property"
-        }
-      }
-    },
-    "SequenceEvaluatorLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetSequenceWithInertialBlending",
-          "type": "function"
-        }
-      }
-    },
-    "SequencePlayerLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetStartPosition",
-          "type": "function"
         }
       }
     },
@@ -7936,24 +7952,6 @@
         }
       }
     },
-    "SharedImageConstRefBlueprintFns": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "IsValid",
-          "type": "function"
-        }
-      }
-    },
-    "SkeletalMesh": {
-      "fields_base": 1,
-      "fields": {
-        "1": {
-          "name": "SetSkeleton",
-          "type": "function"
-        }
-      }
-    },
     "SkeletalMeshActor": {
       "fields_base": 10,
       "fields": {
@@ -7975,57 +7973,12 @@
         }
       }
     },
-    "SkeletalMeshComponent": {
-      "fields_base": 19,
-      "fields": {
-        "19": {
-          "name": "UnlinkAnimClassLayers",
-          "type": "function"
-        }
-      }
-    },
-    "SkinnedAsset": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "FindSocketInfo",
-          "type": "function"
-        }
-      }
-    },
     "SkyLight": {
       "fields_base": 10,
       "fields": {
         "10": {
           "name": "bEnabled",
           "type": "property"
-        }
-      }
-    },
-    "SkyLightComponent": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "SetVolumetricScatteringIntensity",
-          "type": "function"
-        }
-      }
-    },
-    "SlateFontBlueprintLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "MakeSlateFontInfo",
-          "type": "function"
-        }
-      }
-    },
-    "SlateRHIRendererSettings": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "GetSlatePostSetting",
-          "type": "function"
         }
       }
     },
@@ -8042,129 +7995,82 @@
         }
       }
     },
-    "SoundSubmix": {
-      "fields_base": 0,
+    "SpectatorBeaconClient": {
+      "fields_base": 11,
       "fields": {
-        "0": {
-          "name": "StopSpectralAnalysis",
+        "11": {
+          "name": "ClientCancelReservationResponse",
           "type": "function"
-        }
-      }
-    },
-    "SourceControlHelpers": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SyncFiles",
+        },
+        "12": {
+          "name": "ClientReservationResponse",
+          "type": "function"
+        },
+        "13": {
+          "name": "ClientSendReservationFull",
+          "type": "function"
+        },
+        "14": {
+          "name": "ClientSendReservationUpdates",
+          "type": "function"
+        },
+        "15": {
+          "name": "ServerCancelReservationRequest",
+          "type": "function"
+        },
+        "16": {
+          "name": "ServerReservationRequest",
           "type": "function"
         }
       }
     },
     "SplineComponent": {
-      "fields_base": 18,
+      "fields_base": 17,
       "fields": {
-        "18": {
+        "17": {
           "name": "SplineCurves",
           "type": "property"
         },
-        "19": {
+        "18": {
           "name": "ReparamStepsPerSegment",
           "type": "property"
         },
-        "20": {
+        "19": {
           "name": "bStationaryEndpoints",
           "type": "property"
         },
-        "21": {
+        "20": {
           "name": "bSplineHasBeenEdited",
           "type": "property"
         },
-        "22": {
+        "21": {
           "name": "bInputSplinePointsToConstructionScript",
           "type": "property"
         },
-        "23": {
+        "22": {
           "name": "bClosedLoop",
           "type": "property"
         },
-        "24": {
+        "23": {
           "name": "bLoopPositionOverride",
           "type": "property"
         },
-        "25": {
+        "24": {
           "name": "LoopPosition",
           "type": "property"
         },
-        "26": {
+        "25": {
           "name": "DefaultUpVector",
           "type": "property"
-        },
-        "27": {
-          "name": "UpdateSpline",
-          "type": "function"
-        }
-      }
-    },
-    "SplineMeshComponent": {
-      "fields_base": 20,
-      "fields": {
-        "20": {
-          "name": "UpdateMesh",
-          "type": "function"
-        }
-      }
-    },
-    "StateTree": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "K2_GetExtension",
-          "type": "function"
-        }
-      }
-    },
-    "StaticMesh": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetStaticMaterials",
-          "type": "function"
         }
       }
     },
     "StaticMeshComponent": {
-      "fields_base": 19,
+      "fields_base": 17,
       "fields": {
-        "19": {
+        "17": {
           "name": "StaticMesh",
           "type": "property"
-        }
-      }
-    },
-    "StaticMeshDescription": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetVertexInstanceUV",
-          "type": "function"
-        }
-      }
-    },
-    "SynesthesiaSpectrumAnalyzer": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "GetNumCenterFrequencies",
-          "type": "function"
-        }
-      }
-    },
-    "Synth2DSlider": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SetValue",
-          "type": "function"
         }
       }
     },
@@ -8174,9 +8080,18 @@
         "10": {
           "name": "SequencePlayer",
           "type": "property"
-        },
+        }
+      }
+    },
+    "TestBeaconClient": {
+      "fields_base": 11,
+      "fields": {
         "11": {
-          "name": "SetSequence",
+          "name": "ClientPing",
+          "type": "function"
+        },
+        "12": {
+          "name": "ServerPong",
           "type": "function"
         }
       }
@@ -8187,33 +8102,6 @@
         "10": {
           "name": "ReplicatedInt",
           "type": "property"
-        }
-      }
-    },
-    "TextRenderComponent": {
-      "fields_base": 18,
-      "fields": {
-        "18": {
-          "name": "SetYScale",
-          "type": "function"
-        }
-      }
-    },
-    "Texture": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "GetTextureStreamingMethod",
-          "type": "function"
-        }
-      }
-    },
-    "TileMapBlueprintLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "MakeTile",
-          "type": "function"
         }
       }
     },
@@ -8247,78 +8135,6 @@
         }
       }
     },
-    "Variant": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "SwitchOn",
-          "type": "function"
-        }
-      }
-    },
-    "VoipListenerSynthComponent": {
-      "fields_base": 17,
-      "fields": {
-        "17": {
-          "name": "IsIdling",
-          "type": "function"
-        }
-      }
-    },
-    "WaterBody": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "SetWaterWaves",
-          "type": "function"
-        }
-      }
-    },
-    "WaterBodyIsland": {
-      "fields_base": 10,
-      "fields": {
-        "10": {
-          "name": "GetWaterSpline",
-          "type": "function"
-        }
-      }
-    },
-    "WaterMeshComponent": {
-      "fields_base": 19,
-      "fields": {
-        "19": {
-          "name": "IsEnabled",
-          "type": "function"
-        }
-      }
-    },
-    "WeightMapSetProperties": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "GetWeightMapsFunc",
-          "type": "function"
-        }
-      }
-    },
-    "WidgetComponent": {
-      "fields_base": 19,
-      "fields": {
-        "19": {
-          "name": "SetWindowVisibility",
-          "type": "function"
-        }
-      }
-    },
-    "World": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "K2_GetWorldSettings",
-          "type": "function"
-        }
-      }
-    },
     "WorldDataLayers": {
       "fields_base": 10,
       "fields": {
@@ -8339,7 +8155,7 @@
           "type": "property"
         },
         "14": {
-          "name": "OnRep_LoadedDataLayerNames",
+          "name": "OnDataLayerRuntimeStateChanged",
           "type": "function"
         }
       }
@@ -8353,30 +8169,12 @@
         }
       }
     },
-    "WorldPartitionDestructibleInHLODSupportLibrary": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "DestroyInHLOD",
-          "type": "function"
-        }
-      }
-    },
     "WorldPartitionReplay": {
       "fields_base": 10,
       "fields": {
         "10": {
           "name": "StreamingSourceNames",
           "type": "property"
-        }
-      }
-    },
-    "WorldPartitionSubsystem": {
-      "fields_base": 0,
-      "fields": {
-        "0": {
-          "name": "IsStreamingCompleted",
-          "type": "function"
         }
       }
     },
@@ -8406,32 +8204,60 @@
         "15": {
           "name": "PauserPlayerState",
           "type": "property"
-        },
-        "16": {
-          "name": "OnRep_WorldGravityZ",
-          "type": "function"
         }
       }
     }
   },
   "flat_index": {
-    "AIController::UseBlackboard": 13,
-    "AbilitySystemComponent::ActivatableAbilities": 8,
-    "AbilitySystemComponent::ActiveGameplayCues": 11,
-    "AbilitySystemComponent::ActiveGameplayEffects": 10,
-    "AbilitySystemComponent::AvatarActor": 7,
-    "AbilitySystemComponent::BlockedAbilityBindings": 14,
-    "AbilitySystemComponent::ClientDebugStrings": 4,
-    "AbilitySystemComponent::GameplayTagCountContainer": 13,
-    "AbilitySystemComponent::MinimalReplicationGameplayCues": 12,
-    "AbilitySystemComponent::MinimalReplicationTags": 15,
-    "AbilitySystemComponent::OwnerActor": 6,
-    "AbilitySystemComponent::RepAnimMontageInfo": 9,
-    "AbilitySystemComponent::ReplicatedLooseTags": 17,
-    "AbilitySystemComponent::ReplicatedPredictionKeyMap": 18,
-    "AbilitySystemComponent::ServerDebugStrings": 5,
-    "AbilitySystemComponent::SpawnedAttributes": 16,
-    "AbilitySystemComponent::UpdateActiveGameplayEffectSetByCallerMagnitudes": 19,
+    "AbilitySystemComponent::ActivatableAbilities": 7,
+    "AbilitySystemComponent::ActiveGameplayCues": 10,
+    "AbilitySystemComponent::ActiveGameplayEffects": 9,
+    "AbilitySystemComponent::AvatarActor": 6,
+    "AbilitySystemComponent::BlockedAbilityBindings": 13,
+    "AbilitySystemComponent::ClientActivateAbilityFailed": 18,
+    "AbilitySystemComponent::ClientActivateAbilitySucceed": 19,
+    "AbilitySystemComponent::ClientActivateAbilitySucceedWithEventData": 20,
+    "AbilitySystemComponent::ClientCancelAbility": 21,
+    "AbilitySystemComponent::ClientDebugStrings": 3,
+    "AbilitySystemComponent::ClientEndAbility": 22,
+    "AbilitySystemComponent::ClientPrintDebug_Response": 23,
+    "AbilitySystemComponent::ClientSetReplicatedEvent": 24,
+    "AbilitySystemComponent::ClientTryActivateAbility": 25,
+    "AbilitySystemComponent::GameplayTagCountContainer": 12,
+    "AbilitySystemComponent::MinimalReplicationGameplayCues": 11,
+    "AbilitySystemComponent::MinimalReplicationTags": 14,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCueAdded": 26,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCueAddedAndWhileActive_FromSpec": 28,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCueAddedAndWhileActive_WithParams": 29,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCueAdded_WithParams": 27,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCueExecuted": 30,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCueExecuted_FromSpec": 31,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCueExecuted_WithParams": 32,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCuesAddedAndWhileActive_WithParams": 33,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCuesExecuted": 34,
+    "AbilitySystemComponent::NetMulticast_InvokeGameplayCuesExecuted_WithParams": 35,
+    "AbilitySystemComponent::OwnerActor": 5,
+    "AbilitySystemComponent::RepAnimMontageInfo": 8,
+    "AbilitySystemComponent::ReplicatedLooseTags": 16,
+    "AbilitySystemComponent::ReplicatedPredictionKeyMap": 17,
+    "AbilitySystemComponent::ServerAbilityRPCBatch": 36,
+    "AbilitySystemComponent::ServerCancelAbility": 37,
+    "AbilitySystemComponent::ServerCurrentMontageJumpToSectionName": 38,
+    "AbilitySystemComponent::ServerCurrentMontageSetNextSectionName": 39,
+    "AbilitySystemComponent::ServerCurrentMontageSetPlayRate": 40,
+    "AbilitySystemComponent::ServerDebugStrings": 4,
+    "AbilitySystemComponent::ServerEndAbility": 41,
+    "AbilitySystemComponent::ServerPrintDebug_Request": 42,
+    "AbilitySystemComponent::ServerPrintDebug_RequestWithStrings": 43,
+    "AbilitySystemComponent::ServerSetInputPressed": 44,
+    "AbilitySystemComponent::ServerSetInputReleased": 45,
+    "AbilitySystemComponent::ServerSetReplicatedEvent": 46,
+    "AbilitySystemComponent::ServerSetReplicatedEventWithPayload": 47,
+    "AbilitySystemComponent::ServerSetReplicatedTargetData": 48,
+    "AbilitySystemComponent::ServerSetReplicatedTargetDataCancelled": 49,
+    "AbilitySystemComponent::ServerTryActivateAbility": 50,
+    "AbilitySystemComponent::ServerTryActivateAbilityWithEventData": 51,
+    "AbilitySystemComponent::SpawnedAttributes": 15,
     "AbilitySystemTestAttributeSet::ArmorDamageReduction": 8,
     "AbilitySystemTestAttributeSet::CritChance": 6,
     "AbilitySystemTestAttributeSet::CritMultiplier": 7,
@@ -8515,69 +8341,66 @@
     "Actor::bTearOff": 2,
     "ActorComponent::bIsActive": 1,
     "ActorComponent::bReplicates": 0,
-    "AnimExecutionContextLibrary::IsActive": 0,
-    "AnimNotifyState_MotionWarping::OnWarpUpdate": 0,
-    "AnimSingleNodeInstance::StopAnim": 0,
-    "AtmosphericFogComponent::SetSunMultiplier": 17,
-    "AudioComponent::StopDelayed": 17,
-    "AudioComponentGroup::UnsubscribeObject": 17,
+    "AsyncPhysicsInputComponent::ServerRPCBufferInput": 2,
     "AudioGameplayVolume::bEnabled": 10,
-    "AudioMaterialMeter::SetMeterChannelInfo": 0,
-    "AudioParameterComponent::GetParameters": 2,
-    "AudioVectorscope::StopProcessing": 0,
     "AudioVolume::bEnabled": 10,
-    "AutomatedPerfTestGameModeBase::TeardownTest": 10,
     "BandwidthTestActor::BandwidthGenerator": 10,
-    "BlendListBaseLibrary::ResetNode": 0,
-    "BlendSpaceLibrary::SnapToPosition": 0,
-    "BlueprintCameraPoseFunctionLibrary::SetTransform": 0,
-    "BlueprintSetLibrary::SetSetPropertyByName": 0,
-    "BlueprintTypeConversions::ConvertSetType": 0,
-    "BrainComponent::StopLogic": 2,
-    "CanvasPanelSlot::SetZOrder": 0,
-    "ChaosSolverActor::SetSolverActive": 10,
-    "ChaosVDRuntimeBlueprintLibrary::SetTraceRelevancyVolume": 0,
-    "Character::AnimRootMotionTranslationScale": 19,
-    "Character::JumpMaxCount": 24,
-    "Character::JumpMaxHoldTime": 23,
-    "Character::RepRootMotion": 25,
-    "Character::ReplayLastTransformUpdateTimeStamp": 17,
-    "Character::ReplicatedBasedMovement": 15,
-    "Character::ReplicatedGravityDirection": 18,
-    "Character::ReplicatedMovementMode": 22,
-    "Character::ReplicatedServerLastTransformUpdateTimeStamp": 16,
-    "Character::bIsCrouched": 20,
-    "Character::bProxyIsJumpForceApplied": 21,
+    "Character::AnimRootMotionTranslationScale": 18,
+    "Character::ClientAckGoodMove": 25,
+    "Character::ClientAdjustPosition": 26,
+    "Character::ClientAdjustRootMotionPosition": 27,
+    "Character::ClientAdjustRootMotionSourcePosition": 28,
+    "Character::ClientCheatFly": 29,
+    "Character::ClientCheatGhost": 30,
+    "Character::ClientCheatWalk": 31,
+    "Character::ClientMoveResponsePacked": 32,
+    "Character::ClientVeryShortAdjustPosition": 33,
+    "Character::JumpMaxCount": 23,
+    "Character::JumpMaxHoldTime": 22,
+    "Character::RepRootMotion": 24,
+    "Character::ReplayLastTransformUpdateTimeStamp": 16,
+    "Character::ReplicatedBasedMovement": 14,
+    "Character::ReplicatedGravityDirection": 17,
+    "Character::ReplicatedMovementMode": 21,
+    "Character::ReplicatedServerLastTransformUpdateTimeStamp": 15,
+    "Character::RootMotionDebugClientPrintOnScreen": 34,
+    "Character::ServerMove": 35,
+    "Character::ServerMoveDual": 36,
+    "Character::ServerMoveDualHybridRootMotion": 37,
+    "Character::ServerMoveDualNoBase": 38,
+    "Character::ServerMoveNoBase": 39,
+    "Character::ServerMoveOld": 40,
+    "Character::ServerMovePacked": 41,
+    "Character::bIsCrouched": 19,
+    "Character::bProxyIsJumpForceApplied": 20,
+    "CheatManager::ServerToggleAILogging": 0,
     "ChildActorComponent::ChildActor": 17,
-    "ClusterUnionComponent::ReplicatedRigidState": 18,
+    "ClusterUnionComponent::ReplicatedRigidState": 17,
     "ClusterUnionReplicatedProxyComponent::ChildClusteredComponent": 3,
     "ClusterUnionReplicatedProxyComponent::ParentClusterUnion": 2,
     "ClusterUnionReplicatedProxyComponent::ParticleBoneIds": 4,
     "ClusterUnionReplicatedProxyComponent::ParticleChildToParents": 5,
-    "CommonActivatableWidgetContainerBase::SetTransitionDuration": 0,
-    "CommonBoundActionButton::OnUpdateInputAction": 0,
-    "CommonCustomNavigation::OnCustomNavigationEvent__DelegateSignature": 0,
-    "CommonInputSubsystem::ShouldShowInputKeys": 0,
-    "ConstraintSubsystem::OnConstraintAddedToSystem__DelegateSignature": 0,
-    "ConstraintSubsystem::OnConstraintRemovedFromSystem__DelegateSignature": 1,
-    "ConstraintsManager::OnConstraintAdded__DelegateSignature": 0,
     "ContextualAnimSceneActorComponent::RepBindings": 2,
     "ContextualAnimSceneActorComponent::RepLateJoinData": 3,
     "ContextualAnimSceneActorComponent::RepTransitionData": 4,
     "ContextualAnimSceneActorComponent::RepTransitionSingleActorData": 5,
-    "ContextualAnimSceneActorComponent::TransitionSingleActor": 6,
-    "ControlRigShapeActor::SetSelected": 10,
-    "ControlRigTransformWorkflowOptions::ProvideWorkflows": 0,
+    "ContextualAnimSceneActorComponent::ServerEarlyOutContextualAnimScene": 6,
+    "ContextualAnimSceneActorComponent::ServerStartContextualAnimScene": 7,
+    "Controller::ClientSetLocation": 12,
+    "Controller::ClientSetRotation": 13,
     "Controller::Pawn": 11,
     "Controller::PlayerState": 10,
-    "Controller::UnPossess": 12,
+    "ConversationParticipantComponent::ClientExecuteTaskAndSideEffects": 3,
+    "ConversationParticipantComponent::ClientExitConversation": 4,
+    "ConversationParticipantComponent::ClientStartConversation": 5,
+    "ConversationParticipantComponent::ClientUpdateConversation": 6,
+    "ConversationParticipantComponent::ClientUpdateConversationTaskChoiceData": 8,
+    "ConversationParticipantComponent::ClientUpdateConversations": 7,
+    "ConversationParticipantComponent::ClientUpdateParticipants": 9,
     "ConversationParticipantComponent::ConversationsActive": 2,
-    "CreateMeshObjectTypeProperties::ShouldShowPropertySet": 0,
-    "EditMeshPolygonsToolEdgeActions_Triangles::WeldCentered": 0,
+    "ConversationParticipantComponent::ServerAdvanceConversation": 10,
     "Emitter::bCurrentlyActive": 10,
-    "EnhancedInputComponent::GetBoundActionValue": 3,
     "ExponentialHeightFog::bEnabled": 10,
-    "GameSettingListEntryBase::GetPrimaryGamepadFocusWidget": 0,
     "GameState::ElapsedTime": 15,
     "GameState::MatchState": 14,
     "GameStateBase::GameModeClass": 10,
@@ -8589,56 +8412,54 @@
     "GameplayAbilityTargetActor::StartLocation": 10,
     "GameplayAbilityTargetActor::bDebug": 14,
     "GameplayAbilityTargetActor::bDestroyOnConfirmation": 11,
-    "GameplayCameraComponentBase::GetOutputCameraComponent": 17,
-    "GameplayCameraSystemComponent::StopCameraModifierRig": 17,
-    "GameplayCamerasPlayerCameraManager::StopCameraShakeAsset": 10,
+    "GameplayDebuggerCategoryReplicator::ClientDataPackPacket": 15,
     "GameplayDebuggerCategoryReplicator::DebugActor": 13,
     "GameplayDebuggerCategoryReplicator::OwnerPC": 10,
     "GameplayDebuggerCategoryReplicator::ReplicatedData": 12,
+    "GameplayDebuggerCategoryReplicator::ServerResetViewPoint": 16,
+    "GameplayDebuggerCategoryReplicator::ServerSendCategoryInputEvent": 17,
+    "GameplayDebuggerCategoryReplicator::ServerSendExtensionInputEvent": 18,
+    "GameplayDebuggerCategoryReplicator::ServerSetCategoryEnabled": 19,
+    "GameplayDebuggerCategoryReplicator::ServerSetDebugActor": 20,
+    "GameplayDebuggerCategoryReplicator::ServerSetEnabled": 21,
+    "GameplayDebuggerCategoryReplicator::ServerSetViewPoint": 22,
     "GameplayDebuggerCategoryReplicator::VisLogSync": 14,
     "GameplayDebuggerCategoryReplicator::bIsEnabled": 11,
-    "GameplayStatics::UnRetainAllSoundsInSoundClass": 0,
-    "GameplayTasksComponent::OnRep_SimulatedTasks": 3,
     "GameplayTasksComponent::SimulatedTasks": 2,
-    "GeometryCollectionComponent::RepData": 19,
-    "GeometryCollectionComponent::RepDynamicData": 21,
-    "GeometryCollectionComponent::RepStateData": 20,
-    "GizmoBaseComponent::UpdateWorldLocalState": 18,
-    "HoldoutCompositeComponent::SetEnabled": 17,
-    "IKRigComponent::SetIKRigGoalTransform": 2,
-    "IKRigFBIKSolver::GetEffectors": 0,
-    "IKRigSolverControllerBase::SetEnabled": 0,
-    "InputComponent::WasControllerKeyJustReleased": 2,
-    "InputDeviceLibrary::PlatformUserId_None": 0,
-    "InstancedSkinnedMeshComponent::SetTransformProvider": 19,
-    "InstancedStaticMeshComponent::UpdateInstanceTransform": 20,
-    "InterchangeSkeletalAnimationTrackNode::SetCustomSourceTimelineAnimationStopTime": 0,
-    "KismetAnimationLibrary::K2_TwoBoneIK": 0,
-    "KismetRenderingLibrary::SetCastInsetShadowForAllAttachments": 0,
-    "LandscapeProxy::SetVirtualTextureRenderPassType": 10,
-    "LayeredBoneBlendLibrary::SetBlendMask": 0,
+    "GeometryCollectionComponent::RepData": 17,
+    "GeometryCollectionComponent::RepDynamicData": 19,
+    "GeometryCollectionComponent::RepStateData": 18,
+    "HUD::AddDebugText": 10,
+    "HUD::RemoveAllDebugStrings": 11,
+    "HUD::RemoveDebugText": 12,
     "LevelInstance::CookedWorldAsset": 10,
     "LevelInstance::LevelInstanceSpawnGuid": 11,
-    "LevelSequence::RemoveMetaDataByClass": 0,
     "LevelSequenceActor::LevelSequenceAsset": 11,
     "LevelSequenceActor::SequencePlayer": 10,
-    "LevelSequenceActor::ShowBurnin": 12,
     "LevelSequenceMediaController::ServerStartTimeSeconds": 10,
-    "LevelSequenceMediaController::SynchronizeToServer": 11,
-    "Light::ToggleEnabled": 11,
     "Light::bEnabled": 10,
-    "LightComponent::SetVolumetricScatteringIntensity": 17,
     "LightWeightInstanceManager::FreeIndices": 12,
     "LightWeightInstanceManager::InstanceTransforms": 11,
-    "LightWeightInstanceManager::OnSpawnedActorDestroyed": 14,
     "LightWeightInstanceManager::RepresentedClass": 10,
     "LightWeightInstanceManager::ValidIndices": 13,
-    "LightWeightInstanceStaticMeshManager::DataIndicesToRenderingIndices": 17,
-    "LightWeightInstanceStaticMeshManager::RenderingIndicesToDataIndices": 16,
-    "LightWeightInstanceStaticMeshManager::StaticMesh": 15,
-    "LinkedAnimGraphLibrary::HasLinkedAnimInstance": 0,
-    "LobbyBeaconClient::LobbyState": 10,
-    "LobbyBeaconClient::PlayerState": 11,
+    "LightWeightInstanceStaticMeshManager::DataIndicesToRenderingIndices": 16,
+    "LightWeightInstanceStaticMeshManager::RenderingIndicesToDataIndices": 15,
+    "LightWeightInstanceStaticMeshManager::StaticMesh": 14,
+    "LobbyBeaconClient::ClientAckJoiningServer": 13,
+    "LobbyBeaconClient::ClientJoinGame": 14,
+    "LobbyBeaconClient::ClientLoginComplete": 15,
+    "LobbyBeaconClient::ClientPlayerJoined": 16,
+    "LobbyBeaconClient::ClientPlayerLeft": 17,
+    "LobbyBeaconClient::ClientSetInviteFlags": 18,
+    "LobbyBeaconClient::ClientWasKicked": 19,
+    "LobbyBeaconClient::LobbyState": 11,
+    "LobbyBeaconClient::PlayerState": 12,
+    "LobbyBeaconClient::ServerCheat": 20,
+    "LobbyBeaconClient::ServerDisconnectFromLobby": 21,
+    "LobbyBeaconClient::ServerKickPlayer": 22,
+    "LobbyBeaconClient::ServerLoginPlayer": 23,
+    "LobbyBeaconClient::ServerNotifyJoiningServer": 24,
+    "LobbyBeaconClient::ServerSetPartyOwner": 25,
     "LobbyBeaconPlayerState::ClientActor": 14,
     "LobbyBeaconPlayerState::DisplayName": 10,
     "LobbyBeaconPlayerState::PartyOwnerUniqueId": 12,
@@ -8647,36 +8468,32 @@
     "LobbyBeaconState::Players": 12,
     "LobbyBeaconState::WaitForPlayersTimeRemaining": 11,
     "LobbyBeaconState::bLobbyStarted": 10,
-    "LocalizableMessageLibrary::Reset_LocalizableMessage": 0,
-    "LocationVolume::Unload": 10,
-    "LyraBrightnessEditor::HandleDoneClicked": 0,
-    "LyraCharacter::MyTeamID": 27,
-    "LyraCharacter::OnRep_ReplicatedAcceleration": 28,
-    "LyraCharacter::ReplicatedAcceleration": 26,
+    "LyraAbilitySystemComponent::ClientNotifyAbilityFailed": 52,
+    "LyraCharacter::FastSharedReplication": 44,
+    "LyraCharacter::MyTeamID": 43,
+    "LyraCharacter::ReplicatedAcceleration": 42,
     "LyraCombatSet::BaseDamage": 0,
     "LyraCombatSet::BaseHeal": 1,
-    "LyraContextEffectComponent::UpdateLibraries": 2,
     "LyraEquipmentInstance::Instigator": 0,
     "LyraEquipmentInstance::SpawnedActors": 1,
     "LyraEquipmentManagerComponent::EquipmentList": 2,
     "LyraExperienceManagerComponent::CurrentExperience": 2,
-    "LyraExperienceManagerComponent::OnRep_CurrentExperience": 3,
-    "LyraFrontendStateComponent::OnUserInitialized": 2,
+    "LyraGameState::MulticastMessageToClients": 16,
+    "LyraGameState::MulticastReliableMessageToClients": 17,
     "LyraGameState::RecorderPlayerState": 15,
     "LyraGameState::ServerFPS": 14,
-    "LyraGlobalAbilitySystem::RemoveEffectFromAll": 0,
     "LyraHealthComponent::DeathState": 2,
     "LyraHealthSet::Health": 0,
     "LyraHealthSet::MaxHealth": 1,
-    "LyraHeroComponent::FindHeroComponent": 2,
     "LyraInventoryItemInstance::ItemDef": 1,
     "LyraInventoryItemInstance::StatTags": 0,
     "LyraInventoryManagerComponent::InventoryList": 2,
-    "LyraPawn::MyTeamID": 15,
-    "LyraPawn::OnRep_MyTeamID": 16,
+    "LyraPawn::MyTeamID": 14,
     "LyraPawnComponent_CharacterParts::CharacterPartList": 2,
-    "LyraPawnExtensionComponent::OnRep_PawnData": 3,
     "LyraPawnExtensionComponent::PawnData": 2,
+    "LyraPlayerController::ServerCheat": 93,
+    "LyraPlayerController::ServerCheatAll": 94,
+    "LyraPlayerState::ClientBroadcastMessage": 27,
     "LyraPlayerState::MyPlayerConnectionType": 22,
     "LyraPlayerState::MySquadID": 24,
     "LyraPlayerState::MyTeamID": 23,
@@ -8684,35 +8501,27 @@
     "LyraPlayerState::ReplicatedViewRotation": 26,
     "LyraPlayerState::StatTags": 25,
     "LyraQuickBarComponent::ActiveSlotIndex": 3,
+    "LyraQuickBarComponent::SetActiveSlotIndex": 4,
     "LyraQuickBarComponent::Slots": 2,
-    "LyraSafeZoneEditor::HandleDoneClicked": 0,
-    "LyraTabButtonBase::SetTabLabelInfo_Implementation": 0,
     "LyraTeamInfoBase::TeamId": 11,
     "LyraTeamInfoBase::TeamTags": 10,
     "LyraTeamPublicInfo::TeamDisplayAsset": 12,
     "LyraWeaponSpawner::bIsWeaponAvailable": 10,
-    "MediaPlateComponent::SetPlayOnlyWhenVisible": 2,
-    "MeshComponent::SetVectorParameterValueOnMaterials": 18,
-    "MeshSpaceDeformerToolActionPropertySet::ShiftToCenter": 0,
-    "MirrorAnimLibrary::SetMirrorTransitionBlendTime": 0,
-    "MobilePatchingLibrary::RequestContent": 0,
+    "LyraWeaponStateComponent::ClientConfirmTargetData": 2,
     "MotionWarpingComponent::WarpTargets": 2,
-    "MovieSceneAsyncAction_SequencePrediction::PredictWorldTransformAtTime": 0,
     "MovieSceneSequencePlayer::DurationFrames": 3,
     "MovieSceneSequencePlayer::DurationSubFrames": 4,
     "MovieSceneSequencePlayer::NetSyncProps": 6,
     "MovieSceneSequencePlayer::Observer": 0,
     "MovieSceneSequencePlayer::PlaybackSettings": 5,
+    "MovieSceneSequencePlayer::RPC_ExplicitServerUpdateEvent": 7,
+    "MovieSceneSequencePlayer::RPC_OnFinishPlaybackEvent": 8,
+    "MovieSceneSequencePlayer::RPC_OnStopEvent": 9,
     "MovieSceneSequencePlayer::StartTime": 2,
     "MovieSceneSequencePlayer::bReversePlayback": 1,
-    "MusicalTimeFunctionLibrary::IsValid": 0,
-    "NamingTokensEditableText::SetWidgetArgumentStyle": 0,
-    "NavLinkProxy::SetSmartLinkEnabled": 10,
-    "NavModifierVolume::SetAreaClassToReplace": 10,
-    "NavMovementInterface::StopMovementKeepPathing": 0,
-    "NavRelevantComponent::SetNavigationRelevancy": 2,
-    "NavigationSystemV1::UnregisterNavigationInvoker": 0,
     "NetworkPhysicsComponent::InputsToNetwork_Owner": 10,
+    "NetworkPhysicsComponent::MulticastReceiveImportantInputData": 11,
+    "NetworkPhysicsComponent::MulticastReceiveImportantStateData": 12,
     "NetworkPhysicsComponent::ReplicatedDeltaSourceInput": 2,
     "NetworkPhysicsComponent::ReplicatedDeltaSourceState": 3,
     "NetworkPhysicsComponent::ReplicatedInputCollection": 7,
@@ -8721,21 +8530,109 @@
     "NetworkPhysicsComponent::ReplicatedRemoteInputs": 5,
     "NetworkPhysicsComponent::ReplicatedStateCollection": 9,
     "NetworkPhysicsComponent::ReplicatedStates": 6,
-    "NetworkPhysicsSettingsComponent::OnComponentPhysicsStateChanged": 2,
-    "NiagaraBaselineController::OnTickTest": 0,
-    "NiagaraDataInterfaceArrayFunctionLibrary::SetNiagaraArrayVectorValue": 0,
-    "NiagaraDataInterfaceArrayMesh::SetNiagaraArrayMeshSM": 0,
-    "NiagaraPreviewGrid::SetPaused": 10,
-    "PaperFlipbookComponent::SourceFlipbook": 19,
-    "ParticleSystemComponent::SetTrailSourceData": 18,
-    "PathFollowingComponent::OnNavDataRegistered": 2,
+    "NetworkPhysicsComponent::ServerReceiveDeltaSourceInputFrame": 13,
+    "NetworkPhysicsComponent::ServerReceiveDeltaSourceStateFrame": 14,
+    "NetworkPhysicsComponent::ServerReceiveImportantInputData": 15,
+    "NetworkPhysicsComponent::ServerReceiveInputCollection": 16,
+    "NetworkPhysicsComponent::ServerReceiveInputData": 17,
+    "NoPawnPlayerController::ServerEnableReplicationToConnection": 93,
+    "NoPawnPlayerController::ServerSetViewTargetPosition": 94,
+    "OnlineBeaconClient::ClientOnConnected": 10,
+    "PaperFlipbookComponent::SourceFlipbook": 17,
+    "PartyBeaconClient::ClientCancelReservationResponse": 11,
+    "PartyBeaconClient::ClientReservationResponse": 12,
+    "PartyBeaconClient::ClientSendReservationFull": 13,
+    "PartyBeaconClient::ClientSendReservationUpdates": 14,
+    "PartyBeaconClient::ServerAddOrUpdateReservationRequest": 15,
+    "PartyBeaconClient::ServerCancelReservationRequest": 16,
+    "PartyBeaconClient::ServerRemoveMemberFromReservationRequest": 17,
+    "PartyBeaconClient::ServerReservationRequest": 18,
+    "PartyBeaconClient::ServerUpdateReservationRequest": 19,
     "Pawn::Controller": 13,
     "Pawn::PlayerState": 12,
     "Pawn::RemoteViewPitch": 11,
     "Pawn::RemoteViewPitch16": 10,
-    "Pawn::SpawnDefaultController": 14,
-    "PlayerController::SpawnLocation": 14,
-    "PlayerController::TargetViewRotation": 13,
+    "PawnMovementComponent::MulticastAsyncPhysicsStateAction": 2,
+    "PawnMovementComponent::ServerAsyncPhysicsStateAction": 3,
+    "PlayerController::ClientAckTimeDilation": 16,
+    "PlayerController::ClientAckUpdateLevelVisibility": 17,
+    "PlayerController::ClientAddTextureStreamingLoc": 18,
+    "PlayerController::ClientCancelPendingMapChange": 19,
+    "PlayerController::ClientCapBandwidth": 20,
+    "PlayerController::ClientClearCameraLensEffects": 21,
+    "PlayerController::ClientCommitMapChange": 22,
+    "PlayerController::ClientEnableNetworkVoice": 23,
+    "PlayerController::ClientEndOnlineSession": 24,
+    "PlayerController::ClientFlushLevelStreaming": 25,
+    "PlayerController::ClientForceGarbageCollection": 26,
+    "PlayerController::ClientGameEnded": 27,
+    "PlayerController::ClientGotoState": 28,
+    "PlayerController::ClientIgnoreLookInput": 29,
+    "PlayerController::ClientIgnoreMoveInput": 30,
+    "PlayerController::ClientMessage": 31,
+    "PlayerController::ClientMutePlayer": 32,
+    "PlayerController::ClientPlayForceFeedback_Internal": 33,
+    "PlayerController::ClientPlaySound": 34,
+    "PlayerController::ClientPlaySoundAtLocation": 35,
+    "PlayerController::ClientPrepareMapChange": 36,
+    "PlayerController::ClientPrestreamTextures": 37,
+    "PlayerController::ClientReceiveLocalizedMessage": 38,
+    "PlayerController::ClientRepObjRef": 39,
+    "PlayerController::ClientReset": 40,
+    "PlayerController::ClientRestart": 41,
+    "PlayerController::ClientRetryClientRestart": 42,
+    "PlayerController::ClientReturnToMainMenuWithTextReason": 43,
+    "PlayerController::ClientSetBlockOnAsyncLoading": 44,
+    "PlayerController::ClientSetCameraFade": 45,
+    "PlayerController::ClientSetCameraMode": 46,
+    "PlayerController::ClientSetCinematicMode": 47,
+    "PlayerController::ClientSetForceMipLevelsToBeResident": 48,
+    "PlayerController::ClientSetHUD": 49,
+    "PlayerController::ClientSetSpectatorWaiting": 50,
+    "PlayerController::ClientSetViewTarget": 52,
+    "PlayerController::ClientSetupNetworkPhysicsTimestamp": 51,
+    "PlayerController::ClientSpawnCameraLensEffect": 53,
+    "PlayerController::ClientSpawnGenericCameraLensEffect": 54,
+    "PlayerController::ClientStartCameraShake": 55,
+    "PlayerController::ClientStartOnlineSession": 56,
+    "PlayerController::ClientStopCameraShake": 57,
+    "PlayerController::ClientStopForceFeedback": 58,
+    "PlayerController::ClientTeamMessage": 59,
+    "PlayerController::ClientTravelInternal": 60,
+    "PlayerController::ClientUnmutePlayer": 61,
+    "PlayerController::ClientUnmutePlayers": 62,
+    "PlayerController::ClientUpdateLevelStreamingStatus": 63,
+    "PlayerController::ClientUpdateMultipleLevelsStreamingStatus": 64,
+    "PlayerController::ClientVoiceHandshakeComplete": 65,
+    "PlayerController::ClientWasKicked": 66,
+    "PlayerController::OnServerStartedVisualLogger": 67,
+    "PlayerController::ServerAcknowledgePossession": 68,
+    "PlayerController::ServerBlockPlayer": 69,
+    "PlayerController::ServerCamera": 70,
+    "PlayerController::ServerChangeName": 71,
+    "PlayerController::ServerCheckClientPossession": 72,
+    "PlayerController::ServerCheckClientPossessionReliable": 73,
+    "PlayerController::ServerExecRPC": 74,
+    "PlayerController::ServerMutePlayer": 75,
+    "PlayerController::ServerNotifyLoadedWorld": 76,
+    "PlayerController::ServerPause": 77,
+    "PlayerController::ServerRestartPlayer": 78,
+    "PlayerController::ServerSendLatestAsyncPhysicsTimestamp": 79,
+    "PlayerController::ServerSetSpectatorLocation": 80,
+    "PlayerController::ServerSetSpectatorWaiting": 81,
+    "PlayerController::ServerShortTimeout": 82,
+    "PlayerController::ServerToggleAILogging": 83,
+    "PlayerController::ServerUnblockPlayer": 84,
+    "PlayerController::ServerUnmutePlayer": 85,
+    "PlayerController::ServerUpdateCamera": 86,
+    "PlayerController::ServerUpdateLevelVisibility": 87,
+    "PlayerController::ServerUpdateMultipleLevelsVisibility": 88,
+    "PlayerController::ServerVerifyViewTarget": 89,
+    "PlayerController::ServerViewNextPlayer": 90,
+    "PlayerController::ServerViewPrevPlayer": 91,
+    "PlayerController::ServerViewSelf": 92,
+    "PlayerController::SpawnLocation": 15,
+    "PlayerController::TargetViewRotation": 14,
     "PlayerState::CompressedPing": 12,
     "PlayerState::PlayerId": 11,
     "PlayerState::PlayerNamePrivate": 20,
@@ -8747,14 +8644,17 @@
     "PlayerState::bIsInactive": 16,
     "PlayerState::bIsSpectator": 13,
     "PlayerState::bOnlySpectator": 14,
-    "PostProcessComponent::AddOrUpdateBlendable": 17,
-    "PostProcessVolume::AddOrUpdateBlendable": 10,
-    "PrimitiveComponent::WasRecentlyRendered": 17,
-    "QuartzSubsystem::SetQuartzSubsystemTickableWhenPaused": 0,
-    "RadialSlider::SetValueTags": 0,
-    "RecastNavMesh::K2_ReplaceAreaInTileBounds": 10,
-    "RetainerBox::SetTextureParameter": 0,
-    "RichTextBlock::SetTextTransformPolicy": 0,
+    "QosBeaconClient::ClientQosResponse": 11,
+    "QosBeaconClient::ServerQosRequest": 12,
+    "ReplicationGraphDebugActor::ClientCellInfo": 10,
+    "ReplicationGraphDebugActor::ServerCellInfo": 11,
+    "ReplicationGraphDebugActor::ServerPrintAllActorInfo": 12,
+    "ReplicationGraphDebugActor::ServerPrintCullDistances": 13,
+    "ReplicationGraphDebugActor::ServerSetConditionalActorBreakpoint": 14,
+    "ReplicationGraphDebugActor::ServerSetCullDistanceForClass": 15,
+    "ReplicationGraphDebugActor::ServerSetPeriodFrameForClass": 16,
+    "ReplicationGraphDebugActor::ServerStartDebugging": 17,
+    "ReplicationGraphDebugActor::ServerStopDebugging": 18,
     "SceneComponent::AttachChildren": 4,
     "SceneComponent::AttachParent": 2,
     "SceneComponent::AttachSocketName": 3,
@@ -8770,8 +8670,6 @@
     "SceneComponent::bShouldSnapRotationWhenAttached": 14,
     "SceneComponent::bShouldSnapScaleWhenAttached": 15,
     "SceneComponent::bVisible": 11,
-    "SequenceEvaluatorLibrary::SetSequenceWithInertialBlending": 0,
-    "SequencePlayerLibrary::SetStartPosition": 0,
     "ServerStatReplicator::Channels": 10,
     "ServerStatReplicator::InBunches": 29,
     "ServerStatReplicator::InLoss": 32,
@@ -8819,70 +8717,47 @@
     "ServerStatReplicator::VoiceBytesSent": 33,
     "ServerStatReplicator::VoicePacketsRecv": 36,
     "ServerStatReplicator::VoicePacketsSent": 35,
-    "SharedImageConstRefBlueprintFns::IsValid": 0,
-    "SkeletalMesh::SetSkeleton": 1,
     "SkeletalMeshActor::ReplicatedMaterial0": 12,
     "SkeletalMeshActor::ReplicatedMaterial1": 13,
     "SkeletalMeshActor::ReplicatedMesh": 10,
     "SkeletalMeshActor::ReplicatedPhysAsset": 11,
-    "SkeletalMeshComponent::UnlinkAnimClassLayers": 19,
-    "SkinnedAsset::FindSocketInfo": 0,
     "SkyLight::bEnabled": 10,
-    "SkyLightComponent::SetVolumetricScatteringIntensity": 17,
-    "SlateFontBlueprintLibrary::MakeSlateFontInfo": 0,
-    "SlateRHIRendererSettings::GetSlatePostSetting": 0,
     "SmartObjectComponent::DefinitionRef": 17,
     "SmartObjectComponent::RegisteredHandle": 18,
-    "SoundSubmix::StopSpectralAnalysis": 0,
-    "SourceControlHelpers::SyncFiles": 0,
-    "SplineComponent::DefaultUpVector": 26,
-    "SplineComponent::LoopPosition": 25,
-    "SplineComponent::ReparamStepsPerSegment": 19,
-    "SplineComponent::SplineCurves": 18,
-    "SplineComponent::UpdateSpline": 27,
-    "SplineComponent::bClosedLoop": 23,
-    "SplineComponent::bInputSplinePointsToConstructionScript": 22,
-    "SplineComponent::bLoopPositionOverride": 24,
-    "SplineComponent::bSplineHasBeenEdited": 21,
-    "SplineComponent::bStationaryEndpoints": 20,
-    "SplineMeshComponent::UpdateMesh": 20,
-    "StateTree::K2_GetExtension": 0,
-    "StaticMesh::SetStaticMaterials": 0,
-    "StaticMeshComponent::StaticMesh": 19,
-    "StaticMeshDescription::SetVertexInstanceUV": 0,
-    "SynesthesiaSpectrumAnalyzer::GetNumCenterFrequencies": 0,
-    "Synth2DSlider::SetValue": 0,
+    "SpectatorBeaconClient::ClientCancelReservationResponse": 11,
+    "SpectatorBeaconClient::ClientReservationResponse": 12,
+    "SpectatorBeaconClient::ClientSendReservationFull": 13,
+    "SpectatorBeaconClient::ClientSendReservationUpdates": 14,
+    "SpectatorBeaconClient::ServerCancelReservationRequest": 15,
+    "SpectatorBeaconClient::ServerReservationRequest": 16,
+    "SplineComponent::DefaultUpVector": 25,
+    "SplineComponent::LoopPosition": 24,
+    "SplineComponent::ReparamStepsPerSegment": 18,
+    "SplineComponent::SplineCurves": 17,
+    "SplineComponent::bClosedLoop": 22,
+    "SplineComponent::bInputSplinePointsToConstructionScript": 21,
+    "SplineComponent::bLoopPositionOverride": 23,
+    "SplineComponent::bSplineHasBeenEdited": 20,
+    "SplineComponent::bStationaryEndpoints": 19,
+    "StaticMeshComponent::StaticMesh": 17,
     "TemplateSequenceActor::SequencePlayer": 10,
-    "TemplateSequenceActor::SetSequence": 11,
+    "TestBeaconClient::ClientPing": 11,
+    "TestBeaconClient::ServerPong": 12,
     "TestReplicatedActor::ReplicatedInt": 10,
-    "TextRenderComponent::SetYScale": 18,
-    "Texture::GetTextureStreamingMethod": 0,
-    "TileMapBlueprintLibrary::MakeTile": 0,
     "TimelineComponent::TheTimeline": 2,
     "TopDownArenaAttributeSet::BombCapacity": 1,
     "TopDownArenaAttributeSet::BombRange": 2,
     "TopDownArenaAttributeSet::BombsRemaining": 0,
     "TopDownArenaAttributeSet::MovementSpeed": 3,
-    "Variant::SwitchOn": 0,
-    "VoipListenerSynthComponent::IsIdling": 17,
-    "WaterBody::SetWaterWaves": 10,
-    "WaterBodyIsland::GetWaterSpline": 10,
-    "WaterMeshComponent::IsEnabled": 19,
-    "WeightMapSetProperties::GetWeightMapsFunc": 0,
-    "WidgetComponent::SetWindowVisibility": 19,
-    "World::K2_GetWorldSettings": 0,
-    "WorldDataLayers::OnRep_LoadedDataLayerNames": 14,
+    "WorldDataLayers::OnDataLayerRuntimeStateChanged": 14,
     "WorldDataLayers::RepActiveDataLayerNames": 10,
     "WorldDataLayers::RepEffectiveActiveDataLayerNames": 12,
     "WorldDataLayers::RepEffectiveLoadedDataLayerNames": 13,
     "WorldDataLayers::RepLoadedDataLayerNames": 11,
     "WorldPartitionDestructibleHLODComponent::DestructibleHLODState": 17,
-    "WorldPartitionDestructibleInHLODSupportLibrary::DestroyInHLOD": 0,
     "WorldPartitionReplay::StreamingSourceNames": 10,
-    "WorldPartitionSubsystem::IsStreamingCompleted": 0,
     "WorldSettings::CinematicTimeDilation": 14,
     "WorldSettings::NaniteSettings": 12,
-    "WorldSettings::OnRep_WorldGravityZ": 16,
     "WorldSettings::PauserPlayerState": 15,
     "WorldSettings::TimeDilation": 13,
     "WorldSettings::WorldGravityZ": 11,

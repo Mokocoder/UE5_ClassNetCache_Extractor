@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""
-Shared PE binary analysis utilities for UE5 Z_Construct static registration parsing.
-Used by both class_net_cache_parser.py and rep_layout_parser.py.
-"""
-
+"""Shared PE binary analysis utilities for UE5 Z_Construct static registration parsing."""
 import struct, sys, mmap
 import pefile
+
+from layout_detector import (
+    CPF_NET, FUNC_NET,
+    DetectedOffsets, LayoutDetector,
+)
 
 # ── Z_Construct_UClass stub layout (47 bytes) ──
 #
@@ -23,28 +24,11 @@ STUB_LEA  = b'\x48\x8D\x15'
 
 # ConstructUClass body fingerprints
 FINGERPRINTS = [
-    b'\xFF\x07\x00\x00',   # 0x7FF bitfield mask
-    b'\x5E\x86\xA3\x4A',  # 0x4AA3865E ClassFlags (ARK/Lyra)
-    b'\x48\x63\x42\x38',  # movsxd rax, [rdx+0x38] bitfield read
-    b'\x5E\x06\xA3\x4A',  # 0x4AA3065E ClassFlags (Palworld)
+    b'\xFF\x07\x00\x00',
+    b'\x5E\x86\xA3\x4A',
+    b'\x48\x63\x42\x38',
+    b'\x5E\x06\xA3\x4A',
 ]
-
-# FClassParams offsets
-OFF_DEPS  = 0x18  # DependencySingletonFuncArray*
-OFF_FUNCS = 0x20  # FunctionLinkArray*
-OFF_PROPS = 0x28  # PropertyArray*
-OFF_BITS  = 0x38  # packed bitfield: deps(4) | funcs(11) | props(11)
-
-# FPropertyParamsBase offsets
-OFF_PNAME  = 0x00  # const char* NameUTF8
-OFF_PFLAGS = 0x10  # PropertyFlags (uint64)
-OFF_PADIM  = 0x30  # uint16 ArrayDim
-CPF_NET    = 0x20
-
-# FFunctionParams / FClassFunctionLinkInfo
-OFF_FFLAGS = 0x38  # FunctionFlags (uint32)
-OFF_FLNAME = 0x08  # const char* FuncNameUTF8
-FUNC_NET   = 0x40
 
 
 def log(msg):
@@ -63,6 +47,7 @@ class PEAnalyzer:
         ) for s in pe.sections]
         self._f = open(path, 'rb')
         self._mm = mmap.mmap(self._f.fileno(), 0, access=mmap.ACCESS_READ)
+        self.offsets = DetectedOffsets()  # populated by find_z_constructs
 
     def close(self):
         self._mm.close()
@@ -84,15 +69,15 @@ class PEAnalyzer:
 
     def _r16(self, va):
         o = self._va2off(va)
-        return struct.unpack_from('<H', self._mm, o)[0] if o else None
+        return struct.unpack_from('<H', self._mm, o)[0] if o is not None else None
 
     def _r32(self, va):
         o = self._va2off(va)
-        return struct.unpack_from('<I', self._mm, o)[0] if o else None
+        return struct.unpack_from('<I', self._mm, o)[0] if o is not None else None
 
     def _r64(self, va):
         o = self._va2off(va)
-        return struct.unpack_from('<Q', self._mm, o)[0] if o else None
+        return struct.unpack_from('<Q', self._mm, o)[0] if o is not None else None
 
     def _ri32(self, off):
         return struct.unpack_from('<i', self._mm, off)[0]
@@ -105,14 +90,14 @@ class PEAnalyzer:
 
     def _cstr(self, va, maxlen=256):
         o = self._va2off(va)
-        if not o:
+        if o is None:
             return None
         end = self._mm.find(b'\x00', o, o + maxlen)
         return self._mm[o:end].decode('utf-8', errors='replace') if end >= 0 else None
 
     def _wstr(self, va, maxlen=512):
         o = self._va2off(va)
-        if not o:
+        if o is None:
             return None
         chars = []
         for i in range(0, maxlen, 2):
@@ -123,7 +108,8 @@ class PEAnalyzer:
         return ''.join(chars)
 
     def find_z_constructs(self):
-        """Scan .text for Z_Construct stubs, identify ConstructUClass by fingerprint."""
+        """Scan .text for Z_Construct stubs, identify ConstructUClass,
+        then auto-detect all struct field offsets."""
         raw, size, _ = self._sec('.text')
         mm = self._mm
         groups = {}
@@ -142,63 +128,92 @@ class PEAnalyzer:
                 groups.setdefault(target, []).append((func_va, fcp_va))
             pos = p + 1
 
-        best, best_score = None, 0
+        def score_target(tva):
+            off = self._va2off(tva)
+            if off is None:
+                return None
+            body = mm[off:off + 4096]
+            # Follow JMP thunk
+            if len(body) > 10 and body[5] == 0xE9:
+                o2 = self._va2off(tva + 10 + self._ri32(off + 6))
+                if o2 is not None:
+                    body = mm[o2:o2 + 4096]
+            return sum(body.count(fp) for fp in FINGERPRINTS)
+
+        best, best_score = None, -1
+        used_fallback = False
         for tva, callers in groups.items():
             if len(callers) < 1000:
                 continue
-            o = self._va2off(tva)
-            if not o:
+            score = score_target(tva)
+            if score is None:
                 continue
-            body = mm[o:o+4096]
-            # Follow JMP thunk
-            if body[5] == 0xE9:
-                o2 = self._va2off(tva + 10 + self._ri32(o + 6))
-                if o2:
-                    body = mm[o2:o2+4096]
-            score = sum(body.count(fp) for fp in FINGERPRINTS)
             if score > best_score:
                 best, best_score = tva, score
 
-        if not best:
+        if best is None:
+            # Fallback for smaller titles / minimal test binaries
+            used_fallback = True
+            for tva, _ in groups.items():
+                score = score_target(tva)
+                if score is None:
+                    continue
+                if score > best_score:
+                    best, best_score = tva, score
+
+        if best is None:
             raise RuntimeError("ConstructUClass not found")
-        log(f"ConstructUClass @ 0x{best:X}  ({len(groups[best])} classes, score={best_score})")
-        return groups[best]
+
+        z_list = groups[best]
+        if used_fallback:
+            log("No high-population ConstructUClass target found; using best-score fallback")
+        log(f"ConstructUClass @ 0x{best:X}  ({len(z_list)} classes, score={best_score})")
+
+        # ── Auto-detect struct offsets ──
+        detector = LayoutDetector(self)
+        self.offsets = detector.detect(best, z_list)
+        log("Detected offsets:\n" + self.offsets.summary())
+
+        return z_list
 
     def parse_fclass(self, va):
-        bf = self._r32(va + OFF_BITS)
+        o = self.offsets
+        bf = self._r32(va + o.fclass_bits)
         if bf is None:
             return None
         return {
             'n_deps':  bf & 0xF,
             'n_funcs': (bf >> 4) & 0x7FF,
             'n_props': (bf >> 15) & 0x7FF,
-            'dep_arr':  self._r64(va + OFF_DEPS),
-            'func_arr': self._r64(va + OFF_FUNCS),
-            'prop_arr': self._r64(va + OFF_PROPS),
+            'dep_arr':  self._r64(va + o.fclass_deps),
+            'func_arr': self._r64(va + o.fclass_funcs),
+            'prop_arr': self._r64(va + o.fclass_props),
         }
 
     def net_prop_names(self, arr, n):
         """Return [(name, array_dim), ...] for CPF_Net properties, in declaration order."""
+        o = self.offsets
         result = []
         for i in range(n):
             ptr = self._r64(arr + i * 8)
             if not ptr:
                 continue
-            flags = self._r64(ptr + OFF_PFLAGS)
+            flags = self._r64(ptr + o.fprop_flags)
             if not flags or not (flags & CPF_NET):
                 continue
-            name_ptr = self._r64(ptr + OFF_PNAME)
+            name_ptr = self._r64(ptr + o.fprop_name)
             if not name_ptr:
                 continue
             name = self._cstr(name_ptr)
             if not name:
                 continue
-            adim = self._r16(ptr + OFF_PADIM) or 1
+            adim = self._r16(ptr + o.fprop_array_dim) or 1
             result.append((name, adim))
         return result
 
     def net_func_names(self, arr, n):
         """Return [name, ...] for FUNC_Net functions, in declaration order."""
+        o = self.offsets
         result = []
         mm = self._mm
         for i in range(n):
@@ -206,14 +221,14 @@ class PEAnalyzer:
             zf = self._r64(entry_va)
             if not zf:
                 continue
-            o = self._va2off(zf + 16)
-            if not o or mm[o:o+3] != STUB_LEA:
+            fo = self._va2off(zf + 16)
+            if fo is None or mm[fo:fo+3] != STUB_LEA:
                 continue
-            ff_va = zf + 23 + self._ri32(o + 3)
-            ff = self._r32(ff_va + OFF_FFLAGS)
+            ff_va = zf + 23 + self._ri32(fo + 3)
+            ff = self._r32(ff_va + o.ffunc_flags)
             if not ff or not (ff & FUNC_NET):
                 continue
-            name_ptr = self._r64(entry_va + OFF_FLNAME)
+            name_ptr = self._r64(entry_va + o.flink_name)
             if not name_ptr:
                 continue
             name = self._cstr(name_ptr)
@@ -239,7 +254,7 @@ class PEAnalyzer:
             if val in z_set and val not in names:
                 nptr = struct.unpack_from('<Q', mm, pos + 0x10)[0]
                 no = self._va2off(nptr)
-                if no:
+                if no is not None:
                     ch = struct.unpack_from('<H', mm, no)[0]
                     if 0x41 <= ch <= 0x5A:
                         name = self._wstr(nptr)
