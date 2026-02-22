@@ -140,34 +140,64 @@ class PEAnalyzer:
                     body = mm[o2:o2 + 4096]
             return sum(body.count(fp) for fp in FINGERPRINTS)
 
-        best, best_score = None, -1
-        used_fallback = False
+        # Score each call target by ConstructUClass body fingerprints.
+        scored: list[tuple[int, int, int]] = []  # (target_va, score, count)
         for tva, callers in groups.items():
-            if len(callers) < 1000:
-                continue
             score = score_target(tva)
-            if score is None:
-                continue
-            if score > best_score:
-                best, best_score = tva, score
+            if score is not None:
+                scored.append((tva, score, len(callers)))
 
-        if best is None:
-            # Fallback for smaller titles / minimal test binaries
-            used_fallback = True
-            for tva, _ in groups.items():
-                score = score_target(tva)
-                if score is None:
-                    continue
-                if score > best_score:
-                    best, best_score = tva, score
-
-        if best is None:
+        if not scored:
             raise RuntimeError("ConstructUClass not found")
 
-        z_list = groups[best]
-        if used_fallback:
-            log("No high-population ConstructUClass target found; using best-score fallback")
-        log(f"ConstructUClass @ 0x{best:X}  ({len(z_list)} classes, score={best_score})")
+        scored.sort(key=lambda x: -x[1])
+        best = scored[0][0]
+        best_score = scored[0][1]
+
+        # Primary group: highest-scoring target
+        z_list: list[tuple[int, int]] = list(groups[best])
+        merged_targets: list[str] = [f"0x{best:X}({len(z_list)})"]
+
+        # Merge additional groups that are genuine UClass stubs.
+        other_vas: dict[int, int] = {}  # func_va -> target
+        for tva, score, count in scored:
+            if tva == best:
+                continue
+            for fva, _ in groups[tva]:
+                other_vas[fva] = tva
+
+        if other_vas:
+            # Scan dep arrays of primary classes for refs to other groups
+            referenced_targets: set[int] = set()
+            all_other_targets = set(other_vas.values())
+            for _, fcp_va in z_list:
+                bf_off = self._va2off(fcp_va + 0x38)
+                if bf_off is None:
+                    continue
+                bf = struct.unpack_from('<I', mm, bf_off)[0]
+                n_deps = bf & 0xF
+                dep_arr = self._r64(fcp_va + 0x18)
+                if not dep_arr or n_deps <= 0:
+                    continue
+                for j in range(n_deps):
+                    dep_va = self._r64(dep_arr + j * 8)
+                    if not dep_va:
+                        continue
+                    target = other_vas.get(dep_va)
+                    if target is None:
+                        target = other_vas.get(self._resolve_thunk(dep_va))
+                    if target is not None:
+                        referenced_targets.add(target)
+                if len(referenced_targets) == len(all_other_targets):
+                    break
+
+            for tgt in referenced_targets:
+                callers = groups[tgt]
+                z_list.extend(callers)
+                merged_targets.append(f"0x{tgt:X}({len(callers)})")
+
+        log(f"ConstructUClass targets: {', '.join(merged_targets)}  "
+            f"({len(z_list)} total classes, score={best_score})")
 
         # ── Auto-detect struct offsets ──
         detector = LayoutDetector(self)
@@ -222,7 +252,7 @@ class PEAnalyzer:
             if not zf:
                 continue
             fo = self._va2off(zf + 16)
-            if fo is None or mm[fo:fo+3] != STUB_LEA:
+            if fo is None or mm[fo:fo + 3] != STUB_LEA:
                 continue
             ff_va = zf + 23 + self._ri32(fo + 3)
             ff = self._r32(ff_va + o.ffunc_flags)
@@ -237,11 +267,33 @@ class PEAnalyzer:
         return result
 
     def resolve_parent(self, dep_arr, n_deps, known):
+        parent = None
         for i in range(n_deps):
             va = self._r64(dep_arr + i * 8)
-            if va in known:
-                return va
-        return None
+            if not va:
+                continue
+            resolved = self._resolve_thunk(va) if va not in known else va
+            if resolved in known:
+                parent = resolved
+        return parent
+
+    def _resolve_thunk(self, va):
+        """Follow JMP thunks to find the actual function body address"""
+        off = self._va2off(va)
+        if off is None or off + 5 > len(self._mm):
+            return va
+        mm = self._mm
+        # E9 [d32] — near relative JMP
+        if mm[off] == 0xE9:
+            disp = struct.unpack_from('<i', mm, off + 1)[0]
+            return va + 5 + disp
+        # FF 25 [d32] — indirect JMP through RIP-relative pointer
+        if mm[off:off + 2] == b'\xFF\x25' and off + 6 <= len(mm):
+            disp = struct.unpack_from('<i', mm, off + 2)[0]
+            target = self._r64(va + 6 + disp)
+            if target:
+                return target
+        return va
 
     def find_names(self, z_set):
         """Scan .rdata for FClassRegisterCompiledInInfo → wchar_t* class names."""
